@@ -1,0 +1,2 @@
+license.elic.xml ====== Spire
+License.lic =========== Aspose

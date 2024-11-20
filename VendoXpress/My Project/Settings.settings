@@ -1,0 +1,48 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="flash_Drive" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\</Value>
+    </Setting>
+    <Setting Name="wifi_Storage_Path" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\PrintVendoFiles\WifiReceived</Value>
+    </Setting>
+    <Setting Name="blank_Page_Price" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="bw_Page_Price" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="colored_Page_Price" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="coin_Slot_Port" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="printer_Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Canon G1010 series</Value>
+    </Setting>
+    <Setting Name="system_Pin" Type="System.String" Scope="User">
+      <Value Profile="(Default)">00000000</Value>
+    </Setting>
+    <Setting Name="server_Link" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="scan_Page_Price" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="scanned_Images" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\PrintVendoFiles\ScannedImages</Value>
+    </Setting>
+    <Setting Name="cache_Path" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\PrintVendoFiles\CacheFiles</Value>
+    </Setting>
+    <Setting Name="LongPrinterName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Canon G1010 series</Value>
+    </Setting>
+    <Setting Name="A4PrinterName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Microsoft Print to PDF</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
