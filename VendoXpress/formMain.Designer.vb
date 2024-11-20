@@ -898,7 +898,7 @@ Partial Class formMain
         Me.printpanelHolder.SuspendLayout
         Me.printPanel4.SuspendLayout
         Me.printPanel1.SuspendLayout
-        Me.printPanel7.SuspendLayout()
+        Me.printPanel7.SuspendLayout
         Me.printpanelThanks.SuspendLayout
         Me.printPanel17.SuspendLayout
         Me.printpanelPrice.SuspendLayout
@@ -6676,9 +6676,6 @@ Partial Class formMain
         Me.printbtnBack.ShadowDecoration.Parent = Me.printbtnBack
         Me.printbtnBack.Size = New System.Drawing.Size(80, 80)
         Me.printbtnBack.TabIndex = 45
-        '
-        'printpicLogo
-        '
         '
         'printpanelThanks
         '
