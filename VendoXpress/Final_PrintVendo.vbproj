@@ -280,9 +280,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\printingOptionFormText.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Ppt to Pdf.png" />
   </ItemGroup>
   <ItemGroup>
