@@ -1,0 +1,167 @@
+name: Publish On Tag
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  initial-checks:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Only allow tags on master to be published
+        run: |
+          tag_commit=$(git rev-parse ${{ github.ref }})
+          master_commit=$(git rev-parse origin/master)
+
+          if [ "$tag_commit" = "$master_commit" ]; then
+            echo "The tag and master are pointing to the same commit."
+          else
+            echo "The tag ($tag_commit) and master ($master_commit) are not pointing to the same commit."
+            exit 1
+          fi
+
+  test:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+        python-version: ['3.7', '3.8', '3.9', '3.10', '3.11', '3.12']
+        # Exclude macos Python <3.11 due to https://github.com/actions/setup-python/issues/649#issuecomment-1745056485
+        exclude:
+          - os: macos-latest
+            python-version: 3.7
+          - os: macos-latest
+            python-version: 3.8
+          - os: macos-latest
+            python-version: 3.9
+          - os: macos-latest
+            python-version: 3.10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pytest
+
+      - name: Install package
+        run: pip install -e .
+
+      - name: Start Xvfb
+        if: matrix.os == 'ubuntu-latest'
+        run: |
+          Xvfb :99 &
+          echo "DISPLAY=:99" >> $GITHUB_ENV
+
+      - name: Run tests for Python ${{ matrix.python-version }} on ${{ matrix.os }}
+        run: pytest
+
+  publish:
+    needs: [initial-checks, test]
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python 3.7
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.7
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install setuptools wheel twine
+
+      - name: Get module version
+        id: get_module_version
+        run: |
+          version=$(python -c "from auto_py_to_exe import __version__ as v; print(v)")
+          echo "Module version: $version"
+          echo "version=$version" >> $GITHUB_OUTPUT
+
+      - name: Fail on tag and module version mismatch
+        if: (!endsWith(github.ref, steps.get_module_version.outputs.version))
+        run: |
+          echo "Ref that triggered release: ${{ github.ref }}"
+          echo "Current module version: ${{ steps.get_module_version.outputs.version }}"
+          exit 1
+
+      - name: Get documented version changes from CHANGELOG.md
+        id: get_documented_changes
+        shell: python
+        run: |
+          import os
+          import random
+          import re
+          import string
+
+          # Read in the changelog
+          with open("CHANGELOG.md", "r", encoding='utf-8') as f:
+              changelog = f.read()
+
+          version = "${{ steps.get_module_version.outputs.version }}"
+
+          # Get the changes for the current version
+          changes_for_target_version_regex = r"##\s*{}\s*\n((?:.|\n)*?)(?:\n##\s*|\Z)".format(re.escape(version))
+          match = re.search(changes_for_target_version_regex, changelog)
+          if match is None:
+              raise Exception(f"Changes were not detected in CHANGELOG.md for version {version}")
+          changes = re.search(changes_for_target_version_regex, changelog).group(1).strip()
+
+          # Replace GitHub user links with @mentions
+          github_user_regex = re.compile(r"\[[^\]]+\]\(https:\/\/github\.com\/([A-Za-z0-9-]+)\)")
+          changes = github_user_regex.sub(r'@\1', changes)
+
+          # Get the previous version
+          versions_regex = r"^## (\d+\.\d+\.\d+)(?=^## \d+\.\d+\.\d+|$)"
+          versions = re.findall(versions_regex, changelog, re.MULTILINE)
+          current_version_index = [i for i, v in enumerate(versions) if v == version][0]
+          previous_version = versions[current_version_index + 1]
+
+          # Build up the changelog
+          footer = f"\n\n---"
+          footer += f"\n\n[🌐 auto-py-to-exe {version} on PyPI](https://pypi.org/project/auto-py-to-exe/{version}/)"
+          footer += f"\n[v{previous_version} ➡️ v{version} changes](https://github.com/brentvollebregt/auto-py-to-exe/compare/v{previous_version}...v{version})"
+          changes += footer
+
+          # Output the changelog
+          print(changes)
+
+          # Writing multiline strings to output: https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#multiline-strings
+          github_output_file_path = os.getenv('GITHUB_OUTPUT')
+          delimiter = ''.join(random.choice(string.ascii_uppercase) for i in range(20))
+          with open(github_output_file_path, "a") as github_output_file:
+              github_output_file.write(f"changes<<{delimiter}\n{changes}\n{delimiter}")
+
+      - name: Build distribution
+        run: python setup.py sdist bdist_wheel --universal
+
+      - name: Publish package
+        uses: pypa/gh-action-pypi-publish@release/v1
+
+      - name: Create release
+        id: create_release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ steps.get_module_version.outputs.version }}
+          name: v${{ steps.get_module_version.outputs.version }}
+          draft: false
+          prerelease: false
+          body: ${{ steps.get_documented_changes.outputs.changes }}
+          files: |
+            ./dist/auto_py_to_exe-${{ steps.get_module_version.outputs.version }}-py2.py3-none-any.whl
