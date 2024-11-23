@@ -2254,7 +2254,7 @@ Public Class formMain
                 ctrl.Visible = False
             End If
         Next
-        wifipanelConvert.Visible = True
+        wifipanelConvert.Visible = False
         Dim OutputTypePage As PpPrintOutputType
         Try
             Select Case wifiprintOption
