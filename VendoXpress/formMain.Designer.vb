@@ -7147,6 +7147,7 @@ Partial Class formMain
         Me.printbtnPrint.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         Me.printbtnPrint.TextMarginLeft = 20
         Me.printbtnPrint.UseDefaultRadiusAndThickness = True
+        Me.printbtnPrint.Visible = False
         '
         'printpanelProps
         '
