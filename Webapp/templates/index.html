@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="{{ url_for('static', filename='css/bootstrap.min.css') }}"
+      rel="stylesheet"
+    />
+    <title>PrintVendo - File Upload</title>
+    <style>
+      body {
+        background-color: #c01616;
+      }
+
+      .image {
+        width: 100%;
+        max-width: 300px;
+      }
+
+      .container {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="col-md-4">
+        <div class="text-center mb-2">
+          <img
+            src="{{ url_for('static', filename='hcdc_') }}"
+            alt=""
+            class="image"
+          />
+        </div>
+        <div class="card rounded-4">
+          <div class="card-body my-2">
+            <h1 class="card-title text-center fw-bold">File Upload</h1>
+            <form action="/upload" method="post" enctype="multipart/form-data">
+              <div class="text-center mt-2">
+                <img
+                  src="{{ url_for('static', filename='upload.png') }}"
+                  alt=""
+                  width="200"
+                  id="uploadImage"
+                  style="cursor: pointer"
+                />
+                <p>Drag and drop files here.</p>
+                <input
+                  class="form-control form-control-lg mt-3"
+                  id="formFileLg"
+                  type="file"
+                  name="file"
+                  required
+                />
+              </div>
+              <div class="text-center mt-4">
+                <input
+                  type="submit"
+                  value="Upload"
+                  class="btn btn-outline-primary btn-lg rounded-4"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const imageArea = document.getElementById("uploadImage");
+        const fileInput = document.getElementById("formFileLg");
+
+        imageArea.addEventListener("dragover", function (e) {
+          e.preventDefault();
+          e.stopPropagation();
+          imageArea.style.border = "2px dashed #0a81fe";
+        });
+
+        imageArea.addEventListener("dragleave", function (e) {
+          e.preventDefault();
+          e.stopPropagation();
+          imageArea.style.border = "none";
+        });
+
+        imageArea.addEventListener("drop", function (e) {
+          e.preventDefault();
+          e.stopPropagation();
+
+          const file = e.dataTransfer.files[0];
+          if (file) {
+            if (isValidFileType(file)) {
+              fileInput.files = e.dataTransfer.files;
+            } else {
+              alert(
+                "Invalid file type. Only PDF, DOC, DOCX, and PPT files are allowed."
+              );
+            }
+          }
+
+          imageArea.style.border = "none";
+        });
+
+        imageArea.addEventListener("click", function () {
+          fileInput.click();
+        });
+
+        fileInput.addEventListener("change", function () {
+          const selectedFile = fileInput.files[0];
+          if (selectedFile && isValidFileType(selectedFile)) {
+          } else {
+            alert(
+              "Invalid file type. Only PDF, DOC, DOCX, and PPT files are allowed."
+            );
+            fileInput.value = "";
+          }
+        });
+
+        // Function to check if the file type is valid
+        function isValidFileType(file) {
+          const allowedExtensions = ["pdf", "doc", "docx", "ppt", "pptx"];
+          const fileName = file.name.toLowerCase();
+          const fileExtension = fileName.substring(
+            fileName.lastIndexOf(".") + 1
+          );
+          return allowedExtensions.includes(fileExtension);
+        }
+      });
+    </script>
+
+    <script src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}"></script>
+  </body>
+</html>

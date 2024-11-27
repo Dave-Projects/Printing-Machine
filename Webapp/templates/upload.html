@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="{{ url_for('static', filename='css/bootstrap.min.css') }}"
+      rel="stylesheet"
+    />
+    <title>PrintVendo - Uploaded</title>
+    <style>
+      body {
+        background-color: #c01616;
+      }
+
+      .image {
+        width: 100%;
+        max-width: 300px;
+      }
+
+      .container {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="col-md-4">
+        <div class="text-center mb-2">
+          <img
+            src="{{ url_for('static', filename='hahaha.png') }}"
+            alt=""
+            class="image"
+          />
+        </div>
+        <div class="card rounded-4">
+          <div class="card-body my-2">
+            <h1 class="card-title text-center fw-bold">
+              File Uploaded Successfully
+            </h1>
+            <div class="text-center mt-2">
+              <img
+                src="{{ url_for('static', filename='uploaded.png') }}"
+                alt=""
+                width="200"
+                id="uploadImage"
+                style="cursor: pointer"
+              />
+            </div>
+            <div class="text-center mt-4">
+              <a href="/" class="btn btn-outline-primary btn-lg rounded-4"
+                >Upload another file</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}"></script>
+  </body>
+</html>
