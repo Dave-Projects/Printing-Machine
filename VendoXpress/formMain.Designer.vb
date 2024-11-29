@@ -12657,7 +12657,7 @@ Partial Class formMain
         'panelNoChange
         '
         Me.panelNoChange.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.panelNoChange.BackColor = System.Drawing.Color.FromArgb(CType(CType(121, Byte), Integer), CType(CType(238, Byte), Integer), CType(CType(248, Byte), Integer))
+        Me.panelNoChange.BackColor = System.Drawing.Color.Orange
         Me.panelNoChange.Controls.Add(Me.Panel12)
         Me.Guna2Transition1.SetDecoration(Me.panelNoChange, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.panelNoChange.ForeColor = System.Drawing.SystemColors.ControlText
@@ -12809,7 +12809,7 @@ Partial Class formMain
         Me.Label95.BackColor = System.Drawing.Color.White
         Me.Guna2Transition1.SetDecoration(Me.Label95, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.Label95.Font = New System.Drawing.Font("Comic Sans MS", 35.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label95.ForeColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(121, Byte), Integer))
+        Me.Label95.ForeColor = System.Drawing.Color.Orange
         Me.Label95.Location = New System.Drawing.Point(41, 137)
         Me.Label95.Name = "Label95"
         Me.Label95.Size = New System.Drawing.Size(982, 88)
@@ -12857,10 +12857,10 @@ Partial Class formMain
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(1920, 1100)
+        Me.Controls.Add(Me.panelNoChange)
         Me.Controls.Add(Me.lblnoChange)
         Me.Controls.Add(Me.mainFormTImeL)
         Me.Controls.Add(Me.TabControl1)
-        Me.Controls.Add(Me.panelNoChange)
         Me.Guna2Transition1.SetDecoration(Me, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
