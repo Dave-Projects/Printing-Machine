@@ -7,6 +7,8 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Final_PrintVendo", "VendoXp
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Printing Machine", "Printing Machine\Printing Machine.vdproj", "{307CC00F-DA3C-473B-B530-9FDFC08F716C}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Printing MachineV2", "Printing MachineV2\Printing MachineV2.vdproj", "{21391C35-94A5-4707-8511-58AE0F04B13D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,8 @@ Global
 		{3875162A-8613-4DF8-AAB6-1AD54C571444}.Release|Any CPU.Build.0 = Release|Any CPU
 		{307CC00F-DA3C-473B-B530-9FDFC08F716C}.Debug|Any CPU.ActiveCfg = Debug
 		{307CC00F-DA3C-473B-B530-9FDFC08F716C}.Release|Any CPU.ActiveCfg = Release
+		{21391C35-94A5-4707-8511-58AE0F04B13D}.Debug|Any CPU.ActiveCfg = Debug
+		{21391C35-94A5-4707-8511-58AE0F04B13D}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
