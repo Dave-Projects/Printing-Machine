@@ -811,19 +811,19 @@ Partial Class formMain
         Me.Guna2Transition1 = New Guna.UI2.WinForms.Guna2Transition()
         Me.lblnoChange = New System.Windows.Forms.Label()
         Me.mainFormTImeL = New System.Windows.Forms.Label()
+        Me.Panel12 = New System.Windows.Forms.Panel()
+        Me.changebtnClose = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
+        Me.changeTime = New System.Windows.Forms.Label()
+        Me.changeDate = New System.Windows.Forms.Label()
+        Me.Label97 = New System.Windows.Forms.Label()
+        Me.changePanelBal = New System.Windows.Forms.Label()
+        Me.Label95 = New System.Windows.Forms.Label()
+        Me.panelNoChange = New System.Windows.Forms.Panel()
         Me.loadBunifuElipse14 = New Bunifu.Framework.UI.BunifuElipse(Me.components)
         Me.timerColor = New System.Windows.Forms.Timer(Me.components)
         Me.TimeDispense = New System.Windows.Forms.Timer(Me.components)
         Me.timerCheckingDispense = New System.Windows.Forms.Timer(Me.components)
         Me.timeDispenseScan = New System.Windows.Forms.Timer(Me.components)
-        Me.Panel12 = New System.Windows.Forms.Panel()
-        Me.Label95 = New System.Windows.Forms.Label()
-        Me.changePanelBal = New System.Windows.Forms.Label()
-        Me.Label97 = New System.Windows.Forms.Label()
-        Me.changeDate = New System.Windows.Forms.Label()
-        Me.changeTime = New System.Windows.Forms.Label()
-        Me.changebtnClose = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
-        Me.panelNoChange = New System.Windows.Forms.Panel()
         Me.TabControl1.SuspendLayout
         Me.landingTab.SuspendLayout
         Me.landingpanelCode.SuspendLayout
@@ -7109,20 +7109,20 @@ Partial Class formMain
         Me.printbtnPrint.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
         Me.printbtnPrint.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
         Me.printbtnPrint.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Idle
-        Me.printbtnPrint.Font = New System.Drawing.Font("Comic Sans MS", 32.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.printbtnPrint.Font = New System.Drawing.Font("Comic Sans MS", 32.25!, System.Drawing.FontStyle.Bold)
         Me.printbtnPrint.ForeColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
         Me.printbtnPrint.IconLeftCursor = System.Windows.Forms.Cursors.Hand
         Me.printbtnPrint.IconMarginLeft = 30
-        Me.printbtnPrint.IconPadding = 5
+        Me.printbtnPrint.IconPadding = 13
         Me.printbtnPrint.IconRightCursor = System.Windows.Forms.Cursors.Hand
         Me.printbtnPrint.IdleBorderColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
         Me.printbtnPrint.IdleBorderRadius = 70
         Me.printbtnPrint.IdleBorderThickness = 3
         Me.printbtnPrint.IdleFillColor = System.Drawing.Color.White
-        Me.printbtnPrint.IdleIconLeftImage = Global.PrintVendo.My.Resources.Resources.Print
+        Me.printbtnPrint.IdleIconLeftImage = CType(resources.GetObject("printbtnPrint.IdleIconLeftImage"), System.Drawing.Image)
         Me.printbtnPrint.IdleIconRightImage = Nothing
         Me.printbtnPrint.IndicateFocus = False
-        Me.printbtnPrint.Location = New System.Drawing.Point(176, 741)
+        Me.printbtnPrint.Location = New System.Drawing.Point(175, 741)
         Me.printbtnPrint.Name = "printbtnPrint"
         StateProperties63.BorderColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
         StateProperties63.BorderRadius = 70
@@ -7142,7 +7142,7 @@ Partial Class formMain
         StateProperties64.IconLeftImage = Global.PrintVendo.My.Resources.Resources.Print
         StateProperties64.IconRightImage = Nothing
         Me.printbtnPrint.OnPressedState = StateProperties64
-        Me.printbtnPrint.Size = New System.Drawing.Size(326, 86)
+        Me.printbtnPrint.Size = New System.Drawing.Size(324, 93)
         Me.printbtnPrint.TabIndex = 24
         Me.printbtnPrint.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         Me.printbtnPrint.TextMarginLeft = 20
@@ -12668,26 +12668,6 @@ Partial Class formMain
         Me.mainFormTImeL.Text = "09:00 pm"
         Me.mainFormTImeL.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'loadBunifuElipse14
-        '
-        Me.loadBunifuElipse14.ElipseRadius = 0
-        Me.loadBunifuElipse14.TargetControl = Me
-        '
-        'timerColor
-        '
-        Me.timerColor.Enabled = True
-        '
-        'TimeDispense
-        '
-        '
-        'timerCheckingDispense
-        '
-        Me.timerCheckingDispense.Enabled = True
-        Me.timerCheckingDispense.Interval = 1000
-        '
-        'timeDispenseScan
-        '
-        '
         'Panel12
         '
         Me.Panel12.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
@@ -12705,73 +12685,6 @@ Partial Class formMain
         Me.Panel12.Name = "Panel12"
         Me.Panel12.Size = New System.Drawing.Size(1065, 453)
         Me.Panel12.TabIndex = 9
-        '
-        'Label95
-        '
-        Me.Label95.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Label95.BackColor = System.Drawing.Color.White
-        Me.Guna2Transition1.SetDecoration(Me.Label95, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label95.Font = New System.Drawing.Font("Comic Sans MS", 35.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label95.ForeColor = System.Drawing.Color.Orange
-        Me.Label95.Location = New System.Drawing.Point(41, 137)
-        Me.Label95.Name = "Label95"
-        Me.Label95.Size = New System.Drawing.Size(982, 88)
-        Me.Label95.TabIndex = 39
-        Me.Label95.Text = "Apologies, too many coins were inserted."
-        Me.Label95.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'changePanelBal
-        '
-        Me.changePanelBal.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Guna2Transition1.SetDecoration(Me.changePanelBal, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.changePanelBal.Font = New System.Drawing.Font("Comic Sans MS", 30.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.changePanelBal.ForeColor = System.Drawing.Color.Black
-        Me.changePanelBal.Location = New System.Drawing.Point(101, 218)
-        Me.changePanelBal.Name = "changePanelBal"
-        Me.changePanelBal.Size = New System.Drawing.Size(862, 56)
-        Me.changePanelBal.TabIndex = 48
-        Me.changePanelBal.Text = "Remaining balance: 0PHP" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
-        Me.changePanelBal.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label97
-        '
-        Me.Label97.Anchor = System.Windows.Forms.AnchorStyles.Bottom
-        Me.Guna2Transition1.SetDecoration(Me.Label97, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label97.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label97.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label97.Location = New System.Drawing.Point(16, 390)
-        Me.Label97.Name = "Label97"
-        Me.Label97.Size = New System.Drawing.Size(1033, 56)
-        Me.Label97.TabIndex = 49
-        Me.Label97.Text = "Please capture this notification as proof of the incomplete transaction."
-        Me.Label97.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'changeDate
-        '
-        Me.changeDate.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.changeDate.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2Transition1.SetDecoration(Me.changeDate, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.changeDate.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.changeDate.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.changeDate.Location = New System.Drawing.Point(593, 6)
-        Me.changeDate.Name = "changeDate"
-        Me.changeDate.Size = New System.Drawing.Size(454, 46)
-        Me.changeDate.TabIndex = 50
-        Me.changeDate.Text = "Monday, 20, November"
-        Me.changeDate.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        '
-        'changeTime
-        '
-        Me.changeTime.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2Transition1.SetDecoration(Me.changeTime, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.changeTime.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.changeTime.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.changeTime.Location = New System.Drawing.Point(18, 6)
-        Me.changeTime.Name = "changeTime"
-        Me.changeTime.Size = New System.Drawing.Size(200, 46)
-        Me.changeTime.TabIndex = 49
-        Me.changeTime.Text = "09:00 pm"
-        Me.changeTime.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'changebtnClose
         '
@@ -12838,6 +12751,73 @@ Partial Class formMain
         Me.changebtnClose.TextMarginLeft = 0
         Me.changebtnClose.UseDefaultRadiusAndThickness = True
         '
+        'changeTime
+        '
+        Me.changeTime.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2Transition1.SetDecoration(Me.changeTime, Guna.UI2.AnimatorNS.DecorationType.None)
+        Me.changeTime.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.changeTime.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.changeTime.Location = New System.Drawing.Point(18, 6)
+        Me.changeTime.Name = "changeTime"
+        Me.changeTime.Size = New System.Drawing.Size(200, 46)
+        Me.changeTime.TabIndex = 49
+        Me.changeTime.Text = "09:00 pm"
+        Me.changeTime.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'changeDate
+        '
+        Me.changeDate.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.changeDate.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2Transition1.SetDecoration(Me.changeDate, Guna.UI2.AnimatorNS.DecorationType.None)
+        Me.changeDate.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.changeDate.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.changeDate.Location = New System.Drawing.Point(593, 6)
+        Me.changeDate.Name = "changeDate"
+        Me.changeDate.Size = New System.Drawing.Size(454, 46)
+        Me.changeDate.TabIndex = 50
+        Me.changeDate.Text = "Monday, 20, November"
+        Me.changeDate.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label97
+        '
+        Me.Label97.Anchor = System.Windows.Forms.AnchorStyles.Bottom
+        Me.Guna2Transition1.SetDecoration(Me.Label97, Guna.UI2.AnimatorNS.DecorationType.None)
+        Me.Label97.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label97.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label97.Location = New System.Drawing.Point(16, 390)
+        Me.Label97.Name = "Label97"
+        Me.Label97.Size = New System.Drawing.Size(1033, 56)
+        Me.Label97.TabIndex = 49
+        Me.Label97.Text = "Please capture this notification as proof of the incomplete transaction."
+        Me.Label97.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'changePanelBal
+        '
+        Me.changePanelBal.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.Guna2Transition1.SetDecoration(Me.changePanelBal, Guna.UI2.AnimatorNS.DecorationType.None)
+        Me.changePanelBal.Font = New System.Drawing.Font("Comic Sans MS", 30.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.changePanelBal.ForeColor = System.Drawing.Color.Black
+        Me.changePanelBal.Location = New System.Drawing.Point(101, 218)
+        Me.changePanelBal.Name = "changePanelBal"
+        Me.changePanelBal.Size = New System.Drawing.Size(862, 56)
+        Me.changePanelBal.TabIndex = 48
+        Me.changePanelBal.Text = "Remaining balance: 0PHP" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.changePanelBal.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label95
+        '
+        Me.Label95.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.Label95.BackColor = System.Drawing.Color.White
+        Me.Guna2Transition1.SetDecoration(Me.Label95, Guna.UI2.AnimatorNS.DecorationType.None)
+        Me.Label95.Font = New System.Drawing.Font("Comic Sans MS", 35.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label95.ForeColor = System.Drawing.Color.Orange
+        Me.Label95.Location = New System.Drawing.Point(41, 137)
+        Me.Label95.Name = "Label95"
+        Me.Label95.Size = New System.Drawing.Size(982, 88)
+        Me.Label95.TabIndex = 39
+        Me.Label95.Text = "Apologies, too many coins were inserted."
+        Me.Label95.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'panelNoChange
         '
         Me.panelNoChange.Anchor = System.Windows.Forms.AnchorStyles.None
@@ -12850,6 +12830,26 @@ Partial Class formMain
         Me.panelNoChange.Size = New System.Drawing.Size(1077, 465)
         Me.panelNoChange.TabIndex = 49
         Me.panelNoChange.Visible = False
+        '
+        'loadBunifuElipse14
+        '
+        Me.loadBunifuElipse14.ElipseRadius = 0
+        Me.loadBunifuElipse14.TargetControl = Me
+        '
+        'timerColor
+        '
+        Me.timerColor.Enabled = True
+        '
+        'TimeDispense
+        '
+        '
+        'timerCheckingDispense
+        '
+        Me.timerCheckingDispense.Enabled = True
+        Me.timerCheckingDispense.Interval = 1000
+        '
+        'timeDispenseScan
+        '
         '
         'formMain
         '
