@@ -588,15 +588,22 @@ Public Class formMain
     Private loaddestinationDirectoryWord2Pdf As String
     Public Sub loadConvertToPDF(inputFilePath As String, fileExtension As String)
         If fileExtension = ".docx" OrElse fileExtension = ".doc" Then
-            loadDisableComponents()
-            loadpicConvert.Image = My.Resources.Doc_to_Pdf
-            loadHideComponents()
+            Panel15.Visible = True
+            Panel15.Location = New System.Drawing.Point(530, 220)
+            loadbtnBack.Enabled = False
+
+            For Each ctrl As Control In loadFlowLayoutPanel1.Controls
+                If ctrl IsNot Panel15 Then
+                    ctrl.Enabled = False
+                End If
+            Next
+            Panel15.Enabled = True
+            BunifuButton3.Enabled = True
+            ' Save input file path for use when the YES button is clicked
             loadinputFilePathWord2Pdf = inputFilePath
-            loaddestinationDirectoryWord2Pdf = DataFetcher.CachePath
-            loadConvertWordToPDF.Start()
         ElseIf fileExtension = ".pptx" OrElse fileExtension = ".ppt" Then
             loadpptFile = inputFilePath
-            'loadpanelPrintLayout.Visible = True
+            ' Display print layout panel
             Guna2Transition1.ShowSync(loadpanelPrintLayout)
             loadpanelPrintLayout.BringToFront()
             loadpptApp = New Microsoft.Office.Interop.PowerPoint.Application()
@@ -608,6 +615,16 @@ Public Class formMain
             Return
         End If
     End Sub
+
+    Private Sub ConvertDocToPdf(inputFilePath As String)
+        loadDisableComponents()
+        loadpicConvert.Image = My.Resources.Doc_to_Pdf
+        loadHideComponents()
+        loaddestinationDirectoryWord2Pdf = DataFetcher.CachePath
+        loadConvertWordToPDF.Start()
+    End Sub
+
+
 
     Private Sub loadConvertWordToPDF_Tick(sender As Object, e As EventArgs) Handles loadConvertWordToPDF.Tick
         Try
@@ -3981,5 +3998,18 @@ Public Class formMain
         For Each ctrl As Control In printTab.Controls
             ctrl.Enabled = True
         Next
+    End Sub
+
+    Private Sub BunifuButton3_Click_1(sender As Object, e As EventArgs) Handles BunifuButton3.Click
+        ' Re-enable all controls in LoadedTab
+        For Each ctrl As Control In loadFlowLayoutPanel1.Controls
+            ctrl.Enabled = True
+        Next
+        Panel15.Visible = False
+
+        ' Proceed with converting DOC to PDF
+        If Not String.IsNullOrEmpty(loadinputFilePathWord2Pdf) Then
+            ConvertDocToPdf(loadinputFilePathWord2Pdf)
+        End If
     End Sub
 End Class

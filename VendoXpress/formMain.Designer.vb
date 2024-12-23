@@ -212,6 +212,9 @@ Partial Class formMain
         Dim StateProperties146 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
         Dim Animation1 As Guna.UI2.AnimatorNS.Animation = New Guna.UI2.AnimatorNS.Animation()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(formMain))
+        Dim BorderEdges43 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties149 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties150 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
         Dim BorderEdges42 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
         Dim StateProperties147 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
         Dim StateProperties148 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
@@ -824,6 +827,10 @@ Partial Class formMain
         Me.TimeDispense = New System.Windows.Forms.Timer(Me.components)
         Me.timerCheckingDispense = New System.Windows.Forms.Timer(Me.components)
         Me.timeDispenseScan = New System.Windows.Forms.Timer(Me.components)
+        Me.Panel15 = New System.Windows.Forms.Panel()
+        Me.Panel16 = New System.Windows.Forms.Panel()
+        Me.BunifuButton3 = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
+        Me.Label114 = New System.Windows.Forms.Label()
         Me.TabControl1.SuspendLayout
         Me.landingTab.SuspendLayout
         Me.landingpanelCode.SuspendLayout
@@ -963,6 +970,8 @@ Partial Class formMain
         Me.loadPanel3.SuspendLayout
         Me.Panel12.SuspendLayout
         Me.panelNoChange.SuspendLayout
+        Me.Panel15.SuspendLayout
+        Me.Panel16.SuspendLayout
         Me.SuspendLayout
         '
         'dateTimeTimer
@@ -12094,6 +12103,7 @@ Partial Class formMain
         'loadPanel2
         '
         Me.loadPanel2.BackColor = System.Drawing.Color.White
+        Me.loadPanel2.Controls.Add(Me.Panel15)
         Me.loadPanel2.Controls.Add(Me.loadFlowLayoutPanel1)
         Me.Guna2Transition1.SetDecoration(Me.loadPanel2, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.loadPanel2.ForeColor = System.Drawing.SystemColors.ControlLightLight
@@ -12701,11 +12711,11 @@ Partial Class formMain
         Me.changebtnClose.ColorContrastOnClick = 45
         Me.changebtnClose.ColorContrastOnHover = 45
         Me.changebtnClose.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges42.BottomLeft = True
-        BorderEdges42.BottomRight = True
-        BorderEdges42.TopLeft = True
-        BorderEdges42.TopRight = True
-        Me.changebtnClose.CustomizableEdges = BorderEdges42
+        BorderEdges43.BottomLeft = True
+        BorderEdges43.BottomRight = True
+        BorderEdges43.TopLeft = True
+        BorderEdges43.TopRight = True
+        Me.changebtnClose.CustomizableEdges = BorderEdges43
         Me.Guna2Transition1.SetDecoration(Me.changebtnClose, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.changebtnClose.DialogResult = System.Windows.Forms.DialogResult.None
         Me.changebtnClose.DisabledBorderColor = System.Drawing.Color.Empty
@@ -12727,24 +12737,24 @@ Partial Class formMain
         Me.changebtnClose.IndicateFocus = False
         Me.changebtnClose.Location = New System.Drawing.Point(436, 288)
         Me.changebtnClose.Name = "changebtnClose"
-        StateProperties147.BorderColor = System.Drawing.Color.Red
-        StateProperties147.BorderRadius = 40
-        StateProperties147.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties147.BorderThickness = 3
-        StateProperties147.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties147.ForeColor = System.Drawing.Color.Red
-        StateProperties147.IconLeftImage = Nothing
-        StateProperties147.IconRightImage = Nothing
-        Me.changebtnClose.onHoverState = StateProperties147
-        StateProperties148.BorderColor = System.Drawing.Color.Red
-        StateProperties148.BorderRadius = 40
-        StateProperties148.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties148.BorderThickness = 3
-        StateProperties148.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties148.ForeColor = System.Drawing.Color.Red
-        StateProperties148.IconLeftImage = Nothing
-        StateProperties148.IconRightImage = Nothing
-        Me.changebtnClose.OnPressedState = StateProperties148
+        StateProperties149.BorderColor = System.Drawing.Color.Red
+        StateProperties149.BorderRadius = 40
+        StateProperties149.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties149.BorderThickness = 3
+        StateProperties149.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties149.ForeColor = System.Drawing.Color.Red
+        StateProperties149.IconLeftImage = Nothing
+        StateProperties149.IconRightImage = Nothing
+        Me.changebtnClose.onHoverState = StateProperties149
+        StateProperties150.BorderColor = System.Drawing.Color.Red
+        StateProperties150.BorderRadius = 40
+        StateProperties150.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties150.BorderThickness = 3
+        StateProperties150.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties150.ForeColor = System.Drawing.Color.Red
+        StateProperties150.IconLeftImage = Nothing
+        StateProperties150.IconRightImage = Nothing
+        Me.changebtnClose.OnPressedState = StateProperties150
         Me.changebtnClose.Size = New System.Drawing.Size(192, 51)
         Me.changebtnClose.TabIndex = 69
         Me.changebtnClose.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -12851,16 +12861,117 @@ Partial Class formMain
         'timeDispenseScan
         '
         '
+        'Panel15
+        '
+        Me.Panel15.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.Panel15.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
+        Me.Panel15.Controls.Add(Me.Panel16)
+        Me.Guna2Transition1.SetDecoration(Me.Panel15, Guna.UI2.AnimatorNS.DecorationType.None)
+        Me.Panel15.Location = New System.Drawing.Point(12, 3)
+        Me.Panel15.Name = "Panel15"
+        Me.Panel15.Size = New System.Drawing.Size(812, 378)
+        Me.Panel15.TabIndex = 47
+        Me.Panel15.Visible = False
+        '
+        'Panel16
+        '
+        Me.Panel16.BackColor = System.Drawing.Color.White
+        Me.Panel16.Controls.Add(Me.BunifuButton3)
+        Me.Panel16.Controls.Add(Me.Label114)
+        Me.Guna2Transition1.SetDecoration(Me.Panel16, Guna.UI2.AnimatorNS.DecorationType.None)
+        Me.Panel16.Location = New System.Drawing.Point(6, 6)
+        Me.Panel16.Name = "Panel16"
+        Me.Panel16.Size = New System.Drawing.Size(800, 366)
+        Me.Panel16.TabIndex = 46
+        '
+        'BunifuButton3
+        '
+        Me.BunifuButton3.AllowToggling = False
+        Me.BunifuButton3.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.BunifuButton3.AnimationSpeed = 200
+        Me.BunifuButton3.AutoGenerateColors = False
+        Me.BunifuButton3.BackColor = System.Drawing.Color.Transparent
+        Me.BunifuButton3.BackColor1 = System.Drawing.Color.White
+        Me.BunifuButton3.BackgroundImage = CType(resources.GetObject("BunifuButton3.BackgroundImage"), System.Drawing.Image)
+        Me.BunifuButton3.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        Me.BunifuButton3.ButtonText = "Confirm"
+        Me.BunifuButton3.ButtonTextMarginLeft = 0
+        Me.BunifuButton3.ColorContrastOnClick = 45
+        Me.BunifuButton3.ColorContrastOnHover = 45
+        Me.BunifuButton3.Cursor = System.Windows.Forms.Cursors.Hand
+        BorderEdges42.BottomLeft = True
+        BorderEdges42.BottomRight = True
+        BorderEdges42.TopLeft = True
+        BorderEdges42.TopRight = True
+        Me.BunifuButton3.CustomizableEdges = BorderEdges42
+        Me.Guna2Transition1.SetDecoration(Me.BunifuButton3, Guna.UI2.AnimatorNS.DecorationType.None)
+        Me.BunifuButton3.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.BunifuButton3.DisabledBorderColor = System.Drawing.Color.Empty
+        Me.BunifuButton3.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
+        Me.BunifuButton3.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
+        Me.BunifuButton3.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Idle
+        Me.BunifuButton3.Font = New System.Drawing.Font("Segoe UI Black", 25.0!)
+        Me.BunifuButton3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.BunifuButton3.IconLeftCursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuButton3.IconMarginLeft = 30
+        Me.BunifuButton3.IconPadding = 5
+        Me.BunifuButton3.IconRightCursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuButton3.IdleBorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.BunifuButton3.IdleBorderRadius = 40
+        Me.BunifuButton3.IdleBorderThickness = 3
+        Me.BunifuButton3.IdleFillColor = System.Drawing.Color.White
+        Me.BunifuButton3.IdleIconLeftImage = Nothing
+        Me.BunifuButton3.IdleIconRightImage = Nothing
+        Me.BunifuButton3.IndicateFocus = False
+        Me.BunifuButton3.Location = New System.Drawing.Point(241, 254)
+        Me.BunifuButton3.Name = "BunifuButton3"
+        StateProperties147.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties147.BorderRadius = 40
+        StateProperties147.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties147.BorderThickness = 3
+        StateProperties147.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties147.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties147.IconLeftImage = Nothing
+        StateProperties147.IconRightImage = Nothing
+        Me.BunifuButton3.onHoverState = StateProperties147
+        StateProperties148.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties148.BorderRadius = 40
+        StateProperties148.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties148.BorderThickness = 3
+        StateProperties148.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties148.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties148.IconLeftImage = Nothing
+        StateProperties148.IconRightImage = Nothing
+        Me.BunifuButton3.OnPressedState = StateProperties148
+        Me.BunifuButton3.Size = New System.Drawing.Size(263, 64)
+        Me.BunifuButton3.TabIndex = 40
+        Me.BunifuButton3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.BunifuButton3.TextMarginLeft = 0
+        Me.BunifuButton3.UseDefaultRadiusAndThickness = True
+        '
+        'Label114
+        '
+        Me.Label114.AutoSize = True
+        Me.Guna2Transition1.SetDecoration(Me.Label114, Guna.UI2.AnimatorNS.DecorationType.None)
+        Me.Label114.Font = New System.Drawing.Font("Segoe UI Black", 25.0!)
+        Me.Label114.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.Label114.Location = New System.Drawing.Point(42, 78)
+        Me.Label114.Name = "Label114"
+        Me.Label114.Size = New System.Drawing.Size(727, 138)
+        Me.Label114.TabIndex = 2
+        Me.Label114.Text = "Note: A notification will inform users" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "that the Google Docs file may become" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "mis" &
+    "formatted when opened in our system."
+        '
         'formMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(1920, 1100)
-        Me.Controls.Add(Me.panelNoChange)
         Me.Controls.Add(Me.lblnoChange)
         Me.Controls.Add(Me.mainFormTImeL)
         Me.Controls.Add(Me.TabControl1)
+        Me.Controls.Add(Me.panelNoChange)
         Me.Guna2Transition1.SetDecoration(Me, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
@@ -13048,6 +13159,9 @@ Partial Class formMain
         Me.loadPanel3.ResumeLayout(False)
         Me.Panel12.ResumeLayout(False)
         Me.panelNoChange.ResumeLayout(False)
+        Me.Panel15.ResumeLayout(False)
+        Me.Panel16.ResumeLayout(False)
+        Me.Panel16.PerformLayout
         Me.ResumeLayout(False)
 
     End Sub
@@ -13660,4 +13774,8 @@ Partial Class formMain
     Friend WithEvents Label97 As Label
     Friend WithEvents changePanelBal As Label
     Friend WithEvents Label95 As Label
+    Friend WithEvents Panel15 As Panel
+    Friend WithEvents Panel16 As Panel
+    Friend WithEvents BunifuButton3 As Bunifu.UI.WinForms.BunifuButton.BunifuButton
+    Friend WithEvents Label114 As Label
 End Class
