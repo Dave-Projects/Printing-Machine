@@ -3933,6 +3933,10 @@ Public Class formMain
     End Sub
 
     Private Async Sub BunifuButton2_Click_1(sender As Object, e As EventArgs) Handles BunifuButton2.Click
+        If Label98.Text = "Letter" Then
+            MessageBox.Show("This Printer only Allows Long & A4 Size", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+            Exit Sub
+        End If
         printoutputColor = "Smart Pricing"
         printpanelConfirmation.Visible = False
         printpanelProps.Visible = False

@@ -23,201 +23,201 @@ Partial Class formMain
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
+        Dim BorderEdges1 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties1 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties2 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim BorderEdges2 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties3 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties4 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties5 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties6 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties7 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties8 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim BorderEdges3 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties9 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties10 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim BorderEdges4 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties11 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties12 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties13 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties14 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties15 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties16 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties17 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties18 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties19 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties20 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim BorderEdges5 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties21 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties22 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim BorderEdges6 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties23 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties24 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim BorderEdges7 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties25 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties26 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim BorderEdges8 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties27 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties28 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim BorderEdges9 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties29 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties30 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim BorderEdges10 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties31 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties32 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim BorderEdges11 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties33 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties34 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim BorderEdges12 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties35 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties36 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim BorderEdges13 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties37 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties38 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim BorderEdges14 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties39 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties40 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim BorderEdges15 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties41 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties42 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim BorderEdges16 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties43 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties44 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim BorderEdges17 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties45 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties46 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim BorderEdges18 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties47 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties48 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim BorderEdges19 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties49 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties50 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim BorderEdges20 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties51 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties52 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim BorderEdges21 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties53 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties54 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim BorderEdges22 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties55 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties56 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim BorderEdges23 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties57 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties58 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim BorderEdges24 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties59 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties60 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim BorderEdges25 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties61 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties62 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim BorderEdges26 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties63 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties64 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim BorderEdges27 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties65 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties66 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim BorderEdges28 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties67 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties68 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties69 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties70 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties71 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties72 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim BorderEdges29 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties73 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties74 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties75 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties76 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties77 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties78 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties79 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties80 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties81 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties82 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim BorderEdges30 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties83 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties84 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim BorderEdges31 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties85 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties86 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim BorderEdges32 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties87 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties88 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim BorderEdges33 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties89 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties90 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim BorderEdges34 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties91 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties92 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties93 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties94 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties95 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties96 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties97 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties98 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties99 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties100 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim BorderEdges35 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties101 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties102 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties103 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties104 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties105 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties106 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties107 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties108 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties109 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties110 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties111 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties112 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties113 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties114 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties115 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties116 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties117 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties118 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim BorderEdges36 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties119 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties120 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties121 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties122 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties123 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties124 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties125 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties126 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties127 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties128 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim BorderEdges37 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties129 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties130 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim BorderEdges38 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties131 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties132 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties133 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties134 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties135 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties136 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties137 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties138 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties139 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties140 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim BorderEdges39 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties141 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties142 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim BorderEdges40 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties143 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties144 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim BorderEdges41 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties145 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties146 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim BorderEdges42 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties147 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties148 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim Animation1 As Guna.UI2.AnimatorNS.Animation = New Guna.UI2.AnimatorNS.Animation()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(formMain))
-        Dim BorderEdges44 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties151 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties152 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim BorderEdges45 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties153 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties154 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties155 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties156 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties157 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties158 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim BorderEdges46 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties159 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties160 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim BorderEdges47 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties161 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties162 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties163 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties164 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties165 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties166 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties167 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties168 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties169 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties170 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim BorderEdges48 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties171 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties172 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim BorderEdges49 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties173 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties174 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim BorderEdges50 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties175 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties176 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim BorderEdges51 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties177 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties178 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim BorderEdges52 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties179 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties180 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim BorderEdges53 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties181 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties182 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim BorderEdges54 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties183 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties184 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim BorderEdges55 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties185 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties186 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim BorderEdges56 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties187 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties188 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim BorderEdges57 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties189 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties190 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim BorderEdges58 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties191 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties192 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim BorderEdges59 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties193 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties194 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim BorderEdges60 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties195 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties196 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim BorderEdges61 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties197 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties198 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim BorderEdges62 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties199 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties200 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim BorderEdges63 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties201 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties202 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim BorderEdges64 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties203 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties204 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim BorderEdges65 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties205 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties206 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim BorderEdges66 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties207 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties208 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim BorderEdges67 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties209 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties210 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim BorderEdges68 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties211 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties212 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim BorderEdges69 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties213 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties214 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim BorderEdges70 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties215 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties216 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim BorderEdges71 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties217 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties218 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties219 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties220 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties221 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties222 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim BorderEdges72 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties223 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties224 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties225 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties226 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties227 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties228 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties229 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties230 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties231 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties232 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim BorderEdges73 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties233 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties234 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim BorderEdges74 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties235 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties236 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim BorderEdges75 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties237 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties238 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim BorderEdges76 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties239 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties240 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim BorderEdges77 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties241 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties242 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties243 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties244 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties245 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties246 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties247 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties248 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties249 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties250 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim BorderEdges78 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties251 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties252 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties253 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties254 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties255 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties256 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties257 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties258 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties259 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties260 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties261 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties262 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties263 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties264 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties265 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties266 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties267 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties268 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim BorderEdges79 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties269 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties270 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties271 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties272 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties273 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties274 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties275 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties276 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties277 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties278 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim BorderEdges80 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties279 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties280 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim BorderEdges81 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties281 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties282 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties283 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties284 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties285 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties286 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties287 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties288 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties289 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties290 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim BorderEdges82 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties291 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties292 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim BorderEdges83 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties293 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties294 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim BorderEdges84 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties295 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties296 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim Animation2 As Guna.UI2.AnimatorNS.Animation = New Guna.UI2.AnimatorNS.Animation()
-        Dim BorderEdges85 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties297 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties298 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim BorderEdges86 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties299 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties300 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim BorderEdges43 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties149 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties150 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
         Me.dateTimeTimer = New System.Windows.Forms.Timer(Me.components)
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.landingTab = New System.Windows.Forms.TabPage()
@@ -713,6 +713,10 @@ Partial Class formMain
         Me.Label31 = New System.Windows.Forms.Label()
         Me.loadPanel1 = New System.Windows.Forms.Panel()
         Me.loadPanel2 = New System.Windows.Forms.Panel()
+        Me.Panel15 = New System.Windows.Forms.Panel()
+        Me.Panel16 = New System.Windows.Forms.Panel()
+        Me.BunifuButton3 = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
+        Me.Label114 = New System.Windows.Forms.Label()
         Me.loadFlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel()
         Me.loadbtnBack = New Guna.UI2.WinForms.Guna2CircleButton()
         Me.loadbtnPDF = New Bunifu.Framework.UI.BunifuImageButton()
@@ -827,10 +831,6 @@ Partial Class formMain
         Me.TimeDispense = New System.Windows.Forms.Timer(Me.components)
         Me.timerCheckingDispense = New System.Windows.Forms.Timer(Me.components)
         Me.timeDispenseScan = New System.Windows.Forms.Timer(Me.components)
-        Me.Panel15 = New System.Windows.Forms.Panel()
-        Me.Panel16 = New System.Windows.Forms.Panel()
-        Me.BunifuButton3 = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
-        Me.Label114 = New System.Windows.Forms.Label()
         Me.TabControl1.SuspendLayout
         Me.landingTab.SuspendLayout
         Me.landingpanelCode.SuspendLayout
@@ -964,14 +964,14 @@ Partial Class formMain
         Me.loadPanel9.SuspendLayout
         Me.loadPanel1.SuspendLayout
         Me.loadPanel2.SuspendLayout
+        Me.Panel15.SuspendLayout
+        Me.Panel16.SuspendLayout
         CType(Me.loadbtnPDF, System.ComponentModel.ISupportInitialize).BeginInit
         CType(Me.loadbtnDOC, System.ComponentModel.ISupportInitialize).BeginInit
         CType(Me.loadbtnPPT, System.ComponentModel.ISupportInitialize).BeginInit
         Me.loadPanel3.SuspendLayout
         Me.Panel12.SuspendLayout
         Me.panelNoChange.SuspendLayout
-        Me.Panel15.SuspendLayout
-        Me.Panel16.SuspendLayout
         Me.SuspendLayout
         '
         'dateTimeTimer
@@ -1029,11 +1029,11 @@ Partial Class formMain
         '
         Me.Label110.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label110, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label110.Font = New System.Drawing.Font("Comic Sans MS", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label110.Font = New System.Drawing.Font("Segoe UI Black", 40.0!)
         Me.Label110.ForeColor = System.Drawing.Color.White
-        Me.Label110.Location = New System.Drawing.Point(1339, 1077)
+        Me.Label110.Location = New System.Drawing.Point(1282, 1078)
         Me.Label110.Name = "Label110"
-        Me.Label110.Size = New System.Drawing.Size(254, 52)
+        Me.Label110.Size = New System.Drawing.Size(383, 72)
         Me.Label110.TabIndex = 49
         Me.Label110.Text = "Scan to Drive"
         '
@@ -1041,11 +1041,11 @@ Partial Class formMain
         '
         Me.Label109.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label109, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label109.Font = New System.Drawing.Font("Comic Sans MS", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label109.Font = New System.Drawing.Font("Segoe UI Black", 40.0!)
         Me.Label109.ForeColor = System.Drawing.Color.White
-        Me.Label109.Location = New System.Drawing.Point(912, 1077)
+        Me.Label109.Location = New System.Drawing.Point(881, 1078)
         Me.Label109.Name = "Label109"
-        Me.Label109.Size = New System.Drawing.Size(102, 52)
+        Me.Label109.Size = New System.Drawing.Size(164, 72)
         Me.Label109.TabIndex = 48
         Me.Label109.Text = "Copy"
         '
@@ -1053,11 +1053,11 @@ Partial Class formMain
         '
         Me.Label108.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label108, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label108.Font = New System.Drawing.Font("Comic Sans MS", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label108.Font = New System.Drawing.Font("Segoe UI Black", 40.0!)
         Me.Label108.ForeColor = System.Drawing.Color.White
-        Me.Label108.Location = New System.Drawing.Point(413, 1077)
+        Me.Label108.Location = New System.Drawing.Point(382, 1078)
         Me.Label108.Name = "Label108"
-        Me.Label108.Size = New System.Drawing.Size(103, 52)
+        Me.Label108.Size = New System.Drawing.Size(163, 72)
         Me.Label108.TabIndex = 47
         Me.Label108.Text = "Print"
         '
@@ -1066,7 +1066,7 @@ Partial Class formMain
         Me.mainFormDateL.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.mainFormDateL.BackColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Guna2Transition1.SetDecoration(Me.mainFormDateL, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.mainFormDateL.Font = New System.Drawing.Font("Comic Sans MS", 21.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.mainFormDateL.Font = New System.Drawing.Font("Segoe UI Semibold", 20.0!)
         Me.mainFormDateL.ForeColor = System.Drawing.Color.White
         Me.mainFormDateL.Location = New System.Drawing.Point(786, 71)
         Me.mainFormDateL.Name = "mainFormDateL"
@@ -1170,18 +1170,18 @@ Partial Class formMain
         Me.landingbtnConfirmNo.ColorContrastOnClick = 45
         Me.landingbtnConfirmNo.ColorContrastOnHover = 45
         Me.landingbtnConfirmNo.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges44.BottomLeft = True
-        BorderEdges44.BottomRight = True
-        BorderEdges44.TopLeft = True
-        BorderEdges44.TopRight = True
-        Me.landingbtnConfirmNo.CustomizableEdges = BorderEdges44
+        BorderEdges1.BottomLeft = True
+        BorderEdges1.BottomRight = True
+        BorderEdges1.TopLeft = True
+        BorderEdges1.TopRight = True
+        Me.landingbtnConfirmNo.CustomizableEdges = BorderEdges1
         Me.Guna2Transition1.SetDecoration(Me.landingbtnConfirmNo, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.landingbtnConfirmNo.DialogResult = System.Windows.Forms.DialogResult.None
         Me.landingbtnConfirmNo.DisabledBorderColor = System.Drawing.Color.Empty
         Me.landingbtnConfirmNo.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
         Me.landingbtnConfirmNo.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
         Me.landingbtnConfirmNo.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Idle
-        Me.landingbtnConfirmNo.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.landingbtnConfirmNo.Font = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.landingbtnConfirmNo.ForeColor = System.Drawing.Color.Red
         Me.landingbtnConfirmNo.IconLeftCursor = System.Windows.Forms.Cursors.Hand
         Me.landingbtnConfirmNo.IconMarginLeft = 30
@@ -1196,24 +1196,24 @@ Partial Class formMain
         Me.landingbtnConfirmNo.IndicateFocus = False
         Me.landingbtnConfirmNo.Location = New System.Drawing.Point(39, 535)
         Me.landingbtnConfirmNo.Name = "landingbtnConfirmNo"
-        StateProperties151.BorderColor = System.Drawing.Color.Red
-        StateProperties151.BorderRadius = 40
-        StateProperties151.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties151.BorderThickness = 3
-        StateProperties151.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties151.ForeColor = System.Drawing.Color.Red
-        StateProperties151.IconLeftImage = Nothing
-        StateProperties151.IconRightImage = Nothing
-        Me.landingbtnConfirmNo.onHoverState = StateProperties151
-        StateProperties152.BorderColor = System.Drawing.Color.Red
-        StateProperties152.BorderRadius = 40
-        StateProperties152.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties152.BorderThickness = 3
-        StateProperties152.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties152.ForeColor = System.Drawing.Color.Red
-        StateProperties152.IconLeftImage = Nothing
-        StateProperties152.IconRightImage = Nothing
-        Me.landingbtnConfirmNo.OnPressedState = StateProperties152
+        StateProperties1.BorderColor = System.Drawing.Color.Red
+        StateProperties1.BorderRadius = 40
+        StateProperties1.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties1.BorderThickness = 3
+        StateProperties1.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties1.ForeColor = System.Drawing.Color.Red
+        StateProperties1.IconLeftImage = Nothing
+        StateProperties1.IconRightImage = Nothing
+        Me.landingbtnConfirmNo.onHoverState = StateProperties1
+        StateProperties2.BorderColor = System.Drawing.Color.Red
+        StateProperties2.BorderRadius = 40
+        StateProperties2.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties2.BorderThickness = 3
+        StateProperties2.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties2.ForeColor = System.Drawing.Color.Red
+        StateProperties2.IconLeftImage = Nothing
+        StateProperties2.IconRightImage = Nothing
+        Me.landingbtnConfirmNo.OnPressedState = StateProperties2
         Me.landingbtnConfirmNo.Size = New System.Drawing.Size(192, 62)
         Me.landingbtnConfirmNo.TabIndex = 68
         Me.landingbtnConfirmNo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1235,18 +1235,18 @@ Partial Class formMain
         Me.landingbtnConfirmYes.ColorContrastOnClick = 45
         Me.landingbtnConfirmYes.ColorContrastOnHover = 45
         Me.landingbtnConfirmYes.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges45.BottomLeft = True
-        BorderEdges45.BottomRight = True
-        BorderEdges45.TopLeft = True
-        BorderEdges45.TopRight = True
-        Me.landingbtnConfirmYes.CustomizableEdges = BorderEdges45
+        BorderEdges2.BottomLeft = True
+        BorderEdges2.BottomRight = True
+        BorderEdges2.TopLeft = True
+        BorderEdges2.TopRight = True
+        Me.landingbtnConfirmYes.CustomizableEdges = BorderEdges2
         Me.Guna2Transition1.SetDecoration(Me.landingbtnConfirmYes, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.landingbtnConfirmYes.DialogResult = System.Windows.Forms.DialogResult.None
         Me.landingbtnConfirmYes.DisabledBorderColor = System.Drawing.Color.Empty
         Me.landingbtnConfirmYes.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
         Me.landingbtnConfirmYes.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
         Me.landingbtnConfirmYes.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Idle
-        Me.landingbtnConfirmYes.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.landingbtnConfirmYes.Font = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.landingbtnConfirmYes.ForeColor = System.Drawing.Color.Lime
         Me.landingbtnConfirmYes.IconLeftCursor = System.Windows.Forms.Cursors.Hand
         Me.landingbtnConfirmYes.IconMarginLeft = 30
@@ -1261,24 +1261,24 @@ Partial Class formMain
         Me.landingbtnConfirmYes.IndicateFocus = False
         Me.landingbtnConfirmYes.Location = New System.Drawing.Point(249, 535)
         Me.landingbtnConfirmYes.Name = "landingbtnConfirmYes"
-        StateProperties153.BorderColor = System.Drawing.Color.Lime
-        StateProperties153.BorderRadius = 40
-        StateProperties153.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties153.BorderThickness = 3
-        StateProperties153.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties153.ForeColor = System.Drawing.Color.Lime
-        StateProperties153.IconLeftImage = Nothing
-        StateProperties153.IconRightImage = Nothing
-        Me.landingbtnConfirmYes.onHoverState = StateProperties153
-        StateProperties154.BorderColor = System.Drawing.Color.Lime
-        StateProperties154.BorderRadius = 40
-        StateProperties154.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties154.BorderThickness = 3
-        StateProperties154.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties154.ForeColor = System.Drawing.Color.Lime
-        StateProperties154.IconLeftImage = Nothing
-        StateProperties154.IconRightImage = Nothing
-        Me.landingbtnConfirmYes.OnPressedState = StateProperties154
+        StateProperties3.BorderColor = System.Drawing.Color.Lime
+        StateProperties3.BorderRadius = 40
+        StateProperties3.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties3.BorderThickness = 3
+        StateProperties3.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties3.ForeColor = System.Drawing.Color.Lime
+        StateProperties3.IconLeftImage = Nothing
+        StateProperties3.IconRightImage = Nothing
+        Me.landingbtnConfirmYes.onHoverState = StateProperties3
+        StateProperties4.BorderColor = System.Drawing.Color.Lime
+        StateProperties4.BorderRadius = 40
+        StateProperties4.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties4.BorderThickness = 3
+        StateProperties4.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties4.ForeColor = System.Drawing.Color.Lime
+        StateProperties4.IconLeftImage = Nothing
+        StateProperties4.IconRightImage = Nothing
+        Me.landingbtnConfirmYes.OnPressedState = StateProperties4
         Me.landingbtnConfirmYes.Size = New System.Drawing.Size(192, 62)
         Me.landingbtnConfirmYes.TabIndex = 67
         Me.landingbtnConfirmYes.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1338,7 +1338,7 @@ Partial Class formMain
         Me.Guna2Transition1.SetDecoration(Me.landingbtnSeven, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.landingbtnSeven.DialogResult = System.Windows.Forms.DialogResult.None
         Me.landingbtnSeven.FocusedColor = System.Drawing.Color.Empty
-        Me.landingbtnSeven.Font = New System.Drawing.Font("Comic Sans MS", 35.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.landingbtnSeven.Font = New System.Drawing.Font("Segoe UI Black", 35.0!)
         Me.landingbtnSeven.ForeColor = System.Drawing.Color.White
         Me.landingbtnSeven.Image = Nothing
         Me.landingbtnSeven.ImageSize = New System.Drawing.Size(52, 52)
@@ -1363,7 +1363,7 @@ Partial Class formMain
         Me.Guna2Transition1.SetDecoration(Me.landingbtnEight, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.landingbtnEight.DialogResult = System.Windows.Forms.DialogResult.None
         Me.landingbtnEight.FocusedColor = System.Drawing.Color.Empty
-        Me.landingbtnEight.Font = New System.Drawing.Font("Comic Sans MS", 35.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.landingbtnEight.Font = New System.Drawing.Font("Segoe UI Black", 35.0!)
         Me.landingbtnEight.ForeColor = System.Drawing.Color.White
         Me.landingbtnEight.Image = Nothing
         Me.landingbtnEight.ImageSize = New System.Drawing.Size(52, 52)
@@ -1388,7 +1388,7 @@ Partial Class formMain
         Me.Guna2Transition1.SetDecoration(Me.landingbtnNine, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.landingbtnNine.DialogResult = System.Windows.Forms.DialogResult.None
         Me.landingbtnNine.FocusedColor = System.Drawing.Color.Empty
-        Me.landingbtnNine.Font = New System.Drawing.Font("Comic Sans MS", 35.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.landingbtnNine.Font = New System.Drawing.Font("Segoe UI Black", 35.0!)
         Me.landingbtnNine.ForeColor = System.Drawing.Color.White
         Me.landingbtnNine.Image = Nothing
         Me.landingbtnNine.ImageSize = New System.Drawing.Size(52, 52)
@@ -1413,7 +1413,7 @@ Partial Class formMain
         Me.Guna2Transition1.SetDecoration(Me.landingbtnFour, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.landingbtnFour.DialogResult = System.Windows.Forms.DialogResult.None
         Me.landingbtnFour.FocusedColor = System.Drawing.Color.Empty
-        Me.landingbtnFour.Font = New System.Drawing.Font("Comic Sans MS", 35.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.landingbtnFour.Font = New System.Drawing.Font("Segoe UI Black", 35.0!)
         Me.landingbtnFour.ForeColor = System.Drawing.Color.White
         Me.landingbtnFour.Image = Nothing
         Me.landingbtnFour.ImageSize = New System.Drawing.Size(52, 52)
@@ -1438,7 +1438,7 @@ Partial Class formMain
         Me.Guna2Transition1.SetDecoration(Me.landingbtnFive, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.landingbtnFive.DialogResult = System.Windows.Forms.DialogResult.None
         Me.landingbtnFive.FocusedColor = System.Drawing.Color.Empty
-        Me.landingbtnFive.Font = New System.Drawing.Font("Comic Sans MS", 35.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.landingbtnFive.Font = New System.Drawing.Font("Segoe UI Black", 35.0!)
         Me.landingbtnFive.ForeColor = System.Drawing.Color.White
         Me.landingbtnFive.Image = Nothing
         Me.landingbtnFive.ImageSize = New System.Drawing.Size(52, 52)
@@ -1463,7 +1463,7 @@ Partial Class formMain
         Me.Guna2Transition1.SetDecoration(Me.landingbtnSix, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.landingbtnSix.DialogResult = System.Windows.Forms.DialogResult.None
         Me.landingbtnSix.FocusedColor = System.Drawing.Color.Empty
-        Me.landingbtnSix.Font = New System.Drawing.Font("Comic Sans MS", 35.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.landingbtnSix.Font = New System.Drawing.Font("Segoe UI Black", 35.0!)
         Me.landingbtnSix.ForeColor = System.Drawing.Color.White
         Me.landingbtnSix.Image = Nothing
         Me.landingbtnSix.ImageSize = New System.Drawing.Size(52, 52)
@@ -1488,7 +1488,7 @@ Partial Class formMain
         Me.Guna2Transition1.SetDecoration(Me.landingbtnOne, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.landingbtnOne.DialogResult = System.Windows.Forms.DialogResult.None
         Me.landingbtnOne.FocusedColor = System.Drawing.Color.Empty
-        Me.landingbtnOne.Font = New System.Drawing.Font("Comic Sans MS", 35.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.landingbtnOne.Font = New System.Drawing.Font("Segoe UI Black", 35.0!)
         Me.landingbtnOne.ForeColor = System.Drawing.Color.White
         Me.landingbtnOne.Image = Nothing
         Me.landingbtnOne.ImageSize = New System.Drawing.Size(52, 52)
@@ -1537,7 +1537,7 @@ Partial Class formMain
         Me.Guna2Transition1.SetDecoration(Me.landingbtnTwo, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.landingbtnTwo.DialogResult = System.Windows.Forms.DialogResult.None
         Me.landingbtnTwo.FocusedColor = System.Drawing.Color.Empty
-        Me.landingbtnTwo.Font = New System.Drawing.Font("Comic Sans MS", 35.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.landingbtnTwo.Font = New System.Drawing.Font("Segoe UI Black", 35.0!)
         Me.landingbtnTwo.ForeColor = System.Drawing.Color.White
         Me.landingbtnTwo.Image = Nothing
         Me.landingbtnTwo.ImageSize = New System.Drawing.Size(52, 52)
@@ -1562,7 +1562,7 @@ Partial Class formMain
         Me.Guna2Transition1.SetDecoration(Me.landingbtnThree, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.landingbtnThree.DialogResult = System.Windows.Forms.DialogResult.None
         Me.landingbtnThree.FocusedColor = System.Drawing.Color.Empty
-        Me.landingbtnThree.Font = New System.Drawing.Font("Comic Sans MS", 35.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.landingbtnThree.Font = New System.Drawing.Font("Segoe UI Black", 35.0!)
         Me.landingbtnThree.ForeColor = System.Drawing.Color.White
         Me.landingbtnThree.Image = Nothing
         Me.landingbtnThree.ImageSize = New System.Drawing.Size(52, 52)
@@ -1587,7 +1587,7 @@ Partial Class formMain
         Me.Guna2Transition1.SetDecoration(Me.landingbtnZero, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.landingbtnZero.DialogResult = System.Windows.Forms.DialogResult.None
         Me.landingbtnZero.FocusedColor = System.Drawing.Color.Empty
-        Me.landingbtnZero.Font = New System.Drawing.Font("Comic Sans MS", 35.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.landingbtnZero.Font = New System.Drawing.Font("Segoe UI Black", 35.0!)
         Me.landingbtnZero.ForeColor = System.Drawing.Color.White
         Me.landingbtnZero.Image = Nothing
         Me.landingbtnZero.ImageSize = New System.Drawing.Size(52, 52)
@@ -1621,7 +1621,7 @@ Partial Class formMain
         Me.landingtxtSystemPin.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal
         Me.landingtxtSystemPin.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.Guna2Transition1.SetDecoration(Me.landingtxtSystemPin, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.landingtxtSystemPin.DefaultFont = New System.Drawing.Font("Comic Sans MS", 39.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.landingtxtSystemPin.DefaultFont = New System.Drawing.Font("Segoe UI Semibold", 40.0!)
         Me.landingtxtSystemPin.DefaultText = ""
         Me.landingtxtSystemPin.FillColor = System.Drawing.Color.White
         Me.landingtxtSystemPin.ForeColor = System.Drawing.Color.Black
@@ -1639,26 +1639,26 @@ Partial Class formMain
         Me.landingtxtSystemPin.Modified = False
         Me.landingtxtSystemPin.Multiline = False
         Me.landingtxtSystemPin.Name = "landingtxtSystemPin"
-        StateProperties155.BorderColor = System.Drawing.Color.Black
-        StateProperties155.FillColor = System.Drawing.Color.Empty
-        StateProperties155.ForeColor = System.Drawing.Color.Empty
-        StateProperties155.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.landingtxtSystemPin.OnActiveState = StateProperties155
-        StateProperties156.BorderColor = System.Drawing.Color.Empty
-        StateProperties156.FillColor = System.Drawing.Color.White
-        StateProperties156.ForeColor = System.Drawing.Color.Empty
-        StateProperties156.PlaceholderForeColor = System.Drawing.Color.Silver
-        Me.landingtxtSystemPin.OnDisabledState = StateProperties156
-        StateProperties157.BorderColor = System.Drawing.Color.Silver
-        StateProperties157.FillColor = System.Drawing.Color.Empty
-        StateProperties157.ForeColor = System.Drawing.Color.Empty
-        StateProperties157.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.landingtxtSystemPin.OnHoverState = StateProperties157
-        StateProperties158.BorderColor = System.Drawing.Color.Silver
-        StateProperties158.FillColor = System.Drawing.Color.White
-        StateProperties158.ForeColor = System.Drawing.Color.Black
-        StateProperties158.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.landingtxtSystemPin.OnIdleState = StateProperties158
+        StateProperties5.BorderColor = System.Drawing.Color.Black
+        StateProperties5.FillColor = System.Drawing.Color.Empty
+        StateProperties5.ForeColor = System.Drawing.Color.Empty
+        StateProperties5.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.landingtxtSystemPin.OnActiveState = StateProperties5
+        StateProperties6.BorderColor = System.Drawing.Color.Empty
+        StateProperties6.FillColor = System.Drawing.Color.White
+        StateProperties6.ForeColor = System.Drawing.Color.Empty
+        StateProperties6.PlaceholderForeColor = System.Drawing.Color.Silver
+        Me.landingtxtSystemPin.OnDisabledState = StateProperties6
+        StateProperties7.BorderColor = System.Drawing.Color.Silver
+        StateProperties7.FillColor = System.Drawing.Color.Empty
+        StateProperties7.ForeColor = System.Drawing.Color.Empty
+        StateProperties7.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.landingtxtSystemPin.OnHoverState = StateProperties7
+        StateProperties8.BorderColor = System.Drawing.Color.Silver
+        StateProperties8.FillColor = System.Drawing.Color.White
+        StateProperties8.ForeColor = System.Drawing.Color.Black
+        StateProperties8.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.landingtxtSystemPin.OnIdleState = StateProperties8
         Me.landingtxtSystemPin.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.landingtxtSystemPin.PlaceholderForeColor = System.Drawing.Color.Silver
         Me.landingtxtSystemPin.PlaceholderText = "00000000"
@@ -1668,7 +1668,7 @@ Partial Class formMain
         Me.landingtxtSystemPin.SelectionLength = 0
         Me.landingtxtSystemPin.SelectionStart = 0
         Me.landingtxtSystemPin.ShortcutsEnabled = True
-        Me.landingtxtSystemPin.Size = New System.Drawing.Size(295, 85)
+        Me.landingtxtSystemPin.Size = New System.Drawing.Size(295, 82)
         Me.landingtxtSystemPin.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Material
         Me.landingtxtSystemPin.TabIndex = 41
         Me.landingtxtSystemPin.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -1682,7 +1682,7 @@ Partial Class formMain
         'landinglblEnterpin
         '
         Me.Guna2Transition1.SetDecoration(Me.landinglblEnterpin, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.landinglblEnterpin.Font = New System.Drawing.Font("Comic Sans MS", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.landinglblEnterpin.Font = New System.Drawing.Font("Segoe UI Black", 30.0!)
         Me.landinglblEnterpin.Location = New System.Drawing.Point(20, 19)
         Me.landinglblEnterpin.Name = "landinglblEnterpin"
         Me.landinglblEnterpin.Size = New System.Drawing.Size(440, 54)
@@ -1840,7 +1840,7 @@ Partial Class formMain
         Me.mainFormDateO.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.mainFormDateO.BackColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Guna2Transition1.SetDecoration(Me.mainFormDateO, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.mainFormDateO.Font = New System.Drawing.Font("Comic Sans MS", 21.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.mainFormDateO.Font = New System.Drawing.Font("Segoe UI Semibold", 20.0!)
         Me.mainFormDateO.ForeColor = System.Drawing.Color.White
         Me.mainFormDateO.Location = New System.Drawing.Point(777, 71)
         Me.mainFormDateO.Name = "mainFormDateO"
@@ -1883,18 +1883,18 @@ Partial Class formMain
         Me.optnbtnFlashdrive.ColorContrastOnClick = 45
         Me.optnbtnFlashdrive.ColorContrastOnHover = 45
         Me.optnbtnFlashdrive.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges46.BottomLeft = True
-        BorderEdges46.BottomRight = True
-        BorderEdges46.TopLeft = True
-        BorderEdges46.TopRight = True
-        Me.optnbtnFlashdrive.CustomizableEdges = BorderEdges46
+        BorderEdges3.BottomLeft = True
+        BorderEdges3.BottomRight = True
+        BorderEdges3.TopLeft = True
+        BorderEdges3.TopRight = True
+        Me.optnbtnFlashdrive.CustomizableEdges = BorderEdges3
         Me.Guna2Transition1.SetDecoration(Me.optnbtnFlashdrive, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.optnbtnFlashdrive.DialogResult = System.Windows.Forms.DialogResult.None
         Me.optnbtnFlashdrive.DisabledBorderColor = System.Drawing.Color.Empty
         Me.optnbtnFlashdrive.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
         Me.optnbtnFlashdrive.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
         Me.optnbtnFlashdrive.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Idle
-        Me.optnbtnFlashdrive.Font = New System.Drawing.Font("Comic Sans MS", 50.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.optnbtnFlashdrive.Font = New System.Drawing.Font("Segoe UI Semibold", 50.0!)
         Me.optnbtnFlashdrive.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.optnbtnFlashdrive.IconLeftCursor = System.Windows.Forms.Cursors.Hand
         Me.optnbtnFlashdrive.IconMarginLeft = 11
@@ -1909,24 +1909,24 @@ Partial Class formMain
         Me.optnbtnFlashdrive.IndicateFocus = False
         Me.optnbtnFlashdrive.Location = New System.Drawing.Point(1033, 724)
         Me.optnbtnFlashdrive.Name = "optnbtnFlashdrive"
-        StateProperties159.BorderColor = System.Drawing.Color.White
-        StateProperties159.BorderRadius = 130
-        StateProperties159.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties159.BorderThickness = 3
-        StateProperties159.FillColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties159.ForeColor = System.Drawing.Color.White
-        StateProperties159.IconLeftImage = Nothing
-        StateProperties159.IconRightImage = Nothing
-        Me.optnbtnFlashdrive.onHoverState = StateProperties159
-        StateProperties160.BorderColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
-        StateProperties160.BorderRadius = 130
-        StateProperties160.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties160.BorderThickness = 3
-        StateProperties160.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties160.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties160.IconLeftImage = Nothing
-        StateProperties160.IconRightImage = Nothing
-        Me.optnbtnFlashdrive.OnPressedState = StateProperties160
+        StateProperties9.BorderColor = System.Drawing.Color.White
+        StateProperties9.BorderRadius = 130
+        StateProperties9.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties9.BorderThickness = 3
+        StateProperties9.FillColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties9.ForeColor = System.Drawing.Color.White
+        StateProperties9.IconLeftImage = Nothing
+        StateProperties9.IconRightImage = Nothing
+        Me.optnbtnFlashdrive.onHoverState = StateProperties9
+        StateProperties10.BorderColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
+        StateProperties10.BorderRadius = 130
+        StateProperties10.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties10.BorderThickness = 3
+        StateProperties10.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties10.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties10.IconLeftImage = Nothing
+        StateProperties10.IconRightImage = Nothing
+        Me.optnbtnFlashdrive.OnPressedState = StateProperties10
         Me.optnbtnFlashdrive.Size = New System.Drawing.Size(564, 143)
         Me.optnbtnFlashdrive.TabIndex = 37
         Me.optnbtnFlashdrive.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1948,18 +1948,18 @@ Partial Class formMain
         Me.optnbtnWifi.ColorContrastOnClick = 45
         Me.optnbtnWifi.ColorContrastOnHover = 45
         Me.optnbtnWifi.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges47.BottomLeft = True
-        BorderEdges47.BottomRight = True
-        BorderEdges47.TopLeft = True
-        BorderEdges47.TopRight = True
-        Me.optnbtnWifi.CustomizableEdges = BorderEdges47
+        BorderEdges4.BottomLeft = True
+        BorderEdges4.BottomRight = True
+        BorderEdges4.TopLeft = True
+        BorderEdges4.TopRight = True
+        Me.optnbtnWifi.CustomizableEdges = BorderEdges4
         Me.Guna2Transition1.SetDecoration(Me.optnbtnWifi, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.optnbtnWifi.DialogResult = System.Windows.Forms.DialogResult.None
         Me.optnbtnWifi.DisabledBorderColor = System.Drawing.Color.Empty
         Me.optnbtnWifi.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
         Me.optnbtnWifi.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
         Me.optnbtnWifi.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Idle
-        Me.optnbtnWifi.Font = New System.Drawing.Font("Comic Sans MS", 50.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.optnbtnWifi.Font = New System.Drawing.Font("Segoe UI Semibold", 50.0!)
         Me.optnbtnWifi.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.optnbtnWifi.IconLeftCursor = System.Windows.Forms.Cursors.Hand
         Me.optnbtnWifi.IconMarginLeft = 11
@@ -1974,24 +1974,24 @@ Partial Class formMain
         Me.optnbtnWifi.IndicateFocus = False
         Me.optnbtnWifi.Location = New System.Drawing.Point(319, 724)
         Me.optnbtnWifi.Name = "optnbtnWifi"
-        StateProperties161.BorderColor = System.Drawing.Color.White
-        StateProperties161.BorderRadius = 130
-        StateProperties161.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties161.BorderThickness = 3
-        StateProperties161.FillColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties161.ForeColor = System.Drawing.Color.White
-        StateProperties161.IconLeftImage = Nothing
-        StateProperties161.IconRightImage = Nothing
-        Me.optnbtnWifi.onHoverState = StateProperties161
-        StateProperties162.BorderColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
-        StateProperties162.BorderRadius = 130
-        StateProperties162.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties162.BorderThickness = 3
-        StateProperties162.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
-        StateProperties162.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties162.IconLeftImage = Nothing
-        StateProperties162.IconRightImage = Nothing
-        Me.optnbtnWifi.OnPressedState = StateProperties162
+        StateProperties11.BorderColor = System.Drawing.Color.White
+        StateProperties11.BorderRadius = 130
+        StateProperties11.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties11.BorderThickness = 3
+        StateProperties11.FillColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties11.ForeColor = System.Drawing.Color.White
+        StateProperties11.IconLeftImage = Nothing
+        StateProperties11.IconRightImage = Nothing
+        Me.optnbtnWifi.onHoverState = StateProperties11
+        StateProperties12.BorderColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
+        StateProperties12.BorderRadius = 130
+        StateProperties12.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties12.BorderThickness = 3
+        StateProperties12.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
+        StateProperties12.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties12.IconLeftImage = Nothing
+        StateProperties12.IconRightImage = Nothing
+        Me.optnbtnWifi.OnPressedState = StateProperties12
         Me.optnbtnWifi.Size = New System.Drawing.Size(564, 143)
         Me.optnbtnWifi.TabIndex = 36
         Me.optnbtnWifi.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -2034,7 +2034,7 @@ Partial Class formMain
         Me.mainFormDateINS.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.mainFormDateINS.BackColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Guna2Transition1.SetDecoration(Me.mainFormDateINS, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.mainFormDateINS.Font = New System.Drawing.Font("Comic Sans MS", 21.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.mainFormDateINS.Font = New System.Drawing.Font("Segoe UI Semibold", 20.0!)
         Me.mainFormDateINS.ForeColor = System.Drawing.Color.White
         Me.mainFormDateINS.Location = New System.Drawing.Point(780, 71)
         Me.mainFormDateINS.Name = "mainFormDateINS"
@@ -2086,7 +2086,7 @@ Partial Class formMain
         Me.flashlblLoading.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.flashlblLoading.BackColor = System.Drawing.Color.Transparent
         Me.Guna2Transition1.SetDecoration(Me.flashlblLoading, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.flashlblLoading.Font = New System.Drawing.Font("Comic Sans MS", 45.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.flashlblLoading.Font = New System.Drawing.Font("Segoe UI Semibold", 45.0!)
         Me.flashlblLoading.ForeColor = System.Drawing.Color.White
         Me.flashlblLoading.Location = New System.Drawing.Point(367, 559)
         Me.flashlblLoading.Name = "flashlblLoading"
@@ -2102,11 +2102,11 @@ Partial Class formMain
         Me.flashlblflashNotif.AutoSize = True
         Me.flashlblflashNotif.BackColor = System.Drawing.Color.Transparent
         Me.Guna2Transition1.SetDecoration(Me.flashlblflashNotif, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.flashlblflashNotif.Font = New System.Drawing.Font("Comic Sans MS", 30.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.flashlblflashNotif.Font = New System.Drawing.Font("Segoe UI Light", 30.0!)
         Me.flashlblflashNotif.ForeColor = System.Drawing.Color.White
         Me.flashlblflashNotif.Location = New System.Drawing.Point(625, 890)
         Me.flashlblflashNotif.Name = "flashlblflashNotif"
-        Me.flashlblflashNotif.Size = New System.Drawing.Size(750, 56)
+        Me.flashlblflashNotif.Size = New System.Drawing.Size(666, 54)
         Me.flashlblflashNotif.TabIndex = 38
         Me.flashlblflashNotif.Text = "Please keep the flash drive connected.."
         Me.flashlblflashNotif.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -2252,7 +2252,7 @@ Partial Class formMain
         Me.wifitxtTo.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal
         Me.wifitxtTo.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.Guna2Transition1.SetDecoration(Me.wifitxtTo, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.wifitxtTo.DefaultFont = New System.Drawing.Font("Comic Sans MS", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.wifitxtTo.DefaultFont = New System.Drawing.Font("Segoe UI Semibold", 20.0!)
         Me.wifitxtTo.DefaultText = "100"
         Me.wifitxtTo.FillColor = System.Drawing.Color.White
         Me.wifitxtTo.ForeColor = System.Drawing.Color.Black
@@ -2270,26 +2270,26 @@ Partial Class formMain
         Me.wifitxtTo.Modified = False
         Me.wifitxtTo.Multiline = False
         Me.wifitxtTo.Name = "wifitxtTo"
-        StateProperties163.BorderColor = System.Drawing.Color.Black
-        StateProperties163.FillColor = System.Drawing.Color.Empty
-        StateProperties163.ForeColor = System.Drawing.Color.Empty
-        StateProperties163.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.wifitxtTo.OnActiveState = StateProperties163
-        StateProperties164.BorderColor = System.Drawing.Color.Empty
-        StateProperties164.FillColor = System.Drawing.Color.White
-        StateProperties164.ForeColor = System.Drawing.Color.Empty
-        StateProperties164.PlaceholderForeColor = System.Drawing.Color.Silver
-        Me.wifitxtTo.OnDisabledState = StateProperties164
-        StateProperties165.BorderColor = System.Drawing.Color.Silver
-        StateProperties165.FillColor = System.Drawing.Color.Empty
-        StateProperties165.ForeColor = System.Drawing.Color.Empty
-        StateProperties165.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.wifitxtTo.OnHoverState = StateProperties165
-        StateProperties166.BorderColor = System.Drawing.Color.Silver
-        StateProperties166.FillColor = System.Drawing.Color.White
-        StateProperties166.ForeColor = System.Drawing.Color.Black
-        StateProperties166.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.wifitxtTo.OnIdleState = StateProperties166
+        StateProperties13.BorderColor = System.Drawing.Color.Black
+        StateProperties13.FillColor = System.Drawing.Color.Empty
+        StateProperties13.ForeColor = System.Drawing.Color.Empty
+        StateProperties13.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.wifitxtTo.OnActiveState = StateProperties13
+        StateProperties14.BorderColor = System.Drawing.Color.Empty
+        StateProperties14.FillColor = System.Drawing.Color.White
+        StateProperties14.ForeColor = System.Drawing.Color.Empty
+        StateProperties14.PlaceholderForeColor = System.Drawing.Color.Silver
+        Me.wifitxtTo.OnDisabledState = StateProperties14
+        StateProperties15.BorderColor = System.Drawing.Color.Silver
+        StateProperties15.FillColor = System.Drawing.Color.Empty
+        StateProperties15.ForeColor = System.Drawing.Color.Empty
+        StateProperties15.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.wifitxtTo.OnHoverState = StateProperties15
+        StateProperties16.BorderColor = System.Drawing.Color.Silver
+        StateProperties16.FillColor = System.Drawing.Color.White
+        StateProperties16.ForeColor = System.Drawing.Color.Black
+        StateProperties16.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.wifitxtTo.OnIdleState = StateProperties16
         Me.wifitxtTo.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.wifitxtTo.PlaceholderForeColor = System.Drawing.Color.Silver
         Me.wifitxtTo.PlaceholderText = "000"
@@ -2299,7 +2299,7 @@ Partial Class formMain
         Me.wifitxtTo.SelectionLength = 0
         Me.wifitxtTo.SelectionStart = 0
         Me.wifitxtTo.ShortcutsEnabled = True
-        Me.wifitxtTo.Size = New System.Drawing.Size(80, 49)
+        Me.wifitxtTo.Size = New System.Drawing.Size(80, 47)
         Me.wifitxtTo.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Material
         Me.wifitxtTo.TabIndex = 55
         Me.wifitxtTo.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
@@ -2328,7 +2328,7 @@ Partial Class formMain
         Me.wifitxtFrom.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal
         Me.wifitxtFrom.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.Guna2Transition1.SetDecoration(Me.wifitxtFrom, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.wifitxtFrom.DefaultFont = New System.Drawing.Font("Comic Sans MS", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.wifitxtFrom.DefaultFont = New System.Drawing.Font("Segoe UI Semibold", 20.0!)
         Me.wifitxtFrom.DefaultText = "1"
         Me.wifitxtFrom.FillColor = System.Drawing.Color.White
         Me.wifitxtFrom.ForeColor = System.Drawing.Color.Black
@@ -2346,26 +2346,26 @@ Partial Class formMain
         Me.wifitxtFrom.Modified = False
         Me.wifitxtFrom.Multiline = False
         Me.wifitxtFrom.Name = "wifitxtFrom"
-        StateProperties167.BorderColor = System.Drawing.Color.Black
-        StateProperties167.FillColor = System.Drawing.Color.Empty
-        StateProperties167.ForeColor = System.Drawing.Color.Empty
-        StateProperties167.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.wifitxtFrom.OnActiveState = StateProperties167
-        StateProperties168.BorderColor = System.Drawing.Color.Empty
-        StateProperties168.FillColor = System.Drawing.Color.White
-        StateProperties168.ForeColor = System.Drawing.Color.Empty
-        StateProperties168.PlaceholderForeColor = System.Drawing.Color.Silver
-        Me.wifitxtFrom.OnDisabledState = StateProperties168
-        StateProperties169.BorderColor = System.Drawing.Color.Silver
-        StateProperties169.FillColor = System.Drawing.Color.Empty
-        StateProperties169.ForeColor = System.Drawing.Color.Empty
-        StateProperties169.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.wifitxtFrom.OnHoverState = StateProperties169
-        StateProperties170.BorderColor = System.Drawing.Color.Silver
-        StateProperties170.FillColor = System.Drawing.Color.White
-        StateProperties170.ForeColor = System.Drawing.Color.Black
-        StateProperties170.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.wifitxtFrom.OnIdleState = StateProperties170
+        StateProperties17.BorderColor = System.Drawing.Color.Black
+        StateProperties17.FillColor = System.Drawing.Color.Empty
+        StateProperties17.ForeColor = System.Drawing.Color.Empty
+        StateProperties17.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.wifitxtFrom.OnActiveState = StateProperties17
+        StateProperties18.BorderColor = System.Drawing.Color.Empty
+        StateProperties18.FillColor = System.Drawing.Color.White
+        StateProperties18.ForeColor = System.Drawing.Color.Empty
+        StateProperties18.PlaceholderForeColor = System.Drawing.Color.Silver
+        Me.wifitxtFrom.OnDisabledState = StateProperties18
+        StateProperties19.BorderColor = System.Drawing.Color.Silver
+        StateProperties19.FillColor = System.Drawing.Color.Empty
+        StateProperties19.ForeColor = System.Drawing.Color.Empty
+        StateProperties19.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.wifitxtFrom.OnHoverState = StateProperties19
+        StateProperties20.BorderColor = System.Drawing.Color.Silver
+        StateProperties20.FillColor = System.Drawing.Color.White
+        StateProperties20.ForeColor = System.Drawing.Color.Black
+        StateProperties20.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.wifitxtFrom.OnIdleState = StateProperties20
         Me.wifitxtFrom.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.wifitxtFrom.PlaceholderForeColor = System.Drawing.Color.Silver
         Me.wifitxtFrom.PlaceholderText = "000"
@@ -2375,7 +2375,7 @@ Partial Class formMain
         Me.wifitxtFrom.SelectionLength = 0
         Me.wifitxtFrom.SelectionStart = 0
         Me.wifitxtFrom.ShortcutsEnabled = True
-        Me.wifitxtFrom.Size = New System.Drawing.Size(80, 49)
+        Me.wifitxtFrom.Size = New System.Drawing.Size(80, 47)
         Me.wifitxtFrom.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Material
         Me.wifitxtFrom.TabIndex = 54
         Me.wifitxtFrom.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
@@ -2454,10 +2454,10 @@ Partial Class formMain
         '
         Me.Label87.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label87, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label87.Font = New System.Drawing.Font("Comic Sans MS", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label87.Font = New System.Drawing.Font("Segoe UI Semibold", 20.0!)
         Me.Label87.Location = New System.Drawing.Point(14, 6)
         Me.Label87.Name = "Label87"
-        Me.Label87.Size = New System.Drawing.Size(89, 38)
+        Me.Label87.Size = New System.Drawing.Size(88, 37)
         Me.Label87.TabIndex = 48
         Me.Label87.Text = "From:"
         Me.Label87.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -2466,10 +2466,10 @@ Partial Class formMain
         '
         Me.Label88.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label88, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label88.Font = New System.Drawing.Font("Comic Sans MS", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label88.Font = New System.Drawing.Font("Segoe UI Semibold", 20.0!)
         Me.Label88.Location = New System.Drawing.Point(50, 62)
         Me.Label88.Name = "Label88"
-        Me.Label88.Size = New System.Drawing.Size(57, 38)
+        Me.Label88.Size = New System.Drawing.Size(52, 37)
         Me.Label88.TabIndex = 49
         Me.Label88.Text = "To:"
         Me.Label88.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -2592,7 +2592,7 @@ Partial Class formMain
         Me.Guna2Transition1.SetDecoration(Me.wifibtnSeven, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.wifibtnSeven.DialogResult = System.Windows.Forms.DialogResult.None
         Me.wifibtnSeven.FocusedColor = System.Drawing.Color.Empty
-        Me.wifibtnSeven.Font = New System.Drawing.Font("Comic Sans MS", 35.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.wifibtnSeven.Font = New System.Drawing.Font("Segoe UI Black", 35.0!)
         Me.wifibtnSeven.ForeColor = System.Drawing.Color.White
         Me.wifibtnSeven.Image = Nothing
         Me.wifibtnSeven.ImageSize = New System.Drawing.Size(52, 52)
@@ -2617,7 +2617,7 @@ Partial Class formMain
         Me.Guna2Transition1.SetDecoration(Me.wifibtnEight, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.wifibtnEight.DialogResult = System.Windows.Forms.DialogResult.None
         Me.wifibtnEight.FocusedColor = System.Drawing.Color.Empty
-        Me.wifibtnEight.Font = New System.Drawing.Font("Comic Sans MS", 35.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.wifibtnEight.Font = New System.Drawing.Font("Segoe UI Black", 35.0!)
         Me.wifibtnEight.ForeColor = System.Drawing.Color.White
         Me.wifibtnEight.Image = Nothing
         Me.wifibtnEight.ImageSize = New System.Drawing.Size(52, 52)
@@ -2642,7 +2642,7 @@ Partial Class formMain
         Me.Guna2Transition1.SetDecoration(Me.wifibtnNine, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.wifibtnNine.DialogResult = System.Windows.Forms.DialogResult.None
         Me.wifibtnNine.FocusedColor = System.Drawing.Color.Empty
-        Me.wifibtnNine.Font = New System.Drawing.Font("Comic Sans MS", 35.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.wifibtnNine.Font = New System.Drawing.Font("Segoe UI Black", 35.0!)
         Me.wifibtnNine.ForeColor = System.Drawing.Color.White
         Me.wifibtnNine.Image = Nothing
         Me.wifibtnNine.ImageSize = New System.Drawing.Size(52, 52)
@@ -2667,7 +2667,7 @@ Partial Class formMain
         Me.Guna2Transition1.SetDecoration(Me.wifibtnFour, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.wifibtnFour.DialogResult = System.Windows.Forms.DialogResult.None
         Me.wifibtnFour.FocusedColor = System.Drawing.Color.Empty
-        Me.wifibtnFour.Font = New System.Drawing.Font("Comic Sans MS", 35.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.wifibtnFour.Font = New System.Drawing.Font("Segoe UI Black", 35.0!)
         Me.wifibtnFour.ForeColor = System.Drawing.Color.White
         Me.wifibtnFour.Image = Nothing
         Me.wifibtnFour.ImageSize = New System.Drawing.Size(52, 52)
@@ -2692,7 +2692,7 @@ Partial Class formMain
         Me.Guna2Transition1.SetDecoration(Me.wifibtnFive, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.wifibtnFive.DialogResult = System.Windows.Forms.DialogResult.None
         Me.wifibtnFive.FocusedColor = System.Drawing.Color.Empty
-        Me.wifibtnFive.Font = New System.Drawing.Font("Comic Sans MS", 35.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.wifibtnFive.Font = New System.Drawing.Font("Segoe UI Black", 35.0!)
         Me.wifibtnFive.ForeColor = System.Drawing.Color.White
         Me.wifibtnFive.Image = Nothing
         Me.wifibtnFive.ImageSize = New System.Drawing.Size(52, 52)
@@ -2717,7 +2717,7 @@ Partial Class formMain
         Me.Guna2Transition1.SetDecoration(Me.wifibtnSix, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.wifibtnSix.DialogResult = System.Windows.Forms.DialogResult.None
         Me.wifibtnSix.FocusedColor = System.Drawing.Color.Empty
-        Me.wifibtnSix.Font = New System.Drawing.Font("Comic Sans MS", 35.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.wifibtnSix.Font = New System.Drawing.Font("Segoe UI Black", 35.0!)
         Me.wifibtnSix.ForeColor = System.Drawing.Color.White
         Me.wifibtnSix.Image = Nothing
         Me.wifibtnSix.ImageSize = New System.Drawing.Size(52, 52)
@@ -2742,7 +2742,7 @@ Partial Class formMain
         Me.Guna2Transition1.SetDecoration(Me.wifibtnOne, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.wifibtnOne.DialogResult = System.Windows.Forms.DialogResult.None
         Me.wifibtnOne.FocusedColor = System.Drawing.Color.Empty
-        Me.wifibtnOne.Font = New System.Drawing.Font("Comic Sans MS", 35.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.wifibtnOne.Font = New System.Drawing.Font("Segoe UI Black", 35.0!)
         Me.wifibtnOne.ForeColor = System.Drawing.Color.White
         Me.wifibtnOne.Image = Nothing
         Me.wifibtnOne.ImageSize = New System.Drawing.Size(52, 52)
@@ -2791,7 +2791,7 @@ Partial Class formMain
         Me.Guna2Transition1.SetDecoration(Me.wifibtnTwo, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.wifibtnTwo.DialogResult = System.Windows.Forms.DialogResult.None
         Me.wifibtnTwo.FocusedColor = System.Drawing.Color.Empty
-        Me.wifibtnTwo.Font = New System.Drawing.Font("Comic Sans MS", 35.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.wifibtnTwo.Font = New System.Drawing.Font("Segoe UI Black", 35.0!)
         Me.wifibtnTwo.ForeColor = System.Drawing.Color.White
         Me.wifibtnTwo.Image = Nothing
         Me.wifibtnTwo.ImageSize = New System.Drawing.Size(52, 52)
@@ -2816,7 +2816,7 @@ Partial Class formMain
         Me.Guna2Transition1.SetDecoration(Me.wifibtnThree, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.wifibtnThree.DialogResult = System.Windows.Forms.DialogResult.None
         Me.wifibtnThree.FocusedColor = System.Drawing.Color.Empty
-        Me.wifibtnThree.Font = New System.Drawing.Font("Comic Sans MS", 35.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.wifibtnThree.Font = New System.Drawing.Font("Segoe UI Black", 35.0!)
         Me.wifibtnThree.ForeColor = System.Drawing.Color.White
         Me.wifibtnThree.Image = Nothing
         Me.wifibtnThree.ImageSize = New System.Drawing.Size(52, 52)
@@ -2841,7 +2841,7 @@ Partial Class formMain
         Me.Guna2Transition1.SetDecoration(Me.wifibtnZero, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.wifibtnZero.DialogResult = System.Windows.Forms.DialogResult.None
         Me.wifibtnZero.FocusedColor = System.Drawing.Color.Empty
-        Me.wifibtnZero.Font = New System.Drawing.Font("Comic Sans MS", 35.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.wifibtnZero.Font = New System.Drawing.Font("Segoe UI Black", 35.0!)
         Me.wifibtnZero.ForeColor = System.Drawing.Color.White
         Me.wifibtnZero.Image = Nothing
         Me.wifibtnZero.ImageSize = New System.Drawing.Size(52, 52)
@@ -2861,10 +2861,10 @@ Partial Class formMain
         '
         Me.wifilblSpecific.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.wifilblSpecific, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.wifilblSpecific.Font = New System.Drawing.Font("Comic Sans MS", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.wifilblSpecific.Font = New System.Drawing.Font("Segoe UI Semibold", 20.0!)
         Me.wifilblSpecific.Location = New System.Drawing.Point(294, 59)
         Me.wifilblSpecific.Name = "wifilblSpecific"
-        Me.wifilblSpecific.Size = New System.Drawing.Size(220, 38)
+        Me.wifilblSpecific.Size = New System.Drawing.Size(204, 37)
         Me.wifilblSpecific.TabIndex = 44
         Me.wifilblSpecific.Text = "Specific slide(s)"
         Me.wifilblSpecific.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -2883,18 +2883,18 @@ Partial Class formMain
         Me.wifibtnCancelSpecific.ColorContrastOnClick = 45
         Me.wifibtnCancelSpecific.ColorContrastOnHover = 45
         Me.wifibtnCancelSpecific.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges48.BottomLeft = True
-        BorderEdges48.BottomRight = True
-        BorderEdges48.TopLeft = True
-        BorderEdges48.TopRight = True
-        Me.wifibtnCancelSpecific.CustomizableEdges = BorderEdges48
+        BorderEdges5.BottomLeft = True
+        BorderEdges5.BottomRight = True
+        BorderEdges5.TopLeft = True
+        BorderEdges5.TopRight = True
+        Me.wifibtnCancelSpecific.CustomizableEdges = BorderEdges5
         Me.Guna2Transition1.SetDecoration(Me.wifibtnCancelSpecific, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.wifibtnCancelSpecific.DialogResult = System.Windows.Forms.DialogResult.None
         Me.wifibtnCancelSpecific.DisabledBorderColor = System.Drawing.Color.Empty
         Me.wifibtnCancelSpecific.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
         Me.wifibtnCancelSpecific.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
         Me.wifibtnCancelSpecific.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Idle
-        Me.wifibtnCancelSpecific.Font = New System.Drawing.Font("Comic Sans MS", 21.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.wifibtnCancelSpecific.Font = New System.Drawing.Font("Segoe UI Semibold", 20.0!)
         Me.wifibtnCancelSpecific.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.wifibtnCancelSpecific.IconLeftCursor = System.Windows.Forms.Cursors.Hand
         Me.wifibtnCancelSpecific.IconMarginLeft = 30
@@ -2909,24 +2909,24 @@ Partial Class formMain
         Me.wifibtnCancelSpecific.IndicateFocus = False
         Me.wifibtnCancelSpecific.Location = New System.Drawing.Point(106, 626)
         Me.wifibtnCancelSpecific.Name = "wifibtnCancelSpecific"
-        StateProperties171.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties171.BorderRadius = 40
-        StateProperties171.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties171.BorderThickness = 3
-        StateProperties171.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties171.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties171.IconLeftImage = Nothing
-        StateProperties171.IconRightImage = Nothing
-        Me.wifibtnCancelSpecific.onHoverState = StateProperties171
-        StateProperties172.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties172.BorderRadius = 40
-        StateProperties172.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties172.BorderThickness = 3
-        StateProperties172.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties172.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties172.IconLeftImage = Nothing
-        StateProperties172.IconRightImage = Nothing
-        Me.wifibtnCancelSpecific.OnPressedState = StateProperties172
+        StateProperties21.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties21.BorderRadius = 40
+        StateProperties21.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties21.BorderThickness = 3
+        StateProperties21.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties21.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties21.IconLeftImage = Nothing
+        StateProperties21.IconRightImage = Nothing
+        Me.wifibtnCancelSpecific.onHoverState = StateProperties21
+        StateProperties22.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties22.BorderRadius = 40
+        StateProperties22.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties22.BorderThickness = 3
+        StateProperties22.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties22.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties22.IconLeftImage = Nothing
+        StateProperties22.IconRightImage = Nothing
+        Me.wifibtnCancelSpecific.OnPressedState = StateProperties22
         Me.wifibtnCancelSpecific.Size = New System.Drawing.Size(168, 59)
         Me.wifibtnCancelSpecific.TabIndex = 64
         Me.wifibtnCancelSpecific.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -2948,7 +2948,7 @@ Partial Class formMain
         'wifilblError
         '
         Me.Guna2Transition1.SetDecoration(Me.wifilblError, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.wifilblError.Font = New System.Drawing.Font("Comic Sans MS", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.wifilblError.Font = New System.Drawing.Font("Segoe UI", 14.0!)
         Me.wifilblError.ForeColor = System.Drawing.Color.Red
         Me.wifilblError.Location = New System.Drawing.Point(62, 212)
         Me.wifilblError.Name = "wifilblError"
@@ -2962,10 +2962,10 @@ Partial Class formMain
         '
         Me.wifilblAllpages.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.wifilblAllpages, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.wifilblAllpages.Font = New System.Drawing.Font("Comic Sans MS", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.wifilblAllpages.Font = New System.Drawing.Font("Segoe UI Semibold", 20.0!)
         Me.wifilblAllpages.Location = New System.Drawing.Point(294, 23)
         Me.wifilblAllpages.Name = "wifilblAllpages"
-        Me.wifilblAllpages.Size = New System.Drawing.Size(130, 38)
+        Me.wifilblAllpages.Size = New System.Drawing.Size(124, 37)
         Me.wifilblAllpages.TabIndex = 42
         Me.wifilblAllpages.Text = "All slides"
         Me.wifilblAllpages.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -2986,10 +2986,10 @@ Partial Class formMain
         '
         Me.Label89.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label89, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label89.Font = New System.Drawing.Font("Comic Sans MS", 21.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label89.Font = New System.Drawing.Font("Segoe UI Black", 20.0!)
         Me.Label89.Location = New System.Drawing.Point(26, 22)
         Me.Label89.Name = "Label89"
-        Me.Label89.Size = New System.Drawing.Size(226, 39)
+        Me.Label89.Size = New System.Drawing.Size(211, 37)
         Me.Label89.TabIndex = 40
         Me.Label89.Text = "Slides to print:"
         '
@@ -3007,18 +3007,18 @@ Partial Class formMain
         Me.wifibtnOkay.ColorContrastOnClick = 45
         Me.wifibtnOkay.ColorContrastOnHover = 45
         Me.wifibtnOkay.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges49.BottomLeft = True
-        BorderEdges49.BottomRight = True
-        BorderEdges49.TopLeft = True
-        BorderEdges49.TopRight = True
-        Me.wifibtnOkay.CustomizableEdges = BorderEdges49
+        BorderEdges6.BottomLeft = True
+        BorderEdges6.BottomRight = True
+        BorderEdges6.TopLeft = True
+        BorderEdges6.TopRight = True
+        Me.wifibtnOkay.CustomizableEdges = BorderEdges6
         Me.Guna2Transition1.SetDecoration(Me.wifibtnOkay, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.wifibtnOkay.DialogResult = System.Windows.Forms.DialogResult.None
         Me.wifibtnOkay.DisabledBorderColor = System.Drawing.Color.Empty
         Me.wifibtnOkay.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
         Me.wifibtnOkay.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
         Me.wifibtnOkay.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Idle
-        Me.wifibtnOkay.Font = New System.Drawing.Font("Comic Sans MS", 21.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.wifibtnOkay.Font = New System.Drawing.Font("Segoe UI Semibold", 20.0!)
         Me.wifibtnOkay.ForeColor = System.Drawing.Color.Lime
         Me.wifibtnOkay.IconLeftCursor = System.Windows.Forms.Cursors.Hand
         Me.wifibtnOkay.IconMarginLeft = 30
@@ -3033,24 +3033,24 @@ Partial Class formMain
         Me.wifibtnOkay.IndicateFocus = False
         Me.wifibtnOkay.Location = New System.Drawing.Point(313, 626)
         Me.wifibtnOkay.Name = "wifibtnOkay"
-        StateProperties173.BorderColor = System.Drawing.Color.Lime
-        StateProperties173.BorderRadius = 40
-        StateProperties173.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties173.BorderThickness = 3
-        StateProperties173.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties173.ForeColor = System.Drawing.Color.Lime
-        StateProperties173.IconLeftImage = Nothing
-        StateProperties173.IconRightImage = Nothing
-        Me.wifibtnOkay.onHoverState = StateProperties173
-        StateProperties174.BorderColor = System.Drawing.Color.Lime
-        StateProperties174.BorderRadius = 40
-        StateProperties174.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties174.BorderThickness = 3
-        StateProperties174.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties174.ForeColor = System.Drawing.Color.Lime
-        StateProperties174.IconLeftImage = Nothing
-        StateProperties174.IconRightImage = Nothing
-        Me.wifibtnOkay.OnPressedState = StateProperties174
+        StateProperties23.BorderColor = System.Drawing.Color.Lime
+        StateProperties23.BorderRadius = 40
+        StateProperties23.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties23.BorderThickness = 3
+        StateProperties23.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties23.ForeColor = System.Drawing.Color.Lime
+        StateProperties23.IconLeftImage = Nothing
+        StateProperties23.IconRightImage = Nothing
+        Me.wifibtnOkay.onHoverState = StateProperties23
+        StateProperties24.BorderColor = System.Drawing.Color.Lime
+        StateProperties24.BorderRadius = 40
+        StateProperties24.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties24.BorderThickness = 3
+        StateProperties24.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties24.ForeColor = System.Drawing.Color.Lime
+        StateProperties24.IconLeftImage = Nothing
+        StateProperties24.IconRightImage = Nothing
+        Me.wifibtnOkay.OnPressedState = StateProperties24
         Me.wifibtnOkay.Size = New System.Drawing.Size(168, 59)
         Me.wifibtnOkay.TabIndex = 50
         Me.wifibtnOkay.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -3062,7 +3062,7 @@ Partial Class formMain
         Me.mainFormDateW.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.mainFormDateW.BackColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Guna2Transition1.SetDecoration(Me.mainFormDateW, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.mainFormDateW.Font = New System.Drawing.Font("Comic Sans MS", 21.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.mainFormDateW.Font = New System.Drawing.Font("Segoe UI Semibold", 20.0!)
         Me.mainFormDateW.ForeColor = System.Drawing.Color.White
         Me.mainFormDateW.Location = New System.Drawing.Point(774, 71)
         Me.mainFormDateW.Name = "mainFormDateW"
@@ -3146,18 +3146,18 @@ Partial Class formMain
         Me.wifibtnCancel.ColorContrastOnClick = 45
         Me.wifibtnCancel.ColorContrastOnHover = 45
         Me.wifibtnCancel.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges50.BottomLeft = True
-        BorderEdges50.BottomRight = True
-        BorderEdges50.TopLeft = True
-        BorderEdges50.TopRight = True
-        Me.wifibtnCancel.CustomizableEdges = BorderEdges50
+        BorderEdges7.BottomLeft = True
+        BorderEdges7.BottomRight = True
+        BorderEdges7.TopLeft = True
+        BorderEdges7.TopRight = True
+        Me.wifibtnCancel.CustomizableEdges = BorderEdges7
         Me.Guna2Transition1.SetDecoration(Me.wifibtnCancel, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.wifibtnCancel.DialogResult = System.Windows.Forms.DialogResult.None
         Me.wifibtnCancel.DisabledBorderColor = System.Drawing.Color.Empty
         Me.wifibtnCancel.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
         Me.wifibtnCancel.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
         Me.wifibtnCancel.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Idle
-        Me.wifibtnCancel.Font = New System.Drawing.Font("Comic Sans MS", 21.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.wifibtnCancel.Font = New System.Drawing.Font("Segoe UI Semibold", 20.0!)
         Me.wifibtnCancel.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.wifibtnCancel.IconLeftCursor = System.Windows.Forms.Cursors.Hand
         Me.wifibtnCancel.IconMarginLeft = 30
@@ -3172,24 +3172,24 @@ Partial Class formMain
         Me.wifibtnCancel.IndicateFocus = False
         Me.wifibtnCancel.Location = New System.Drawing.Point(502, 691)
         Me.wifibtnCancel.Name = "wifibtnCancel"
-        StateProperties175.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties175.BorderRadius = 40
-        StateProperties175.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties175.BorderThickness = 3
-        StateProperties175.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties175.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties175.IconLeftImage = Nothing
-        StateProperties175.IconRightImage = Nothing
-        Me.wifibtnCancel.onHoverState = StateProperties175
-        StateProperties176.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties176.BorderRadius = 40
-        StateProperties176.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties176.BorderThickness = 3
-        StateProperties176.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties176.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties176.IconLeftImage = Nothing
-        StateProperties176.IconRightImage = Nothing
-        Me.wifibtnCancel.OnPressedState = StateProperties176
+        StateProperties25.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties25.BorderRadius = 40
+        StateProperties25.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties25.BorderThickness = 3
+        StateProperties25.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties25.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties25.IconLeftImage = Nothing
+        StateProperties25.IconRightImage = Nothing
+        Me.wifibtnCancel.onHoverState = StateProperties25
+        StateProperties26.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties26.BorderRadius = 40
+        StateProperties26.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties26.BorderThickness = 3
+        StateProperties26.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties26.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties26.IconLeftImage = Nothing
+        StateProperties26.IconRightImage = Nothing
+        Me.wifibtnCancel.OnPressedState = StateProperties26
         Me.wifibtnCancel.Size = New System.Drawing.Size(263, 64)
         Me.wifibtnCancel.TabIndex = 39
         Me.wifibtnCancel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -3213,7 +3213,7 @@ Partial Class formMain
         'Label77
         '
         Me.Guna2Transition1.SetDecoration(Me.Label77, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label77.Font = New System.Drawing.Font("Comic Sans MS", 17.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label77.Font = New System.Drawing.Font("Segoe UI Semibold", 17.0!)
         Me.Label77.Location = New System.Drawing.Point(895, 390)
         Me.Label77.Name = "Label77"
         Me.Label77.Size = New System.Drawing.Size(185, 32)
@@ -3224,7 +3224,7 @@ Partial Class formMain
         'Label78
         '
         Me.Guna2Transition1.SetDecoration(Me.Label78, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label78.Font = New System.Drawing.Font("Comic Sans MS", 17.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label78.Font = New System.Drawing.Font("Segoe UI Semibold", 17.0!)
         Me.Label78.Location = New System.Drawing.Point(660, 390)
         Me.Label78.Name = "Label78"
         Me.Label78.Size = New System.Drawing.Size(185, 32)
@@ -3235,7 +3235,7 @@ Partial Class formMain
         'Label79
         '
         Me.Guna2Transition1.SetDecoration(Me.Label79, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label79.Font = New System.Drawing.Font("Comic Sans MS", 17.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label79.Font = New System.Drawing.Font("Segoe UI Semibold", 17.0!)
         Me.Label79.Location = New System.Drawing.Point(425, 390)
         Me.Label79.Name = "Label79"
         Me.Label79.Size = New System.Drawing.Size(185, 32)
@@ -3246,7 +3246,7 @@ Partial Class formMain
         'Label80
         '
         Me.Guna2Transition1.SetDecoration(Me.Label80, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label80.Font = New System.Drawing.Font("Comic Sans MS", 17.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label80.Font = New System.Drawing.Font("Segoe UI Semibold", 17.0!)
         Me.Label80.Location = New System.Drawing.Point(190, 390)
         Me.Label80.Name = "Label80"
         Me.Label80.Size = New System.Drawing.Size(185, 32)
@@ -3257,7 +3257,7 @@ Partial Class formMain
         'Label81
         '
         Me.Guna2Transition1.SetDecoration(Me.Label81, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label81.Font = New System.Drawing.Font("Comic Sans MS", 17.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label81.Font = New System.Drawing.Font("Segoe UI Semibold", 17.0!)
         Me.Label81.Location = New System.Drawing.Point(1038, 103)
         Me.Label81.Name = "Label81"
         Me.Label81.Size = New System.Drawing.Size(208, 32)
@@ -3268,7 +3268,7 @@ Partial Class formMain
         'Label82
         '
         Me.Guna2Transition1.SetDecoration(Me.Label82, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label82.Font = New System.Drawing.Font("Comic Sans MS", 17.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label82.Font = New System.Drawing.Font("Segoe UI Semibold", 17.0!)
         Me.Label82.Location = New System.Drawing.Point(803, 103)
         Me.Label82.Name = "Label82"
         Me.Label82.Size = New System.Drawing.Size(185, 32)
@@ -3279,7 +3279,7 @@ Partial Class formMain
         'Label83
         '
         Me.Guna2Transition1.SetDecoration(Me.Label83, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label83.Font = New System.Drawing.Font("Comic Sans MS", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label83.Font = New System.Drawing.Font("Segoe UI Semibold", 17.0!)
         Me.Label83.Location = New System.Drawing.Point(568, 103)
         Me.Label83.Name = "Label83"
         Me.Label83.Size = New System.Drawing.Size(185, 32)
@@ -3290,7 +3290,7 @@ Partial Class formMain
         'Label84
         '
         Me.Guna2Transition1.SetDecoration(Me.Label84, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label84.Font = New System.Drawing.Font("Comic Sans MS", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label84.Font = New System.Drawing.Font("Segoe UI Semibold", 17.0!)
         Me.Label84.Location = New System.Drawing.Point(333, 103)
         Me.Label84.Name = "Label84"
         Me.Label84.Size = New System.Drawing.Size(185, 32)
@@ -3301,7 +3301,7 @@ Partial Class formMain
         'Label85
         '
         Me.Guna2Transition1.SetDecoration(Me.Label85, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label85.Font = New System.Drawing.Font("Comic Sans MS", 18.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label85.Font = New System.Drawing.Font("Segoe UI Semibold", 18.0!)
         Me.Label85.Location = New System.Drawing.Point(43, 98)
         Me.Label85.Name = "Label85"
         Me.Label85.Size = New System.Drawing.Size(240, 41)
@@ -3610,7 +3610,7 @@ Partial Class formMain
         '
         Me.Guna2Transition1.SetDecoration(Me.Label86, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.Label86.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Label86.Font = New System.Drawing.Font("Comic Sans MS", 21.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label86.Font = New System.Drawing.Font("Segoe UI Semibold", 20.0!)
         Me.Label86.ForeColor = System.Drawing.Color.Black
         Me.Label86.Location = New System.Drawing.Point(0, 0)
         Me.Label86.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
@@ -3709,18 +3709,18 @@ Partial Class formMain
         Me.wifiBunifuButton1.ColorContrastOnClick = 45
         Me.wifiBunifuButton1.ColorContrastOnHover = 45
         Me.wifiBunifuButton1.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges51.BottomLeft = True
-        BorderEdges51.BottomRight = True
-        BorderEdges51.TopLeft = True
-        BorderEdges51.TopRight = True
-        Me.wifiBunifuButton1.CustomizableEdges = BorderEdges51
+        BorderEdges8.BottomLeft = True
+        BorderEdges8.BottomRight = True
+        BorderEdges8.TopLeft = True
+        BorderEdges8.TopRight = True
+        Me.wifiBunifuButton1.CustomizableEdges = BorderEdges8
         Me.Guna2Transition1.SetDecoration(Me.wifiBunifuButton1, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.wifiBunifuButton1.DialogResult = System.Windows.Forms.DialogResult.None
         Me.wifiBunifuButton1.DisabledBorderColor = System.Drawing.Color.Empty
         Me.wifiBunifuButton1.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
         Me.wifiBunifuButton1.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
         Me.wifiBunifuButton1.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Idle
-        Me.wifiBunifuButton1.Font = New System.Drawing.Font("Comic Sans MS", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.wifiBunifuButton1.Font = New System.Drawing.Font("Segoe UI Semibold", 18.0!)
         Me.wifiBunifuButton1.ForeColor = System.Drawing.Color.Red
         Me.wifiBunifuButton1.IconLeftCursor = System.Windows.Forms.Cursors.Hand
         Me.wifiBunifuButton1.IconMarginLeft = 30
@@ -3735,24 +3735,24 @@ Partial Class formMain
         Me.wifiBunifuButton1.IndicateFocus = False
         Me.wifiBunifuButton1.Location = New System.Drawing.Point(88, 136)
         Me.wifiBunifuButton1.Name = "wifiBunifuButton1"
-        StateProperties177.BorderColor = System.Drawing.Color.Red
-        StateProperties177.BorderRadius = 40
-        StateProperties177.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties177.BorderThickness = 3
-        StateProperties177.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties177.ForeColor = System.Drawing.Color.Red
-        StateProperties177.IconLeftImage = Nothing
-        StateProperties177.IconRightImage = Nothing
-        Me.wifiBunifuButton1.onHoverState = StateProperties177
-        StateProperties178.BorderColor = System.Drawing.Color.Red
-        StateProperties178.BorderRadius = 40
-        StateProperties178.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties178.BorderThickness = 3
-        StateProperties178.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties178.ForeColor = System.Drawing.Color.Red
-        StateProperties178.IconLeftImage = Nothing
-        StateProperties178.IconRightImage = Nothing
-        Me.wifiBunifuButton1.OnPressedState = StateProperties178
+        StateProperties27.BorderColor = System.Drawing.Color.Red
+        StateProperties27.BorderRadius = 40
+        StateProperties27.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties27.BorderThickness = 3
+        StateProperties27.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties27.ForeColor = System.Drawing.Color.Red
+        StateProperties27.IconLeftImage = Nothing
+        StateProperties27.IconRightImage = Nothing
+        Me.wifiBunifuButton1.onHoverState = StateProperties27
+        StateProperties28.BorderColor = System.Drawing.Color.Red
+        StateProperties28.BorderRadius = 40
+        StateProperties28.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties28.BorderThickness = 3
+        StateProperties28.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties28.ForeColor = System.Drawing.Color.Red
+        StateProperties28.IconLeftImage = Nothing
+        StateProperties28.IconRightImage = Nothing
+        Me.wifiBunifuButton1.OnPressedState = StateProperties28
         Me.wifiBunifuButton1.Size = New System.Drawing.Size(194, 59)
         Me.wifiBunifuButton1.TabIndex = 40
         Me.wifiBunifuButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -3774,18 +3774,18 @@ Partial Class formMain
         Me.wifibtnYes.ColorContrastOnClick = 45
         Me.wifibtnYes.ColorContrastOnHover = 45
         Me.wifibtnYes.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges52.BottomLeft = True
-        BorderEdges52.BottomRight = True
-        BorderEdges52.TopLeft = True
-        BorderEdges52.TopRight = True
-        Me.wifibtnYes.CustomizableEdges = BorderEdges52
+        BorderEdges9.BottomLeft = True
+        BorderEdges9.BottomRight = True
+        BorderEdges9.TopLeft = True
+        BorderEdges9.TopRight = True
+        Me.wifibtnYes.CustomizableEdges = BorderEdges9
         Me.Guna2Transition1.SetDecoration(Me.wifibtnYes, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.wifibtnYes.DialogResult = System.Windows.Forms.DialogResult.None
         Me.wifibtnYes.DisabledBorderColor = System.Drawing.Color.Empty
         Me.wifibtnYes.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
         Me.wifibtnYes.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
         Me.wifibtnYes.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Idle
-        Me.wifibtnYes.Font = New System.Drawing.Font("Comic Sans MS", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.wifibtnYes.Font = New System.Drawing.Font("Segoe UI Semibold", 18.0!)
         Me.wifibtnYes.ForeColor = System.Drawing.Color.Lime
         Me.wifibtnYes.IconLeftCursor = System.Windows.Forms.Cursors.Hand
         Me.wifibtnYes.IconMarginLeft = 30
@@ -3800,24 +3800,24 @@ Partial Class formMain
         Me.wifibtnYes.IndicateFocus = False
         Me.wifibtnYes.Location = New System.Drawing.Point(318, 135)
         Me.wifibtnYes.Name = "wifibtnYes"
-        StateProperties179.BorderColor = System.Drawing.Color.Lime
-        StateProperties179.BorderRadius = 40
-        StateProperties179.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties179.BorderThickness = 3
-        StateProperties179.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties179.ForeColor = System.Drawing.Color.Lime
-        StateProperties179.IconLeftImage = Nothing
-        StateProperties179.IconRightImage = Nothing
-        Me.wifibtnYes.onHoverState = StateProperties179
-        StateProperties180.BorderColor = System.Drawing.Color.Lime
-        StateProperties180.BorderRadius = 40
-        StateProperties180.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties180.BorderThickness = 3
-        StateProperties180.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties180.ForeColor = System.Drawing.Color.Lime
-        StateProperties180.IconLeftImage = Nothing
-        StateProperties180.IconRightImage = Nothing
-        Me.wifibtnYes.OnPressedState = StateProperties180
+        StateProperties29.BorderColor = System.Drawing.Color.Lime
+        StateProperties29.BorderRadius = 40
+        StateProperties29.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties29.BorderThickness = 3
+        StateProperties29.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties29.ForeColor = System.Drawing.Color.Lime
+        StateProperties29.IconLeftImage = Nothing
+        StateProperties29.IconRightImage = Nothing
+        Me.wifibtnYes.onHoverState = StateProperties29
+        StateProperties30.BorderColor = System.Drawing.Color.Lime
+        StateProperties30.BorderRadius = 40
+        StateProperties30.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties30.BorderThickness = 3
+        StateProperties30.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties30.ForeColor = System.Drawing.Color.Lime
+        StateProperties30.IconLeftImage = Nothing
+        StateProperties30.IconRightImage = Nothing
+        Me.wifibtnYes.OnPressedState = StateProperties30
         Me.wifibtnYes.Size = New System.Drawing.Size(194, 59)
         Me.wifibtnYes.TabIndex = 39
         Me.wifibtnYes.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -3828,11 +3828,11 @@ Partial Class formMain
         '
         Me.Label5.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label5, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label5.Font = New System.Drawing.Font("Comic Sans MS", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Font = New System.Drawing.Font("Segoe UI Semibold", 20.0!)
         Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Label5.Location = New System.Drawing.Point(123, 72)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(377, 38)
+        Me.Label5.Size = New System.Drawing.Size(354, 37)
         Me.Label5.TabIndex = 18
         Me.Label5.Text = "All sent files will be deleted."
         '
@@ -3840,11 +3840,11 @@ Partial Class formMain
         '
         Me.Label4.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label4, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label4.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Font = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Label4.Location = New System.Drawing.Point(24, 23)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(546, 46)
+        Me.Label4.Size = New System.Drawing.Size(552, 46)
         Me.Label4.TabIndex = 17
         Me.Label4.Text = "Are you sure you want to go back?"
         '
@@ -3889,7 +3889,7 @@ Partial Class formMain
         '
         Me.Guna2Transition1.SetDecoration(Me.Label2, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.Label2.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Label2.Font = New System.Drawing.Font("Comic Sans MS", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Segoe UI Semibold", 20.0!)
         Me.Label2.ForeColor = System.Drawing.Color.Black
         Me.Label2.Location = New System.Drawing.Point(0, 103)
         Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
@@ -3928,11 +3928,11 @@ Partial Class formMain
         '
         Me.wifilblNoFiles.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.wifilblNoFiles, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.wifilblNoFiles.Font = New System.Drawing.Font("Comic Sans MS", 30.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.wifilblNoFiles.Font = New System.Drawing.Font("Segoe UI Semibold", 30.0!)
         Me.wifilblNoFiles.ForeColor = System.Drawing.Color.Black
         Me.wifilblNoFiles.Location = New System.Drawing.Point(473, 389)
         Me.wifilblNoFiles.Name = "wifilblNoFiles"
-        Me.wifilblNoFiles.Size = New System.Drawing.Size(354, 56)
+        Me.wifilblNoFiles.Size = New System.Drawing.Size(333, 54)
         Me.wifilblNoFiles.TabIndex = 16
         Me.wifilblNoFiles.Text = "No files received."
         Me.wifilblNoFiles.Visible = False
@@ -3953,7 +3953,7 @@ Partial Class formMain
         '
         Me.wifilblWebsite.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Guna2Transition1.SetDecoration(Me.wifilblWebsite, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.wifilblWebsite.Font = New System.Drawing.Font("Comic Sans MS", 23.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.wifilblWebsite.Font = New System.Drawing.Font("Segoe UI Semibold", 23.0!)
         Me.wifilblWebsite.ForeColor = System.Drawing.Color.White
         Me.wifilblWebsite.Location = New System.Drawing.Point(64, 802)
         Me.wifilblWebsite.Name = "wifilblWebsite"
@@ -3967,11 +3967,11 @@ Partial Class formMain
         Me.wifiLabel1.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.wifiLabel1.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.wifiLabel1, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.wifiLabel1.Font = New System.Drawing.Font("Comic Sans MS", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.wifiLabel1.Font = New System.Drawing.Font("Segoe UI Semibold", 30.0!)
         Me.wifiLabel1.ForeColor = System.Drawing.Color.White
         Me.wifiLabel1.Location = New System.Drawing.Point(228, 748)
         Me.wifiLabel1.Name = "wifiLabel1"
-        Me.wifiLabel1.Size = New System.Drawing.Size(173, 55)
+        Me.wifiLabel1.Size = New System.Drawing.Size(158, 54)
         Me.wifiLabel1.TabIndex = 37
         Me.wifiLabel1.Text = "Scan qr"
         '
@@ -4102,7 +4102,7 @@ Partial Class formMain
         Me.mainFormDateS.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.mainFormDateS.BackColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Guna2Transition1.SetDecoration(Me.mainFormDateS, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.mainFormDateS.Font = New System.Drawing.Font("Comic Sans MS", 21.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.mainFormDateS.Font = New System.Drawing.Font("Segoe UI Semibold", 20.0!)
         Me.mainFormDateS.ForeColor = System.Drawing.Color.White
         Me.mainFormDateS.Location = New System.Drawing.Point(776, 71)
         Me.mainFormDateS.Name = "mainFormDateS"
@@ -4117,7 +4117,7 @@ Partial Class formMain
         Me.scanPanelScanning.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
         Me.scanPanelScanning.Controls.Add(Me.scanPanelScanning1)
         Me.Guna2Transition1.SetDecoration(Me.scanPanelScanning, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.scanPanelScanning.Location = New System.Drawing.Point(708, 461)
+        Me.scanPanelScanning.Location = New System.Drawing.Point(989, 733)
         Me.scanPanelScanning.Name = "scanPanelScanning"
         Me.scanPanelScanning.Size = New System.Drawing.Size(501, 179)
         Me.scanPanelScanning.TabIndex = 47
@@ -4139,7 +4139,7 @@ Partial Class formMain
         'Label92
         '
         Me.Guna2Transition1.SetDecoration(Me.Label92, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label92.Font = New System.Drawing.Font("Comic Sans MS", 39.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label92.Font = New System.Drawing.Font("Segoe UI Black", 40.0!)
         Me.Label92.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Label92.Location = New System.Drawing.Point(65, 46)
         Me.Label92.Name = "Label92"
@@ -4154,6 +4154,7 @@ Partial Class formMain
         Me.scanpanelConfirmation.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
         Me.scanpanelConfirmation.Controls.Add(Me.scanPanel200)
         Me.Guna2Transition1.SetDecoration(Me.scanpanelConfirmation, Guna.UI2.AnimatorNS.DecorationType.None)
+        Me.scanpanelConfirmation.Font = New System.Drawing.Font("Dubai", 8.25!)
         Me.scanpanelConfirmation.Location = New System.Drawing.Point(632, 426)
         Me.scanpanelConfirmation.Name = "scanpanelConfirmation"
         Me.scanpanelConfirmation.Size = New System.Drawing.Size(652, 248)
@@ -4192,16 +4193,17 @@ Partial Class formMain
         Me.GunaWinCircleProgressIndicator1.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.GunaWinCircleProgressIndicator1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.Guna2Transition1.SetDecoration(Me.GunaWinCircleProgressIndicator1, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.GunaWinCircleProgressIndicator1.Location = New System.Drawing.Point(261, 115)
+        Me.GunaWinCircleProgressIndicator1.Location = New System.Drawing.Point(261, 159)
+        Me.GunaWinCircleProgressIndicator1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.GunaWinCircleProgressIndicator1.Name = "GunaWinCircleProgressIndicator1"
         Me.GunaWinCircleProgressIndicator1.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.GunaWinCircleProgressIndicator1.Size = New System.Drawing.Size(79, 73)
+        Me.GunaWinCircleProgressIndicator1.Size = New System.Drawing.Size(79, 101)
         Me.GunaWinCircleProgressIndicator1.TabIndex = 46
         '
         'scanlblstatus
         '
         Me.Guna2Transition1.SetDecoration(Me.scanlblstatus, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.scanlblstatus.Font = New System.Drawing.Font("Comic Sans MS", 39.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.scanlblstatus.Font = New System.Drawing.Font("Segoe UI Black", 40.0!)
         Me.scanlblstatus.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.scanlblstatus.Location = New System.Drawing.Point(27, 32)
         Me.scanlblstatus.Name = "scanlblstatus"
@@ -4225,18 +4227,18 @@ Partial Class formMain
         Me.scanbtnConfirmNo.ColorContrastOnClick = 45
         Me.scanbtnConfirmNo.ColorContrastOnHover = 45
         Me.scanbtnConfirmNo.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges53.BottomLeft = True
-        BorderEdges53.BottomRight = True
-        BorderEdges53.TopLeft = True
-        BorderEdges53.TopRight = True
-        Me.scanbtnConfirmNo.CustomizableEdges = BorderEdges53
+        BorderEdges10.BottomLeft = True
+        BorderEdges10.BottomRight = True
+        BorderEdges10.TopLeft = True
+        BorderEdges10.TopRight = True
+        Me.scanbtnConfirmNo.CustomizableEdges = BorderEdges10
         Me.Guna2Transition1.SetDecoration(Me.scanbtnConfirmNo, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.scanbtnConfirmNo.DialogResult = System.Windows.Forms.DialogResult.None
         Me.scanbtnConfirmNo.DisabledBorderColor = System.Drawing.Color.Empty
         Me.scanbtnConfirmNo.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
         Me.scanbtnConfirmNo.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
         Me.scanbtnConfirmNo.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Idle
-        Me.scanbtnConfirmNo.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.scanbtnConfirmNo.Font = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.scanbtnConfirmNo.ForeColor = System.Drawing.Color.Red
         Me.scanbtnConfirmNo.IconLeftCursor = System.Windows.Forms.Cursors.Hand
         Me.scanbtnConfirmNo.IconMarginLeft = 30
@@ -4251,24 +4253,24 @@ Partial Class formMain
         Me.scanbtnConfirmNo.IndicateFocus = False
         Me.scanbtnConfirmNo.Location = New System.Drawing.Point(75, 128)
         Me.scanbtnConfirmNo.Name = "scanbtnConfirmNo"
-        StateProperties181.BorderColor = System.Drawing.Color.Red
-        StateProperties181.BorderRadius = 40
-        StateProperties181.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties181.BorderThickness = 3
-        StateProperties181.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties181.ForeColor = System.Drawing.Color.Red
-        StateProperties181.IconLeftImage = Nothing
-        StateProperties181.IconRightImage = Nothing
-        Me.scanbtnConfirmNo.onHoverState = StateProperties181
-        StateProperties182.BorderColor = System.Drawing.Color.Red
-        StateProperties182.BorderRadius = 40
-        StateProperties182.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties182.BorderThickness = 3
-        StateProperties182.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties182.ForeColor = System.Drawing.Color.Red
-        StateProperties182.IconLeftImage = Nothing
-        StateProperties182.IconRightImage = Nothing
-        Me.scanbtnConfirmNo.OnPressedState = StateProperties182
+        StateProperties31.BorderColor = System.Drawing.Color.Red
+        StateProperties31.BorderRadius = 40
+        StateProperties31.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties31.BorderThickness = 3
+        StateProperties31.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties31.ForeColor = System.Drawing.Color.Red
+        StateProperties31.IconLeftImage = Nothing
+        StateProperties31.IconRightImage = Nothing
+        Me.scanbtnConfirmNo.onHoverState = StateProperties31
+        StateProperties32.BorderColor = System.Drawing.Color.Red
+        StateProperties32.BorderRadius = 40
+        StateProperties32.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties32.BorderThickness = 3
+        StateProperties32.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties32.ForeColor = System.Drawing.Color.Red
+        StateProperties32.IconLeftImage = Nothing
+        StateProperties32.IconRightImage = Nothing
+        Me.scanbtnConfirmNo.OnPressedState = StateProperties32
         Me.scanbtnConfirmNo.Size = New System.Drawing.Size(215, 62)
         Me.scanbtnConfirmNo.TabIndex = 40
         Me.scanbtnConfirmNo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -4290,18 +4292,18 @@ Partial Class formMain
         Me.scanbtnConfirmYes.ColorContrastOnClick = 45
         Me.scanbtnConfirmYes.ColorContrastOnHover = 45
         Me.scanbtnConfirmYes.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges54.BottomLeft = True
-        BorderEdges54.BottomRight = True
-        BorderEdges54.TopLeft = True
-        BorderEdges54.TopRight = True
-        Me.scanbtnConfirmYes.CustomizableEdges = BorderEdges54
+        BorderEdges11.BottomLeft = True
+        BorderEdges11.BottomRight = True
+        BorderEdges11.TopLeft = True
+        BorderEdges11.TopRight = True
+        Me.scanbtnConfirmYes.CustomizableEdges = BorderEdges11
         Me.Guna2Transition1.SetDecoration(Me.scanbtnConfirmYes, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.scanbtnConfirmYes.DialogResult = System.Windows.Forms.DialogResult.None
         Me.scanbtnConfirmYes.DisabledBorderColor = System.Drawing.Color.Empty
         Me.scanbtnConfirmYes.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
         Me.scanbtnConfirmYes.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
         Me.scanbtnConfirmYes.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Idle
-        Me.scanbtnConfirmYes.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.scanbtnConfirmYes.Font = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.scanbtnConfirmYes.ForeColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
         Me.scanbtnConfirmYes.IconLeftCursor = System.Windows.Forms.Cursors.Hand
         Me.scanbtnConfirmYes.IconMarginLeft = 30
@@ -4316,24 +4318,24 @@ Partial Class formMain
         Me.scanbtnConfirmYes.IndicateFocus = False
         Me.scanbtnConfirmYes.Location = New System.Drawing.Point(349, 128)
         Me.scanbtnConfirmYes.Name = "scanbtnConfirmYes"
-        StateProperties183.BorderColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
-        StateProperties183.BorderRadius = 40
-        StateProperties183.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties183.BorderThickness = 3
-        StateProperties183.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties183.ForeColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
-        StateProperties183.IconLeftImage = Nothing
-        StateProperties183.IconRightImage = Nothing
-        Me.scanbtnConfirmYes.onHoverState = StateProperties183
-        StateProperties184.BorderColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
-        StateProperties184.BorderRadius = 40
-        StateProperties184.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties184.BorderThickness = 3
-        StateProperties184.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties184.ForeColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
-        StateProperties184.IconLeftImage = Nothing
-        StateProperties184.IconRightImage = Nothing
-        Me.scanbtnConfirmYes.OnPressedState = StateProperties184
+        StateProperties33.BorderColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
+        StateProperties33.BorderRadius = 40
+        StateProperties33.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties33.BorderThickness = 3
+        StateProperties33.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties33.ForeColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
+        StateProperties33.IconLeftImage = Nothing
+        StateProperties33.IconRightImage = Nothing
+        Me.scanbtnConfirmYes.onHoverState = StateProperties33
+        StateProperties34.BorderColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
+        StateProperties34.BorderRadius = 40
+        StateProperties34.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties34.BorderThickness = 3
+        StateProperties34.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties34.ForeColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
+        StateProperties34.IconLeftImage = Nothing
+        StateProperties34.IconRightImage = Nothing
+        Me.scanbtnConfirmYes.OnPressedState = StateProperties34
         Me.scanbtnConfirmYes.Size = New System.Drawing.Size(215, 62)
         Me.scanbtnConfirmYes.TabIndex = 39
         Me.scanbtnConfirmYes.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -4344,10 +4346,10 @@ Partial Class formMain
         '
         Me.Label6.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label6, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label6.Font = New System.Drawing.Font("Comic Sans MS", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Font = New System.Drawing.Font("Segoe UI Black", 30.0!)
         Me.Label6.Location = New System.Drawing.Point(76, 38)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(508, 55)
+        Me.Label6.Size = New System.Drawing.Size(486, 54)
         Me.Label6.TabIndex = 25
         Me.Label6.Text = "Save File to Flash drive?"
         '
@@ -4393,7 +4395,7 @@ Partial Class formMain
         '
         Me.Guna2Transition1.SetDecoration(Me.scanlbldown, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.scanlbldown.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.scanlbldown.Font = New System.Drawing.Font("Comic Sans MS", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.scanlbldown.Font = New System.Drawing.Font("Segoe UI Semibold", 15.0!)
         Me.scanlbldown.ForeColor = System.Drawing.Color.Red
         Me.scanlbldown.Location = New System.Drawing.Point(0, 177)
         Me.scanlbldown.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
@@ -4435,7 +4437,7 @@ Partial Class formMain
         '
         Me.Guna2Transition1.SetDecoration(Me.scanlblThanksCount, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.scanlblThanksCount.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.scanlblThanksCount.Font = New System.Drawing.Font("Comic Sans MS", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.scanlblThanksCount.Font = New System.Drawing.Font("Segoe UI Semibold", 18.0!)
         Me.scanlblThanksCount.ForeColor = System.Drawing.Color.Red
         Me.scanlblThanksCount.Location = New System.Drawing.Point(0, 221)
         Me.scanlblThanksCount.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
@@ -4448,7 +4450,7 @@ Partial Class formMain
         'Label7
         '
         Me.Guna2Transition1.SetDecoration(Me.Label7, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label7.Font = New System.Drawing.Font("Comic Sans MS", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Font = New System.Drawing.Font("Segoe UI Semibold", 20.0!)
         Me.Label7.Location = New System.Drawing.Point(9, 175)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(586, 44)
@@ -4459,7 +4461,7 @@ Partial Class formMain
         'Label8
         '
         Me.Guna2Transition1.SetDecoration(Me.Label8, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label8.Font = New System.Drawing.Font("Comic Sans MS", 39.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Font = New System.Drawing.Font("Segoe UI Black", 40.0!)
         Me.Label8.Location = New System.Drawing.Point(9, 12)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(586, 144)
@@ -4513,18 +4515,18 @@ Partial Class formMain
         Me.scanbtnSave.ColorContrastOnClick = 45
         Me.scanbtnSave.ColorContrastOnHover = 45
         Me.scanbtnSave.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges55.BottomLeft = True
-        BorderEdges55.BottomRight = True
-        BorderEdges55.TopLeft = True
-        BorderEdges55.TopRight = True
-        Me.scanbtnSave.CustomizableEdges = BorderEdges55
+        BorderEdges12.BottomLeft = True
+        BorderEdges12.BottomRight = True
+        BorderEdges12.TopLeft = True
+        BorderEdges12.TopRight = True
+        Me.scanbtnSave.CustomizableEdges = BorderEdges12
         Me.Guna2Transition1.SetDecoration(Me.scanbtnSave, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.scanbtnSave.DialogResult = System.Windows.Forms.DialogResult.None
         Me.scanbtnSave.DisabledBorderColor = System.Drawing.Color.Empty
         Me.scanbtnSave.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
         Me.scanbtnSave.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
         Me.scanbtnSave.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Idle
-        Me.scanbtnSave.Font = New System.Drawing.Font("Comic Sans MS", 35.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.scanbtnSave.Font = New System.Drawing.Font("Segoe UI Semibold", 35.0!)
         Me.scanbtnSave.ForeColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
         Me.scanbtnSave.IconLeftCursor = System.Windows.Forms.Cursors.Hand
         Me.scanbtnSave.IconMarginLeft = 30
@@ -4539,24 +4541,24 @@ Partial Class formMain
         Me.scanbtnSave.IndicateFocus = False
         Me.scanbtnSave.Location = New System.Drawing.Point(156, 609)
         Me.scanbtnSave.Name = "scanbtnSave"
-        StateProperties185.BorderColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
-        StateProperties185.BorderRadius = 70
-        StateProperties185.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties185.BorderThickness = 3
-        StateProperties185.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties185.ForeColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
-        StateProperties185.IconLeftImage = Global.PrintVendo.My.Resources.Resources.Save
-        StateProperties185.IconRightImage = Nothing
-        Me.scanbtnSave.onHoverState = StateProperties185
-        StateProperties186.BorderColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
-        StateProperties186.BorderRadius = 70
-        StateProperties186.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties186.BorderThickness = 3
-        StateProperties186.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties186.ForeColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
-        StateProperties186.IconLeftImage = Global.PrintVendo.My.Resources.Resources.Save
-        StateProperties186.IconRightImage = Nothing
-        Me.scanbtnSave.OnPressedState = StateProperties186
+        StateProperties35.BorderColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
+        StateProperties35.BorderRadius = 70
+        StateProperties35.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties35.BorderThickness = 3
+        StateProperties35.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties35.ForeColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
+        StateProperties35.IconLeftImage = Global.PrintVendo.My.Resources.Resources.Save
+        StateProperties35.IconRightImage = Nothing
+        Me.scanbtnSave.onHoverState = StateProperties35
+        StateProperties36.BorderColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
+        StateProperties36.BorderRadius = 70
+        StateProperties36.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties36.BorderThickness = 3
+        StateProperties36.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties36.ForeColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
+        StateProperties36.IconLeftImage = Global.PrintVendo.My.Resources.Resources.Save
+        StateProperties36.IconRightImage = Nothing
+        Me.scanbtnSave.OnPressedState = StateProperties36
         Me.scanbtnSave.Size = New System.Drawing.Size(326, 86)
         Me.scanbtnSave.TabIndex = 38
         Me.scanbtnSave.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -4593,7 +4595,7 @@ Partial Class formMain
         '
         Me.Label23.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Guna2Transition1.SetDecoration(Me.Label23, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label23.Font = New System.Drawing.Font("Comic Sans MS", 30.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label23.Font = New System.Drawing.Font("Segoe UI Semibold", 30.0!)
         Me.Label23.ForeColor = System.Drawing.Color.Red
         Me.Label23.Location = New System.Drawing.Point(350, 81)
         Me.Label23.Name = "Label23"
@@ -4606,18 +4608,18 @@ Partial Class formMain
         '
         Me.Label24.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label24, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label24.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label24.Font = New System.Drawing.Font("Segoe UI Black", 25.0!)
         Me.Label24.ForeColor = System.Drawing.Color.Red
         Me.Label24.Location = New System.Drawing.Point(15, 1)
         Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(249, 45)
+        Me.Label24.Size = New System.Drawing.Size(252, 46)
         Me.Label24.TabIndex = 35
         Me.Label24.Text = "Inserted Coin:"
         '
         'scanlblCoins
         '
         Me.Guna2Transition1.SetDecoration(Me.scanlblCoins, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.scanlblCoins.Font = New System.Drawing.Font("Comic Sans MS", 45.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.scanlblCoins.Font = New System.Drawing.Font("Segoe UI Semibold", 45.0!)
         Me.scanlblCoins.ForeColor = System.Drawing.Color.Red
         Me.scanlblCoins.Location = New System.Drawing.Point(10, 47)
         Me.scanlblCoins.Name = "scanlblCoins"
@@ -4656,7 +4658,7 @@ Partial Class formMain
         Me.Label21.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label21.BackColor = System.Drawing.Color.Transparent
         Me.Guna2Transition1.SetDecoration(Me.Label21, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label21.Font = New System.Drawing.Font("Comic Sans MS", 30.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label21.Font = New System.Drawing.Font("Segoe UI Semibold", 30.0!)
         Me.Label21.Location = New System.Drawing.Point(350, 81)
         Me.Label21.Name = "Label21"
         Me.Label21.Size = New System.Drawing.Size(102, 46)
@@ -4667,7 +4669,7 @@ Partial Class formMain
         'scanlblTotalPrice
         '
         Me.Guna2Transition1.SetDecoration(Me.scanlblTotalPrice, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.scanlblTotalPrice.Font = New System.Drawing.Font("Comic Sans MS", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.scanlblTotalPrice.Font = New System.Drawing.Font("Segoe UI Semibold", 48.0!)
         Me.scanlblTotalPrice.Location = New System.Drawing.Point(10, 47)
         Me.scanlblTotalPrice.Name = "scanlblTotalPrice"
         Me.scanlblTotalPrice.Size = New System.Drawing.Size(361, 80)
@@ -4679,17 +4681,17 @@ Partial Class formMain
         '
         Me.Label19.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label19, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label19.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label19.Font = New System.Drawing.Font("Segoe UI Black", 25.0!)
         Me.Label19.Location = New System.Drawing.Point(15, 0)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(142, 45)
+        Me.Label19.Size = New System.Drawing.Size(145, 46)
         Me.Label19.TabIndex = 35
         Me.Label19.Text = "To Pay:"
         '
         'scanlbltotalpage
         '
         Me.Guna2Transition1.SetDecoration(Me.scanlbltotalpage, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.scanlbltotalpage.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.scanlbltotalpage.Font = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.scanlbltotalpage.Location = New System.Drawing.Point(315, 141)
         Me.scanlbltotalpage.Name = "scanlbltotalpage"
         Me.scanlbltotalpage.Size = New System.Drawing.Size(305, 46)
@@ -4700,10 +4702,10 @@ Partial Class formMain
         '
         Me.Label13.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label13, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label13.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label13.Font = New System.Drawing.Font("Segoe UI Black", 25.0!)
         Me.Label13.Location = New System.Drawing.Point(14, 141)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(289, 45)
+        Me.Label13.Size = New System.Drawing.Size(304, 46)
         Me.Label13.TabIndex = 28
         Me.Label13.Text = "Scanned page(s):"
         '
@@ -4711,17 +4713,17 @@ Partial Class formMain
         '
         Me.Label12.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label12, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label12.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.Font = New System.Drawing.Font("Segoe UI Black", 25.0!)
         Me.Label12.Location = New System.Drawing.Point(3, 87)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(304, 45)
+        Me.Label12.Size = New System.Drawing.Size(312, 46)
         Me.Label12.TabIndex = 27
         Me.Label12.Text = "Output file name:"
         '
         'scanlblSFileName
         '
         Me.Guna2Transition1.SetDecoration(Me.scanlblSFileName, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.scanlblSFileName.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.scanlblSFileName.Font = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.scanlblSFileName.Location = New System.Drawing.Point(315, 87)
         Me.scanlblSFileName.Name = "scanlblSFileName"
         Me.scanlblSFileName.Size = New System.Drawing.Size(305, 46)
@@ -4732,10 +4734,10 @@ Partial Class formMain
         '
         Me.Label10.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label10, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label10.Font = New System.Drawing.Font("Comic Sans MS", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Font = New System.Drawing.Font("Segoe UI Black", 30.0!)
         Me.Label10.Location = New System.Drawing.Point(263, 20)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(116, 55)
+        Me.Label10.Size = New System.Drawing.Size(113, 54)
         Me.Label10.TabIndex = 25
         Me.Label10.Text = "Scan"
         '
@@ -4774,18 +4776,18 @@ Partial Class formMain
         Me.scanbtnScan.ColorContrastOnClick = 45
         Me.scanbtnScan.ColorContrastOnHover = 45
         Me.scanbtnScan.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges56.BottomLeft = True
-        BorderEdges56.BottomRight = True
-        BorderEdges56.TopLeft = True
-        BorderEdges56.TopRight = True
-        Me.scanbtnScan.CustomizableEdges = BorderEdges56
+        BorderEdges13.BottomLeft = True
+        BorderEdges13.BottomRight = True
+        BorderEdges13.TopLeft = True
+        BorderEdges13.TopRight = True
+        Me.scanbtnScan.CustomizableEdges = BorderEdges13
         Me.Guna2Transition1.SetDecoration(Me.scanbtnScan, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.scanbtnScan.DialogResult = System.Windows.Forms.DialogResult.None
         Me.scanbtnScan.DisabledBorderColor = System.Drawing.Color.Empty
         Me.scanbtnScan.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
         Me.scanbtnScan.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
         Me.scanbtnScan.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Idle
-        Me.scanbtnScan.Font = New System.Drawing.Font("Comic Sans MS", 35.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.scanbtnScan.Font = New System.Drawing.Font("Segoe UI Semibold", 35.0!)
         Me.scanbtnScan.ForeColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
         Me.scanbtnScan.IconLeftCursor = System.Windows.Forms.Cursors.Hand
         Me.scanbtnScan.IconMarginLeft = 30
@@ -4800,24 +4802,24 @@ Partial Class formMain
         Me.scanbtnScan.IndicateFocus = False
         Me.scanbtnScan.Location = New System.Drawing.Point(1229, 1003)
         Me.scanbtnScan.Name = "scanbtnScan"
-        StateProperties187.BorderColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
-        StateProperties187.BorderRadius = 70
-        StateProperties187.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties187.BorderThickness = 3
-        StateProperties187.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties187.ForeColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
-        StateProperties187.IconLeftImage = Nothing
-        StateProperties187.IconRightImage = Nothing
-        Me.scanbtnScan.onHoverState = StateProperties187
-        StateProperties188.BorderColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
-        StateProperties188.BorderRadius = 70
-        StateProperties188.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties188.BorderThickness = 3
-        StateProperties188.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties188.ForeColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
-        StateProperties188.IconLeftImage = Nothing
-        StateProperties188.IconRightImage = Nothing
-        Me.scanbtnScan.OnPressedState = StateProperties188
+        StateProperties37.BorderColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
+        StateProperties37.BorderRadius = 70
+        StateProperties37.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties37.BorderThickness = 3
+        StateProperties37.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties37.ForeColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
+        StateProperties37.IconLeftImage = Nothing
+        StateProperties37.IconRightImage = Nothing
+        Me.scanbtnScan.onHoverState = StateProperties37
+        StateProperties38.BorderColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
+        StateProperties38.BorderRadius = 70
+        StateProperties38.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties38.BorderThickness = 3
+        StateProperties38.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties38.ForeColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
+        StateProperties38.IconLeftImage = Nothing
+        StateProperties38.IconRightImage = Nothing
+        Me.scanbtnScan.OnPressedState = StateProperties38
         Me.scanbtnScan.Size = New System.Drawing.Size(326, 86)
         Me.scanbtnScan.TabIndex = 45
         Me.scanbtnScan.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -4872,7 +4874,7 @@ Partial Class formMain
         Me.mainFormDateC.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.mainFormDateC.BackColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Guna2Transition1.SetDecoration(Me.mainFormDateC, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.mainFormDateC.Font = New System.Drawing.Font("Comic Sans MS", 21.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.mainFormDateC.Font = New System.Drawing.Font("Segoe UI Semibold", 20.0!)
         Me.mainFormDateC.ForeColor = System.Drawing.Color.White
         Me.mainFormDateC.Location = New System.Drawing.Point(785, 71)
         Me.mainFormDateC.Name = "mainFormDateC"
@@ -4909,7 +4911,7 @@ Partial Class formMain
         'Label90
         '
         Me.Guna2Transition1.SetDecoration(Me.Label90, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label90.Font = New System.Drawing.Font("Comic Sans MS", 39.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label90.Font = New System.Drawing.Font("Segoe UI Black", 40.0!)
         Me.Label90.Location = New System.Drawing.Point(65, 46)
         Me.Label90.Name = "Label90"
         Me.Label90.Size = New System.Drawing.Size(358, 74)
@@ -4959,18 +4961,18 @@ Partial Class formMain
         Me.copybtnConfirmNo.ColorContrastOnClick = 45
         Me.copybtnConfirmNo.ColorContrastOnHover = 45
         Me.copybtnConfirmNo.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges57.BottomLeft = True
-        BorderEdges57.BottomRight = True
-        BorderEdges57.TopLeft = True
-        BorderEdges57.TopRight = True
-        Me.copybtnConfirmNo.CustomizableEdges = BorderEdges57
+        BorderEdges14.BottomLeft = True
+        BorderEdges14.BottomRight = True
+        BorderEdges14.TopLeft = True
+        BorderEdges14.TopRight = True
+        Me.copybtnConfirmNo.CustomizableEdges = BorderEdges14
         Me.Guna2Transition1.SetDecoration(Me.copybtnConfirmNo, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.copybtnConfirmNo.DialogResult = System.Windows.Forms.DialogResult.None
         Me.copybtnConfirmNo.DisabledBorderColor = System.Drawing.Color.Empty
         Me.copybtnConfirmNo.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
         Me.copybtnConfirmNo.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
         Me.copybtnConfirmNo.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Idle
-        Me.copybtnConfirmNo.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.copybtnConfirmNo.Font = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.copybtnConfirmNo.ForeColor = System.Drawing.Color.Red
         Me.copybtnConfirmNo.IconLeftCursor = System.Windows.Forms.Cursors.Hand
         Me.copybtnConfirmNo.IconMarginLeft = 30
@@ -4985,24 +4987,24 @@ Partial Class formMain
         Me.copybtnConfirmNo.IndicateFocus = False
         Me.copybtnConfirmNo.Location = New System.Drawing.Point(75, 128)
         Me.copybtnConfirmNo.Name = "copybtnConfirmNo"
-        StateProperties189.BorderColor = System.Drawing.Color.Red
-        StateProperties189.BorderRadius = 40
-        StateProperties189.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties189.BorderThickness = 3
-        StateProperties189.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties189.ForeColor = System.Drawing.Color.Red
-        StateProperties189.IconLeftImage = Nothing
-        StateProperties189.IconRightImage = Nothing
-        Me.copybtnConfirmNo.onHoverState = StateProperties189
-        StateProperties190.BorderColor = System.Drawing.Color.Red
-        StateProperties190.BorderRadius = 40
-        StateProperties190.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties190.BorderThickness = 3
-        StateProperties190.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties190.ForeColor = System.Drawing.Color.Red
-        StateProperties190.IconLeftImage = Nothing
-        StateProperties190.IconRightImage = Nothing
-        Me.copybtnConfirmNo.OnPressedState = StateProperties190
+        StateProperties39.BorderColor = System.Drawing.Color.Red
+        StateProperties39.BorderRadius = 40
+        StateProperties39.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties39.BorderThickness = 3
+        StateProperties39.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties39.ForeColor = System.Drawing.Color.Red
+        StateProperties39.IconLeftImage = Nothing
+        StateProperties39.IconRightImage = Nothing
+        Me.copybtnConfirmNo.onHoverState = StateProperties39
+        StateProperties40.BorderColor = System.Drawing.Color.Red
+        StateProperties40.BorderRadius = 40
+        StateProperties40.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties40.BorderThickness = 3
+        StateProperties40.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties40.ForeColor = System.Drawing.Color.Red
+        StateProperties40.IconLeftImage = Nothing
+        StateProperties40.IconRightImage = Nothing
+        Me.copybtnConfirmNo.OnPressedState = StateProperties40
         Me.copybtnConfirmNo.Size = New System.Drawing.Size(215, 62)
         Me.copybtnConfirmNo.TabIndex = 40
         Me.copybtnConfirmNo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -5024,18 +5026,18 @@ Partial Class formMain
         Me.copybtnConfirmYes.ColorContrastOnClick = 45
         Me.copybtnConfirmYes.ColorContrastOnHover = 45
         Me.copybtnConfirmYes.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges58.BottomLeft = True
-        BorderEdges58.BottomRight = True
-        BorderEdges58.TopLeft = True
-        BorderEdges58.TopRight = True
-        Me.copybtnConfirmYes.CustomizableEdges = BorderEdges58
+        BorderEdges15.BottomLeft = True
+        BorderEdges15.BottomRight = True
+        BorderEdges15.TopLeft = True
+        BorderEdges15.TopRight = True
+        Me.copybtnConfirmYes.CustomizableEdges = BorderEdges15
         Me.Guna2Transition1.SetDecoration(Me.copybtnConfirmYes, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.copybtnConfirmYes.DialogResult = System.Windows.Forms.DialogResult.None
         Me.copybtnConfirmYes.DisabledBorderColor = System.Drawing.Color.Empty
         Me.copybtnConfirmYes.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
         Me.copybtnConfirmYes.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
         Me.copybtnConfirmYes.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Idle
-        Me.copybtnConfirmYes.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.copybtnConfirmYes.Font = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.copybtnConfirmYes.ForeColor = System.Drawing.Color.Lime
         Me.copybtnConfirmYes.IconLeftCursor = System.Windows.Forms.Cursors.Hand
         Me.copybtnConfirmYes.IconMarginLeft = 30
@@ -5050,24 +5052,24 @@ Partial Class formMain
         Me.copybtnConfirmYes.IndicateFocus = False
         Me.copybtnConfirmYes.Location = New System.Drawing.Point(349, 128)
         Me.copybtnConfirmYes.Name = "copybtnConfirmYes"
-        StateProperties191.BorderColor = System.Drawing.Color.Lime
-        StateProperties191.BorderRadius = 40
-        StateProperties191.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties191.BorderThickness = 3
-        StateProperties191.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties191.ForeColor = System.Drawing.Color.Lime
-        StateProperties191.IconLeftImage = Nothing
-        StateProperties191.IconRightImage = Nothing
-        Me.copybtnConfirmYes.onHoverState = StateProperties191
-        StateProperties192.BorderColor = System.Drawing.Color.Lime
-        StateProperties192.BorderRadius = 40
-        StateProperties192.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties192.BorderThickness = 3
-        StateProperties192.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties192.ForeColor = System.Drawing.Color.Lime
-        StateProperties192.IconLeftImage = Nothing
-        StateProperties192.IconRightImage = Nothing
-        Me.copybtnConfirmYes.OnPressedState = StateProperties192
+        StateProperties41.BorderColor = System.Drawing.Color.Lime
+        StateProperties41.BorderRadius = 40
+        StateProperties41.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties41.BorderThickness = 3
+        StateProperties41.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties41.ForeColor = System.Drawing.Color.Lime
+        StateProperties41.IconLeftImage = Nothing
+        StateProperties41.IconRightImage = Nothing
+        Me.copybtnConfirmYes.onHoverState = StateProperties41
+        StateProperties42.BorderColor = System.Drawing.Color.Lime
+        StateProperties42.BorderRadius = 40
+        StateProperties42.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties42.BorderThickness = 3
+        StateProperties42.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties42.ForeColor = System.Drawing.Color.Lime
+        StateProperties42.IconLeftImage = Nothing
+        StateProperties42.IconRightImage = Nothing
+        Me.copybtnConfirmYes.OnPressedState = StateProperties42
         Me.copybtnConfirmYes.Size = New System.Drawing.Size(215, 62)
         Me.copybtnConfirmYes.TabIndex = 39
         Me.copybtnConfirmYes.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -5078,10 +5080,10 @@ Partial Class formMain
         '
         Me.Label9.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label9, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label9.Font = New System.Drawing.Font("Comic Sans MS", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Font = New System.Drawing.Font("Segoe UI Black", 30.0!)
         Me.Label9.Location = New System.Drawing.Point(33, 38)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(573, 55)
+        Me.Label9.Size = New System.Drawing.Size(573, 54)
         Me.Label9.TabIndex = 25
         Me.Label9.Text = "Proceed to print properties?"
         '
@@ -5117,7 +5119,7 @@ Partial Class formMain
         'copylbltotalpage
         '
         Me.Guna2Transition1.SetDecoration(Me.copylbltotalpage, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.copylbltotalpage.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.copylbltotalpage.Font = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.copylbltotalpage.Location = New System.Drawing.Point(315, 141)
         Me.copylbltotalpage.Name = "copylbltotalpage"
         Me.copylbltotalpage.Size = New System.Drawing.Size(305, 46)
@@ -5128,10 +5130,10 @@ Partial Class formMain
         '
         Me.Label11.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label11, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label11.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Font = New System.Drawing.Font("Segoe UI Black", 25.0!)
         Me.Label11.Location = New System.Drawing.Point(14, 141)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(289, 45)
+        Me.Label11.Size = New System.Drawing.Size(304, 46)
         Me.Label11.TabIndex = 28
         Me.Label11.Text = "Scanned page(s):"
         '
@@ -5139,17 +5141,17 @@ Partial Class formMain
         '
         Me.Label14.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label14, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label14.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label14.Font = New System.Drawing.Font("Segoe UI Black", 25.0!)
         Me.Label14.Location = New System.Drawing.Point(130, 87)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(183, 45)
+        Me.Label14.Size = New System.Drawing.Size(188, 46)
         Me.Label14.TabIndex = 27
         Me.Label14.Text = "File name:"
         '
         'copylblSFileName
         '
         Me.Guna2Transition1.SetDecoration(Me.copylblSFileName, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.copylblSFileName.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.copylblSFileName.Font = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.copylblSFileName.Location = New System.Drawing.Point(315, 87)
         Me.copylblSFileName.Name = "copylblSFileName"
         Me.copylblSFileName.Size = New System.Drawing.Size(305, 46)
@@ -5160,10 +5162,10 @@ Partial Class formMain
         '
         Me.Label15.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label15, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label15.Font = New System.Drawing.Font("Comic Sans MS", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label15.Font = New System.Drawing.Font("Segoe UI Black", 30.0!)
         Me.Label15.Location = New System.Drawing.Point(263, 20)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(113, 55)
+        Me.Label15.Size = New System.Drawing.Size(122, 54)
         Me.Label15.TabIndex = 25
         Me.Label15.Text = "Copy"
         '
@@ -5182,18 +5184,18 @@ Partial Class formMain
         Me.copybtnSave.ColorContrastOnClick = 45
         Me.copybtnSave.ColorContrastOnHover = 45
         Me.copybtnSave.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges59.BottomLeft = True
-        BorderEdges59.BottomRight = True
-        BorderEdges59.TopLeft = True
-        BorderEdges59.TopRight = True
-        Me.copybtnSave.CustomizableEdges = BorderEdges59
+        BorderEdges16.BottomLeft = True
+        BorderEdges16.BottomRight = True
+        BorderEdges16.TopLeft = True
+        BorderEdges16.TopRight = True
+        Me.copybtnSave.CustomizableEdges = BorderEdges16
         Me.Guna2Transition1.SetDecoration(Me.copybtnSave, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.copybtnSave.DialogResult = System.Windows.Forms.DialogResult.None
         Me.copybtnSave.DisabledBorderColor = System.Drawing.Color.Empty
         Me.copybtnSave.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
         Me.copybtnSave.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
         Me.copybtnSave.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Idle
-        Me.copybtnSave.Font = New System.Drawing.Font("Comic Sans MS", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.copybtnSave.Font = New System.Drawing.Font("Segoe UI Semibold", 30.0!)
         Me.copybtnSave.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.copybtnSave.IconLeftCursor = System.Windows.Forms.Cursors.Hand
         Me.copybtnSave.IconMarginLeft = 30
@@ -5208,24 +5210,24 @@ Partial Class formMain
         Me.copybtnSave.IndicateFocus = False
         Me.copybtnSave.Location = New System.Drawing.Point(85, 219)
         Me.copybtnSave.Name = "copybtnSave"
-        StateProperties193.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties193.BorderRadius = 70
-        StateProperties193.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties193.BorderThickness = 3
-        StateProperties193.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties193.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties193.IconLeftImage = Global.PrintVendo.My.Resources.Resources.Copy
-        StateProperties193.IconRightImage = Nothing
-        Me.copybtnSave.onHoverState = StateProperties193
-        StateProperties194.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties194.BorderRadius = 70
-        StateProperties194.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties194.BorderThickness = 3
-        StateProperties194.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties194.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties194.IconLeftImage = Global.PrintVendo.My.Resources.Resources.Copy
-        StateProperties194.IconRightImage = Nothing
-        Me.copybtnSave.OnPressedState = StateProperties194
+        StateProperties43.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties43.BorderRadius = 70
+        StateProperties43.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties43.BorderThickness = 3
+        StateProperties43.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties43.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties43.IconLeftImage = Global.PrintVendo.My.Resources.Resources.Copy
+        StateProperties43.IconRightImage = Nothing
+        Me.copybtnSave.onHoverState = StateProperties43
+        StateProperties44.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties44.BorderRadius = 70
+        StateProperties44.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties44.BorderThickness = 3
+        StateProperties44.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties44.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties44.IconLeftImage = Global.PrintVendo.My.Resources.Resources.Copy
+        StateProperties44.IconRightImage = Nothing
+        Me.copybtnSave.OnPressedState = StateProperties44
         Me.copybtnSave.Size = New System.Drawing.Size(469, 86)
         Me.copybtnSave.TabIndex = 24
         Me.copybtnSave.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -5279,18 +5281,18 @@ Partial Class formMain
         Me.copybtnScan.ColorContrastOnClick = 45
         Me.copybtnScan.ColorContrastOnHover = 45
         Me.copybtnScan.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges60.BottomLeft = True
-        BorderEdges60.BottomRight = True
-        BorderEdges60.TopLeft = True
-        BorderEdges60.TopRight = True
-        Me.copybtnScan.CustomizableEdges = BorderEdges60
+        BorderEdges17.BottomLeft = True
+        BorderEdges17.BottomRight = True
+        BorderEdges17.TopLeft = True
+        BorderEdges17.TopRight = True
+        Me.copybtnScan.CustomizableEdges = BorderEdges17
         Me.Guna2Transition1.SetDecoration(Me.copybtnScan, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.copybtnScan.DialogResult = System.Windows.Forms.DialogResult.None
         Me.copybtnScan.DisabledBorderColor = System.Drawing.Color.Empty
         Me.copybtnScan.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
         Me.copybtnScan.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
         Me.copybtnScan.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Idle
-        Me.copybtnScan.Font = New System.Drawing.Font("Comic Sans MS", 35.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.copybtnScan.Font = New System.Drawing.Font("Segoe UI Semibold", 35.0!)
         Me.copybtnScan.ForeColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
         Me.copybtnScan.IconLeftCursor = System.Windows.Forms.Cursors.Hand
         Me.copybtnScan.IconMarginLeft = 30
@@ -5305,24 +5307,24 @@ Partial Class formMain
         Me.copybtnScan.IndicateFocus = False
         Me.copybtnScan.Location = New System.Drawing.Point(1205, 1043)
         Me.copybtnScan.Name = "copybtnScan"
-        StateProperties195.BorderColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
-        StateProperties195.BorderRadius = 70
-        StateProperties195.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties195.BorderThickness = 3
-        StateProperties195.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties195.ForeColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
-        StateProperties195.IconLeftImage = Nothing
-        StateProperties195.IconRightImage = Nothing
-        Me.copybtnScan.onHoverState = StateProperties195
-        StateProperties196.BorderColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
-        StateProperties196.BorderRadius = 70
-        StateProperties196.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties196.BorderThickness = 3
-        StateProperties196.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties196.ForeColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
-        StateProperties196.IconLeftImage = Nothing
-        StateProperties196.IconRightImage = Nothing
-        Me.copybtnScan.OnPressedState = StateProperties196
+        StateProperties45.BorderColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
+        StateProperties45.BorderRadius = 70
+        StateProperties45.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties45.BorderThickness = 3
+        StateProperties45.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties45.ForeColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
+        StateProperties45.IconLeftImage = Nothing
+        StateProperties45.IconRightImage = Nothing
+        Me.copybtnScan.onHoverState = StateProperties45
+        StateProperties46.BorderColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
+        StateProperties46.BorderRadius = 70
+        StateProperties46.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties46.BorderThickness = 3
+        StateProperties46.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties46.ForeColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
+        StateProperties46.IconLeftImage = Nothing
+        StateProperties46.IconRightImage = Nothing
+        Me.copybtnScan.OnPressedState = StateProperties46
         Me.copybtnScan.Size = New System.Drawing.Size(326, 86)
         Me.copybtnScan.TabIndex = 35
         Me.copybtnScan.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -5399,11 +5401,11 @@ Partial Class formMain
         '
         Me.Label111.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label111, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label111.Font = New System.Drawing.Font("Comic Sans MS", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label111.Font = New System.Drawing.Font("Segoe UI Black", 25.0!)
         Me.Label111.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Label111.Location = New System.Drawing.Point(111, 227)
         Me.Label111.Name = "Label111"
-        Me.Label111.Size = New System.Drawing.Size(444, 135)
+        Me.Label111.Size = New System.Drawing.Size(462, 138)
         Me.Label111.TabIndex = 41
         Me.Label111.Text = "Note: The system is not " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "responsible for any errors " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "in your selection."
         '
@@ -5422,18 +5424,18 @@ Partial Class formMain
         Me.BunifuButton1.ColorContrastOnClick = 45
         Me.BunifuButton1.ColorContrastOnHover = 45
         Me.BunifuButton1.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges61.BottomLeft = True
-        BorderEdges61.BottomRight = True
-        BorderEdges61.TopLeft = True
-        BorderEdges61.TopRight = True
-        Me.BunifuButton1.CustomizableEdges = BorderEdges61
+        BorderEdges18.BottomLeft = True
+        BorderEdges18.BottomRight = True
+        BorderEdges18.TopLeft = True
+        BorderEdges18.TopRight = True
+        Me.BunifuButton1.CustomizableEdges = BorderEdges18
         Me.Guna2Transition1.SetDecoration(Me.BunifuButton1, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.BunifuButton1.DialogResult = System.Windows.Forms.DialogResult.None
         Me.BunifuButton1.DisabledBorderColor = System.Drawing.Color.Empty
         Me.BunifuButton1.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
         Me.BunifuButton1.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
         Me.BunifuButton1.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Idle
-        Me.BunifuButton1.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuButton1.Font = New System.Drawing.Font("Segoe UI Black", 25.0!)
         Me.BunifuButton1.ForeColor = System.Drawing.Color.Red
         Me.BunifuButton1.IconLeftCursor = System.Windows.Forms.Cursors.Hand
         Me.BunifuButton1.IconMarginLeft = 30
@@ -5448,24 +5450,24 @@ Partial Class formMain
         Me.BunifuButton1.IndicateFocus = False
         Me.BunifuButton1.Location = New System.Drawing.Point(74, 405)
         Me.BunifuButton1.Name = "BunifuButton1"
-        StateProperties197.BorderColor = System.Drawing.Color.Red
-        StateProperties197.BorderRadius = 40
-        StateProperties197.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties197.BorderThickness = 3
-        StateProperties197.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties197.ForeColor = System.Drawing.Color.Red
-        StateProperties197.IconLeftImage = Nothing
-        StateProperties197.IconRightImage = Nothing
-        Me.BunifuButton1.onHoverState = StateProperties197
-        StateProperties198.BorderColor = System.Drawing.Color.Red
-        StateProperties198.BorderRadius = 40
-        StateProperties198.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties198.BorderThickness = 3
-        StateProperties198.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties198.ForeColor = System.Drawing.Color.Red
-        StateProperties198.IconLeftImage = Nothing
-        StateProperties198.IconRightImage = Nothing
-        Me.BunifuButton1.OnPressedState = StateProperties198
+        StateProperties47.BorderColor = System.Drawing.Color.Red
+        StateProperties47.BorderRadius = 40
+        StateProperties47.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties47.BorderThickness = 3
+        StateProperties47.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties47.ForeColor = System.Drawing.Color.Red
+        StateProperties47.IconLeftImage = Nothing
+        StateProperties47.IconRightImage = Nothing
+        Me.BunifuButton1.onHoverState = StateProperties47
+        StateProperties48.BorderColor = System.Drawing.Color.Red
+        StateProperties48.BorderRadius = 40
+        StateProperties48.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties48.BorderThickness = 3
+        StateProperties48.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties48.ForeColor = System.Drawing.Color.Red
+        StateProperties48.IconLeftImage = Nothing
+        StateProperties48.IconRightImage = Nothing
+        Me.BunifuButton1.OnPressedState = StateProperties48
         Me.BunifuButton1.Size = New System.Drawing.Size(215, 62)
         Me.BunifuButton1.TabIndex = 40
         Me.BunifuButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -5487,18 +5489,18 @@ Partial Class formMain
         Me.BunifuButton2.ColorContrastOnClick = 45
         Me.BunifuButton2.ColorContrastOnHover = 45
         Me.BunifuButton2.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges62.BottomLeft = True
-        BorderEdges62.BottomRight = True
-        BorderEdges62.TopLeft = True
-        BorderEdges62.TopRight = True
-        Me.BunifuButton2.CustomizableEdges = BorderEdges62
+        BorderEdges19.BottomLeft = True
+        BorderEdges19.BottomRight = True
+        BorderEdges19.TopLeft = True
+        BorderEdges19.TopRight = True
+        Me.BunifuButton2.CustomizableEdges = BorderEdges19
         Me.Guna2Transition1.SetDecoration(Me.BunifuButton2, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.BunifuButton2.DialogResult = System.Windows.Forms.DialogResult.None
         Me.BunifuButton2.DisabledBorderColor = System.Drawing.Color.Empty
         Me.BunifuButton2.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
         Me.BunifuButton2.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
         Me.BunifuButton2.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Idle
-        Me.BunifuButton2.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuButton2.Font = New System.Drawing.Font("Segoe UI Black", 25.0!)
         Me.BunifuButton2.ForeColor = System.Drawing.Color.Lime
         Me.BunifuButton2.IconLeftCursor = System.Windows.Forms.Cursors.Hand
         Me.BunifuButton2.IconMarginLeft = 30
@@ -5513,24 +5515,24 @@ Partial Class formMain
         Me.BunifuButton2.IndicateFocus = False
         Me.BunifuButton2.Location = New System.Drawing.Point(349, 405)
         Me.BunifuButton2.Name = "BunifuButton2"
-        StateProperties199.BorderColor = System.Drawing.Color.Lime
-        StateProperties199.BorderRadius = 40
-        StateProperties199.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties199.BorderThickness = 3
-        StateProperties199.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties199.ForeColor = System.Drawing.Color.Lime
-        StateProperties199.IconLeftImage = Nothing
-        StateProperties199.IconRightImage = Nothing
-        Me.BunifuButton2.onHoverState = StateProperties199
-        StateProperties200.BorderColor = System.Drawing.Color.Lime
-        StateProperties200.BorderRadius = 40
-        StateProperties200.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties200.BorderThickness = 3
-        StateProperties200.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties200.ForeColor = System.Drawing.Color.Lime
-        StateProperties200.IconLeftImage = Nothing
-        StateProperties200.IconRightImage = Nothing
-        Me.BunifuButton2.OnPressedState = StateProperties200
+        StateProperties49.BorderColor = System.Drawing.Color.Lime
+        StateProperties49.BorderRadius = 40
+        StateProperties49.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties49.BorderThickness = 3
+        StateProperties49.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties49.ForeColor = System.Drawing.Color.Lime
+        StateProperties49.IconLeftImage = Nothing
+        StateProperties49.IconRightImage = Nothing
+        Me.BunifuButton2.onHoverState = StateProperties49
+        StateProperties50.BorderColor = System.Drawing.Color.Lime
+        StateProperties50.BorderRadius = 40
+        StateProperties50.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties50.BorderThickness = 3
+        StateProperties50.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties50.ForeColor = System.Drawing.Color.Lime
+        StateProperties50.IconLeftImage = Nothing
+        StateProperties50.IconRightImage = Nothing
+        Me.BunifuButton2.OnPressedState = StateProperties50
         Me.BunifuButton2.Size = New System.Drawing.Size(215, 62)
         Me.BunifuButton2.TabIndex = 39
         Me.BunifuButton2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -5541,11 +5543,11 @@ Partial Class formMain
         '
         Me.Label107.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label107, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label107.Font = New System.Drawing.Font("Comic Sans MS", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label107.Font = New System.Drawing.Font("Segoe UI Black", 25.0!)
         Me.Label107.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Label107.Location = New System.Drawing.Point(110, 47)
         Me.Label107.Name = "Label107"
-        Me.Label107.Size = New System.Drawing.Size(440, 135)
+        Me.Label107.Size = New System.Drawing.Size(456, 138)
         Me.Label107.TabIndex = 25
         Me.Label107.Text = "Are you sure you want to " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "proceed with the selected " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "options?"
         '
@@ -5569,11 +5571,11 @@ Partial Class formMain
         '
         Me.Label113.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label113, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label113.Font = New System.Drawing.Font("Comic Sans MS", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label113.Font = New System.Drawing.Font("Segoe UI Black", 25.0!)
         Me.Label113.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Label113.Location = New System.Drawing.Point(95, 231)
         Me.Label113.Name = "Label113"
-        Me.Label113.Size = New System.Drawing.Size(444, 135)
+        Me.Label113.Size = New System.Drawing.Size(462, 138)
         Me.Label113.TabIndex = 43
         Me.Label113.Text = "Note: The system is not " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "responsible for any errors " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "in your selection."
         '
@@ -5592,11 +5594,11 @@ Partial Class formMain
         Me.greyscaleBtnNo.ColorContrastOnClick = 45
         Me.greyscaleBtnNo.ColorContrastOnHover = 45
         Me.greyscaleBtnNo.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges63.BottomLeft = True
-        BorderEdges63.BottomRight = True
-        BorderEdges63.TopLeft = True
-        BorderEdges63.TopRight = True
-        Me.greyscaleBtnNo.CustomizableEdges = BorderEdges63
+        BorderEdges20.BottomLeft = True
+        BorderEdges20.BottomRight = True
+        BorderEdges20.TopLeft = True
+        BorderEdges20.TopRight = True
+        Me.greyscaleBtnNo.CustomizableEdges = BorderEdges20
         Me.Guna2Transition1.SetDecoration(Me.greyscaleBtnNo, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.greyscaleBtnNo.DialogResult = System.Windows.Forms.DialogResult.None
         Me.greyscaleBtnNo.DisabledBorderColor = System.Drawing.Color.Empty
@@ -5618,24 +5620,24 @@ Partial Class formMain
         Me.greyscaleBtnNo.IndicateFocus = False
         Me.greyscaleBtnNo.Location = New System.Drawing.Point(82, 396)
         Me.greyscaleBtnNo.Name = "greyscaleBtnNo"
-        StateProperties201.BorderColor = System.Drawing.Color.Red
-        StateProperties201.BorderRadius = 40
-        StateProperties201.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties201.BorderThickness = 3
-        StateProperties201.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties201.ForeColor = System.Drawing.Color.Red
-        StateProperties201.IconLeftImage = Nothing
-        StateProperties201.IconRightImage = Nothing
-        Me.greyscaleBtnNo.onHoverState = StateProperties201
-        StateProperties202.BorderColor = System.Drawing.Color.Red
-        StateProperties202.BorderRadius = 40
-        StateProperties202.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties202.BorderThickness = 3
-        StateProperties202.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties202.ForeColor = System.Drawing.Color.Red
-        StateProperties202.IconLeftImage = Nothing
-        StateProperties202.IconRightImage = Nothing
-        Me.greyscaleBtnNo.OnPressedState = StateProperties202
+        StateProperties51.BorderColor = System.Drawing.Color.Red
+        StateProperties51.BorderRadius = 40
+        StateProperties51.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties51.BorderThickness = 3
+        StateProperties51.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties51.ForeColor = System.Drawing.Color.Red
+        StateProperties51.IconLeftImage = Nothing
+        StateProperties51.IconRightImage = Nothing
+        Me.greyscaleBtnNo.onHoverState = StateProperties51
+        StateProperties52.BorderColor = System.Drawing.Color.Red
+        StateProperties52.BorderRadius = 40
+        StateProperties52.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties52.BorderThickness = 3
+        StateProperties52.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties52.ForeColor = System.Drawing.Color.Red
+        StateProperties52.IconLeftImage = Nothing
+        StateProperties52.IconRightImage = Nothing
+        Me.greyscaleBtnNo.OnPressedState = StateProperties52
         Me.greyscaleBtnNo.Size = New System.Drawing.Size(215, 62)
         Me.greyscaleBtnNo.TabIndex = 40
         Me.greyscaleBtnNo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -5657,11 +5659,11 @@ Partial Class formMain
         Me.greyscaleBtnYes.ColorContrastOnClick = 45
         Me.greyscaleBtnYes.ColorContrastOnHover = 45
         Me.greyscaleBtnYes.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges64.BottomLeft = True
-        BorderEdges64.BottomRight = True
-        BorderEdges64.TopLeft = True
-        BorderEdges64.TopRight = True
-        Me.greyscaleBtnYes.CustomizableEdges = BorderEdges64
+        BorderEdges21.BottomLeft = True
+        BorderEdges21.BottomRight = True
+        BorderEdges21.TopLeft = True
+        BorderEdges21.TopRight = True
+        Me.greyscaleBtnYes.CustomizableEdges = BorderEdges21
         Me.Guna2Transition1.SetDecoration(Me.greyscaleBtnYes, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.greyscaleBtnYes.DialogResult = System.Windows.Forms.DialogResult.None
         Me.greyscaleBtnYes.DisabledBorderColor = System.Drawing.Color.Empty
@@ -5683,24 +5685,24 @@ Partial Class formMain
         Me.greyscaleBtnYes.IndicateFocus = False
         Me.greyscaleBtnYes.Location = New System.Drawing.Point(369, 396)
         Me.greyscaleBtnYes.Name = "greyscaleBtnYes"
-        StateProperties203.BorderColor = System.Drawing.Color.Lime
-        StateProperties203.BorderRadius = 40
-        StateProperties203.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties203.BorderThickness = 3
-        StateProperties203.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties203.ForeColor = System.Drawing.Color.Lime
-        StateProperties203.IconLeftImage = Nothing
-        StateProperties203.IconRightImage = Nothing
-        Me.greyscaleBtnYes.onHoverState = StateProperties203
-        StateProperties204.BorderColor = System.Drawing.Color.Lime
-        StateProperties204.BorderRadius = 40
-        StateProperties204.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties204.BorderThickness = 3
-        StateProperties204.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties204.ForeColor = System.Drawing.Color.Lime
-        StateProperties204.IconLeftImage = Nothing
-        StateProperties204.IconRightImage = Nothing
-        Me.greyscaleBtnYes.OnPressedState = StateProperties204
+        StateProperties53.BorderColor = System.Drawing.Color.Lime
+        StateProperties53.BorderRadius = 40
+        StateProperties53.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties53.BorderThickness = 3
+        StateProperties53.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties53.ForeColor = System.Drawing.Color.Lime
+        StateProperties53.IconLeftImage = Nothing
+        StateProperties53.IconRightImage = Nothing
+        Me.greyscaleBtnYes.onHoverState = StateProperties53
+        StateProperties54.BorderColor = System.Drawing.Color.Lime
+        StateProperties54.BorderRadius = 40
+        StateProperties54.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties54.BorderThickness = 3
+        StateProperties54.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties54.ForeColor = System.Drawing.Color.Lime
+        StateProperties54.IconLeftImage = Nothing
+        StateProperties54.IconRightImage = Nothing
+        Me.greyscaleBtnYes.OnPressedState = StateProperties54
         Me.greyscaleBtnYes.Size = New System.Drawing.Size(215, 62)
         Me.greyscaleBtnYes.TabIndex = 39
         Me.greyscaleBtnYes.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -5711,11 +5713,11 @@ Partial Class formMain
         '
         Me.Label105.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label105, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label105.Font = New System.Drawing.Font("Comic Sans MS", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label105.Font = New System.Drawing.Font("Segoe UI Black", 25.0!)
         Me.Label105.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Label105.Location = New System.Drawing.Point(108, 32)
         Me.Label105.Name = "Label105"
-        Me.Label105.Size = New System.Drawing.Size(440, 135)
+        Me.Label105.Size = New System.Drawing.Size(456, 138)
         Me.Label105.TabIndex = 25
         Me.Label105.Text = "Are you sure you want to " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "proceed with the selected " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "options? "
         '
@@ -5739,11 +5741,11 @@ Partial Class formMain
         '
         Me.Label112.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label112, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label112.Font = New System.Drawing.Font("Comic Sans MS", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label112.Font = New System.Drawing.Font("Segoe UI Black", 25.0!)
         Me.Label112.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Label112.Location = New System.Drawing.Point(95, 213)
         Me.Label112.Name = "Label112"
-        Me.Label112.Size = New System.Drawing.Size(444, 135)
+        Me.Label112.Size = New System.Drawing.Size(462, 138)
         Me.Label112.TabIndex = 42
         Me.Label112.Text = "Note: The system is not " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "responsible for any errors " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "in your selection."
         '
@@ -5762,11 +5764,11 @@ Partial Class formMain
         Me.coloredBtnNo.ColorContrastOnClick = 45
         Me.coloredBtnNo.ColorContrastOnHover = 45
         Me.coloredBtnNo.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges65.BottomLeft = True
-        BorderEdges65.BottomRight = True
-        BorderEdges65.TopLeft = True
-        BorderEdges65.TopRight = True
-        Me.coloredBtnNo.CustomizableEdges = BorderEdges65
+        BorderEdges22.BottomLeft = True
+        BorderEdges22.BottomRight = True
+        BorderEdges22.TopLeft = True
+        BorderEdges22.TopRight = True
+        Me.coloredBtnNo.CustomizableEdges = BorderEdges22
         Me.Guna2Transition1.SetDecoration(Me.coloredBtnNo, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.coloredBtnNo.DialogResult = System.Windows.Forms.DialogResult.None
         Me.coloredBtnNo.DisabledBorderColor = System.Drawing.Color.Empty
@@ -5788,24 +5790,24 @@ Partial Class formMain
         Me.coloredBtnNo.IndicateFocus = False
         Me.coloredBtnNo.Location = New System.Drawing.Point(72, 401)
         Me.coloredBtnNo.Name = "coloredBtnNo"
-        StateProperties205.BorderColor = System.Drawing.Color.Red
-        StateProperties205.BorderRadius = 40
-        StateProperties205.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties205.BorderThickness = 3
-        StateProperties205.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties205.ForeColor = System.Drawing.Color.Red
-        StateProperties205.IconLeftImage = Nothing
-        StateProperties205.IconRightImage = Nothing
-        Me.coloredBtnNo.onHoverState = StateProperties205
-        StateProperties206.BorderColor = System.Drawing.Color.Red
-        StateProperties206.BorderRadius = 40
-        StateProperties206.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties206.BorderThickness = 3
-        StateProperties206.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties206.ForeColor = System.Drawing.Color.Red
-        StateProperties206.IconLeftImage = Nothing
-        StateProperties206.IconRightImage = Nothing
-        Me.coloredBtnNo.OnPressedState = StateProperties206
+        StateProperties55.BorderColor = System.Drawing.Color.Red
+        StateProperties55.BorderRadius = 40
+        StateProperties55.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties55.BorderThickness = 3
+        StateProperties55.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties55.ForeColor = System.Drawing.Color.Red
+        StateProperties55.IconLeftImage = Nothing
+        StateProperties55.IconRightImage = Nothing
+        Me.coloredBtnNo.onHoverState = StateProperties55
+        StateProperties56.BorderColor = System.Drawing.Color.Red
+        StateProperties56.BorderRadius = 40
+        StateProperties56.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties56.BorderThickness = 3
+        StateProperties56.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties56.ForeColor = System.Drawing.Color.Red
+        StateProperties56.IconLeftImage = Nothing
+        StateProperties56.IconRightImage = Nothing
+        Me.coloredBtnNo.OnPressedState = StateProperties56
         Me.coloredBtnNo.Size = New System.Drawing.Size(215, 62)
         Me.coloredBtnNo.TabIndex = 40
         Me.coloredBtnNo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -5827,11 +5829,11 @@ Partial Class formMain
         Me.coloredBtnYes.ColorContrastOnClick = 45
         Me.coloredBtnYes.ColorContrastOnHover = 45
         Me.coloredBtnYes.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges66.BottomLeft = True
-        BorderEdges66.BottomRight = True
-        BorderEdges66.TopLeft = True
-        BorderEdges66.TopRight = True
-        Me.coloredBtnYes.CustomizableEdges = BorderEdges66
+        BorderEdges23.BottomLeft = True
+        BorderEdges23.BottomRight = True
+        BorderEdges23.TopLeft = True
+        BorderEdges23.TopRight = True
+        Me.coloredBtnYes.CustomizableEdges = BorderEdges23
         Me.Guna2Transition1.SetDecoration(Me.coloredBtnYes, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.coloredBtnYes.DialogResult = System.Windows.Forms.DialogResult.None
         Me.coloredBtnYes.DisabledBorderColor = System.Drawing.Color.Empty
@@ -5853,24 +5855,24 @@ Partial Class formMain
         Me.coloredBtnYes.IndicateFocus = False
         Me.coloredBtnYes.Location = New System.Drawing.Point(349, 401)
         Me.coloredBtnYes.Name = "coloredBtnYes"
-        StateProperties207.BorderColor = System.Drawing.Color.Lime
-        StateProperties207.BorderRadius = 40
-        StateProperties207.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties207.BorderThickness = 3
-        StateProperties207.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties207.ForeColor = System.Drawing.Color.Lime
-        StateProperties207.IconLeftImage = Nothing
-        StateProperties207.IconRightImage = Nothing
-        Me.coloredBtnYes.onHoverState = StateProperties207
-        StateProperties208.BorderColor = System.Drawing.Color.Lime
-        StateProperties208.BorderRadius = 40
-        StateProperties208.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties208.BorderThickness = 3
-        StateProperties208.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties208.ForeColor = System.Drawing.Color.Lime
-        StateProperties208.IconLeftImage = Nothing
-        StateProperties208.IconRightImage = Nothing
-        Me.coloredBtnYes.OnPressedState = StateProperties208
+        StateProperties57.BorderColor = System.Drawing.Color.Lime
+        StateProperties57.BorderRadius = 40
+        StateProperties57.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties57.BorderThickness = 3
+        StateProperties57.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties57.ForeColor = System.Drawing.Color.Lime
+        StateProperties57.IconLeftImage = Nothing
+        StateProperties57.IconRightImage = Nothing
+        Me.coloredBtnYes.onHoverState = StateProperties57
+        StateProperties58.BorderColor = System.Drawing.Color.Lime
+        StateProperties58.BorderRadius = 40
+        StateProperties58.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties58.BorderThickness = 3
+        StateProperties58.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties58.ForeColor = System.Drawing.Color.Lime
+        StateProperties58.IconLeftImage = Nothing
+        StateProperties58.IconRightImage = Nothing
+        Me.coloredBtnYes.OnPressedState = StateProperties58
         Me.coloredBtnYes.Size = New System.Drawing.Size(215, 62)
         Me.coloredBtnYes.TabIndex = 39
         Me.coloredBtnYes.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -5881,11 +5883,11 @@ Partial Class formMain
         '
         Me.Label106.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label106, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label106.Font = New System.Drawing.Font("Comic Sans MS", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label106.Font = New System.Drawing.Font("Segoe UI Black", 25.0!)
         Me.Label106.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Label106.Location = New System.Drawing.Point(108, 34)
         Me.Label106.Name = "Label106"
-        Me.Label106.Size = New System.Drawing.Size(440, 135)
+        Me.Label106.Size = New System.Drawing.Size(456, 138)
         Me.Label106.TabIndex = 25
         Me.Label106.Text = "Are you sure you want to " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "proceed with the selected " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "options?" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
@@ -5970,11 +5972,11 @@ Partial Class formMain
         Me.printbtnConfirmNo.ColorContrastOnClick = 45
         Me.printbtnConfirmNo.ColorContrastOnHover = 45
         Me.printbtnConfirmNo.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges67.BottomLeft = True
-        BorderEdges67.BottomRight = True
-        BorderEdges67.TopLeft = True
-        BorderEdges67.TopRight = True
-        Me.printbtnConfirmNo.CustomizableEdges = BorderEdges67
+        BorderEdges24.BottomLeft = True
+        BorderEdges24.BottomRight = True
+        BorderEdges24.TopLeft = True
+        BorderEdges24.TopRight = True
+        Me.printbtnConfirmNo.CustomizableEdges = BorderEdges24
         Me.Guna2Transition1.SetDecoration(Me.printbtnConfirmNo, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.printbtnConfirmNo.DialogResult = System.Windows.Forms.DialogResult.None
         Me.printbtnConfirmNo.DisabledBorderColor = System.Drawing.Color.Empty
@@ -5996,24 +5998,24 @@ Partial Class formMain
         Me.printbtnConfirmNo.IndicateFocus = False
         Me.printbtnConfirmNo.Location = New System.Drawing.Point(75, 405)
         Me.printbtnConfirmNo.Name = "printbtnConfirmNo"
-        StateProperties209.BorderColor = System.Drawing.Color.Red
-        StateProperties209.BorderRadius = 40
-        StateProperties209.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties209.BorderThickness = 3
-        StateProperties209.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties209.ForeColor = System.Drawing.Color.Red
-        StateProperties209.IconLeftImage = Nothing
-        StateProperties209.IconRightImage = Nothing
-        Me.printbtnConfirmNo.onHoverState = StateProperties209
-        StateProperties210.BorderColor = System.Drawing.Color.Red
-        StateProperties210.BorderRadius = 40
-        StateProperties210.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties210.BorderThickness = 3
-        StateProperties210.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties210.ForeColor = System.Drawing.Color.Red
-        StateProperties210.IconLeftImage = Nothing
-        StateProperties210.IconRightImage = Nothing
-        Me.printbtnConfirmNo.OnPressedState = StateProperties210
+        StateProperties59.BorderColor = System.Drawing.Color.Red
+        StateProperties59.BorderRadius = 40
+        StateProperties59.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties59.BorderThickness = 3
+        StateProperties59.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties59.ForeColor = System.Drawing.Color.Red
+        StateProperties59.IconLeftImage = Nothing
+        StateProperties59.IconRightImage = Nothing
+        Me.printbtnConfirmNo.onHoverState = StateProperties59
+        StateProperties60.BorderColor = System.Drawing.Color.Red
+        StateProperties60.BorderRadius = 40
+        StateProperties60.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties60.BorderThickness = 3
+        StateProperties60.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties60.ForeColor = System.Drawing.Color.Red
+        StateProperties60.IconLeftImage = Nothing
+        StateProperties60.IconRightImage = Nothing
+        Me.printbtnConfirmNo.OnPressedState = StateProperties60
         Me.printbtnConfirmNo.Size = New System.Drawing.Size(215, 62)
         Me.printbtnConfirmNo.TabIndex = 40
         Me.printbtnConfirmNo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -6035,11 +6037,11 @@ Partial Class formMain
         Me.printbtnConfirmYes.ColorContrastOnClick = 45
         Me.printbtnConfirmYes.ColorContrastOnHover = 45
         Me.printbtnConfirmYes.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges68.BottomLeft = True
-        BorderEdges68.BottomRight = True
-        BorderEdges68.TopLeft = True
-        BorderEdges68.TopRight = True
-        Me.printbtnConfirmYes.CustomizableEdges = BorderEdges68
+        BorderEdges25.BottomLeft = True
+        BorderEdges25.BottomRight = True
+        BorderEdges25.TopLeft = True
+        BorderEdges25.TopRight = True
+        Me.printbtnConfirmYes.CustomizableEdges = BorderEdges25
         Me.Guna2Transition1.SetDecoration(Me.printbtnConfirmYes, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.printbtnConfirmYes.DialogResult = System.Windows.Forms.DialogResult.None
         Me.printbtnConfirmYes.DisabledBorderColor = System.Drawing.Color.Empty
@@ -6061,24 +6063,24 @@ Partial Class formMain
         Me.printbtnConfirmYes.IndicateFocus = False
         Me.printbtnConfirmYes.Location = New System.Drawing.Point(349, 405)
         Me.printbtnConfirmYes.Name = "printbtnConfirmYes"
-        StateProperties211.BorderColor = System.Drawing.Color.Lime
-        StateProperties211.BorderRadius = 40
-        StateProperties211.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties211.BorderThickness = 3
-        StateProperties211.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties211.ForeColor = System.Drawing.Color.Lime
-        StateProperties211.IconLeftImage = Nothing
-        StateProperties211.IconRightImage = Nothing
-        Me.printbtnConfirmYes.onHoverState = StateProperties211
-        StateProperties212.BorderColor = System.Drawing.Color.Lime
-        StateProperties212.BorderRadius = 40
-        StateProperties212.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties212.BorderThickness = 3
-        StateProperties212.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties212.ForeColor = System.Drawing.Color.Lime
-        StateProperties212.IconLeftImage = Nothing
-        StateProperties212.IconRightImage = Nothing
-        Me.printbtnConfirmYes.OnPressedState = StateProperties212
+        StateProperties61.BorderColor = System.Drawing.Color.Lime
+        StateProperties61.BorderRadius = 40
+        StateProperties61.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties61.BorderThickness = 3
+        StateProperties61.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties61.ForeColor = System.Drawing.Color.Lime
+        StateProperties61.IconLeftImage = Nothing
+        StateProperties61.IconRightImage = Nothing
+        Me.printbtnConfirmYes.onHoverState = StateProperties61
+        StateProperties62.BorderColor = System.Drawing.Color.Lime
+        StateProperties62.BorderRadius = 40
+        StateProperties62.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties62.BorderThickness = 3
+        StateProperties62.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties62.ForeColor = System.Drawing.Color.Lime
+        StateProperties62.IconLeftImage = Nothing
+        StateProperties62.IconRightImage = Nothing
+        Me.printbtnConfirmYes.OnPressedState = StateProperties62
         Me.printbtnConfirmYes.Size = New System.Drawing.Size(215, 62)
         Me.printbtnConfirmYes.TabIndex = 39
         Me.printbtnConfirmYes.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -6152,7 +6154,7 @@ Partial Class formMain
         Me.mainFormDate.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.mainFormDate.BackColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Guna2Transition1.SetDecoration(Me.mainFormDate, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.mainFormDate.Font = New System.Drawing.Font("Comic Sans MS", 21.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.mainFormDate.Font = New System.Drawing.Font("Segoe UI Semibold", 20.0!)
         Me.mainFormDate.ForeColor = System.Drawing.Color.White
         Me.mainFormDate.Location = New System.Drawing.Point(776, 71)
         Me.mainFormDate.Name = "mainFormDate"
@@ -6824,8 +6826,8 @@ Partial Class formMain
         'Label101
         '
         Me.Guna2Transition1.SetDecoration(Me.Label101, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label101.Font = New System.Drawing.Font("Comic Sans MS", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label101.Location = New System.Drawing.Point(453, 310)
+        Me.Label101.Font = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
+        Me.Label101.Location = New System.Drawing.Point(329, 307)
         Me.Label101.Name = "Label101"
         Me.Label101.Size = New System.Drawing.Size(122, 46)
         Me.Label101.TabIndex = 41
@@ -6834,17 +6836,17 @@ Partial Class formMain
         'Label100
         '
         Me.Guna2Transition1.SetDecoration(Me.Label100, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label100.Font = New System.Drawing.Font("Comic Sans MS", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label100.Location = New System.Drawing.Point(340, 310)
+        Me.Label100.Font = New System.Drawing.Font("Segoe UI Black", 25.0!)
+        Me.Label100.Location = New System.Drawing.Point(226, 307)
         Me.Label100.Name = "Label100"
-        Me.Label100.Size = New System.Drawing.Size(122, 46)
+        Me.Label100.Size = New System.Drawing.Size(105, 46)
         Me.Label100.TabIndex = 40
         Me.Label100.Text = "Size:"
         '
         'printbtnShowPrices
         '
         Me.Guna2Transition1.SetDecoration(Me.printbtnShowPrices, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.printbtnShowPrices.Location = New System.Drawing.Point(85, 315)
+        Me.printbtnShowPrices.Location = New System.Drawing.Point(85, 361)
         Me.printbtnShowPrices.Name = "printbtnShowPrices"
         Me.printbtnShowPrices.Size = New System.Drawing.Size(265, 51)
         Me.printbtnShowPrices.TabIndex = 39
@@ -6880,7 +6882,7 @@ Partial Class formMain
         Me.printPanel14.BackColor = System.Drawing.Color.Red
         Me.printPanel14.Controls.Add(Me.printPanel15)
         Me.Guna2Transition1.SetDecoration(Me.printPanel14, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.printPanel14.Location = New System.Drawing.Point(85, 527)
+        Me.printPanel14.Location = New System.Drawing.Point(85, 576)
         Me.printPanel14.Name = "printPanel14"
         Me.printPanel14.Size = New System.Drawing.Size(468, 150)
         Me.printPanel14.TabIndex = 36
@@ -6904,7 +6906,7 @@ Partial Class formMain
         '
         Me.Label41.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Guna2Transition1.SetDecoration(Me.Label41, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label41.Font = New System.Drawing.Font("Comic Sans MS", 30.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label41.Font = New System.Drawing.Font("Segoe UI Semibold", 30.0!)
         Me.Label41.ForeColor = System.Drawing.Color.Red
         Me.Label41.Location = New System.Drawing.Point(350, 81)
         Me.Label41.Name = "Label41"
@@ -6917,18 +6919,18 @@ Partial Class formMain
         '
         Me.Label42.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label42, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label42.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label42.Font = New System.Drawing.Font("Segoe UI Black", 25.0!)
         Me.Label42.ForeColor = System.Drawing.Color.Red
         Me.Label42.Location = New System.Drawing.Point(15, 1)
         Me.Label42.Name = "Label42"
-        Me.Label42.Size = New System.Drawing.Size(249, 45)
+        Me.Label42.Size = New System.Drawing.Size(252, 46)
         Me.Label42.TabIndex = 35
         Me.Label42.Text = "Inserted Coin:"
         '
         'printlblCoins
         '
         Me.Guna2Transition1.SetDecoration(Me.printlblCoins, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.printlblCoins.Font = New System.Drawing.Font("Comic Sans MS", 45.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.printlblCoins.Font = New System.Drawing.Font("Segoe UI Semibold", 45.0!)
         Me.printlblCoins.ForeColor = System.Drawing.Color.Red
         Me.printlblCoins.Location = New System.Drawing.Point(10, 47)
         Me.printlblCoins.Name = "printlblCoins"
@@ -6942,7 +6944,7 @@ Partial Class formMain
         Me.printPanel11.BackColor = System.Drawing.Color.Black
         Me.printPanel11.Controls.Add(Me.printPanel13)
         Me.Guna2Transition1.SetDecoration(Me.printPanel11, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.printPanel11.Location = New System.Drawing.Point(85, 369)
+        Me.printPanel11.Location = New System.Drawing.Point(85, 418)
         Me.printPanel11.Name = "printPanel11"
         Me.printPanel11.Size = New System.Drawing.Size(468, 150)
         Me.printPanel11.TabIndex = 34
@@ -6967,7 +6969,7 @@ Partial Class formMain
         Me.Label39.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label39.BackColor = System.Drawing.Color.Transparent
         Me.Guna2Transition1.SetDecoration(Me.Label39, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label39.Font = New System.Drawing.Font("Comic Sans MS", 30.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label39.Font = New System.Drawing.Font("Segoe UI Semibold", 30.0!)
         Me.Label39.Location = New System.Drawing.Point(350, 81)
         Me.Label39.Name = "Label39"
         Me.Label39.Size = New System.Drawing.Size(102, 46)
@@ -6978,7 +6980,7 @@ Partial Class formMain
         'printlblTotalPrice
         '
         Me.Guna2Transition1.SetDecoration(Me.printlblTotalPrice, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.printlblTotalPrice.Font = New System.Drawing.Font("Comic Sans MS", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.printlblTotalPrice.Font = New System.Drawing.Font("Segoe UI Semibold", 48.0!)
         Me.printlblTotalPrice.Location = New System.Drawing.Point(10, 47)
         Me.printlblTotalPrice.Name = "printlblTotalPrice"
         Me.printlblTotalPrice.Size = New System.Drawing.Size(361, 80)
@@ -6990,17 +6992,17 @@ Partial Class formMain
         '
         Me.Label40.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label40, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label40.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label40.Font = New System.Drawing.Font("Segoe UI Black", 25.0!)
         Me.Label40.Location = New System.Drawing.Point(15, 0)
         Me.Label40.Name = "Label40"
-        Me.Label40.Size = New System.Drawing.Size(142, 45)
+        Me.Label40.Size = New System.Drawing.Size(145, 46)
         Me.Label40.TabIndex = 35
         Me.Label40.Text = "To Pay:"
         '
         'printlblOutput
         '
         Me.Guna2Transition1.SetDecoration(Me.printlblOutput, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.printlblOutput.Font = New System.Drawing.Font("Comic Sans MS", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.printlblOutput.Font = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.printlblOutput.Location = New System.Drawing.Point(322, 257)
         Me.printlblOutput.Name = "printlblOutput"
         Me.printlblOutput.Size = New System.Drawing.Size(305, 46)
@@ -7010,7 +7012,7 @@ Partial Class formMain
         'printlblCopies
         '
         Me.Guna2Transition1.SetDecoration(Me.printlblCopies, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.printlblCopies.Font = New System.Drawing.Font("Comic Sans MS", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.printlblCopies.Font = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.printlblCopies.Location = New System.Drawing.Point(322, 203)
         Me.printlblCopies.Name = "printlblCopies"
         Me.printlblCopies.Size = New System.Drawing.Size(305, 46)
@@ -7020,7 +7022,7 @@ Partial Class formMain
         'printlblPagestoPrint
         '
         Me.Guna2Transition1.SetDecoration(Me.printlblPagestoPrint, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.printlblPagestoPrint.Font = New System.Drawing.Font("Comic Sans MS", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.printlblPagestoPrint.Font = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.printlblPagestoPrint.Location = New System.Drawing.Point(322, 149)
         Me.printlblPagestoPrint.Name = "printlblPagestoPrint"
         Me.printlblPagestoPrint.Size = New System.Drawing.Size(305, 46)
@@ -7031,10 +7033,10 @@ Partial Class formMain
         '
         Me.Label30.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label30, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label30.Font = New System.Drawing.Font("Comic Sans MS", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label30.Font = New System.Drawing.Font("Segoe UI Black", 25.0!)
         Me.Label30.Location = New System.Drawing.Point(172, 257)
         Me.Label30.Name = "Label30"
-        Me.Label30.Size = New System.Drawing.Size(152, 49)
+        Me.Label30.Size = New System.Drawing.Size(149, 46)
         Me.Label30.TabIndex = 30
         Me.Label30.Text = "Output:"
         '
@@ -7042,10 +7044,10 @@ Partial Class formMain
         '
         Me.Label36.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label36, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label36.Font = New System.Drawing.Font("Comic Sans MS", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label36.Font = New System.Drawing.Font("Segoe UI Black", 25.0!)
         Me.Label36.Location = New System.Drawing.Point(180, 203)
         Me.Label36.Name = "Label36"
-        Me.Label36.Size = New System.Drawing.Size(143, 49)
+        Me.Label36.Size = New System.Drawing.Size(141, 46)
         Me.Label36.TabIndex = 29
         Me.Label36.Text = "Copies:"
         '
@@ -7053,10 +7055,10 @@ Partial Class formMain
         '
         Me.Label37.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label37, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label37.Font = New System.Drawing.Font("Comic Sans MS", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label37.Font = New System.Drawing.Font("Segoe UI Black", 25.0!)
         Me.Label37.Location = New System.Drawing.Point(28, 149)
         Me.Label37.Name = "Label37"
-        Me.Label37.Size = New System.Drawing.Size(301, 49)
+        Me.Label37.Size = New System.Drawing.Size(293, 46)
         Me.Label37.TabIndex = 28
         Me.Label37.Text = "Page(s) to print:"
         '
@@ -7064,17 +7066,17 @@ Partial Class formMain
         '
         Me.Label38.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label38, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label38.Font = New System.Drawing.Font("Comic Sans MS", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label38.Font = New System.Drawing.Font("Segoe UI Black", 25.0!)
         Me.Label38.Location = New System.Drawing.Point(130, 95)
         Me.Label38.Name = "Label38"
-        Me.Label38.Size = New System.Drawing.Size(197, 49)
+        Me.Label38.Size = New System.Drawing.Size(188, 46)
         Me.Label38.TabIndex = 27
         Me.Label38.Text = "File name:"
         '
         'printlblSFileName
         '
         Me.Guna2Transition1.SetDecoration(Me.printlblSFileName, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.printlblSFileName.Font = New System.Drawing.Font("Comic Sans MS", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.printlblSFileName.Font = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.printlblSFileName.Location = New System.Drawing.Point(322, 95)
         Me.printlblSFileName.Name = "printlblSFileName"
         Me.printlblSFileName.Size = New System.Drawing.Size(305, 46)
@@ -7085,10 +7087,10 @@ Partial Class formMain
         '
         Me.Label43.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label43, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label43.Font = New System.Drawing.Font("Comic Sans MS", 30.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label43.Font = New System.Drawing.Font("Segoe UI Black", 30.0!)
         Me.Label43.Location = New System.Drawing.Point(213, 15)
         Me.Label43.Name = "Label43"
-        Me.Label43.Size = New System.Drawing.Size(204, 58)
+        Me.Label43.Size = New System.Drawing.Size(209, 54)
         Me.Label43.TabIndex = 25
         Me.Label43.Text = "Summary"
         '
@@ -7107,18 +7109,18 @@ Partial Class formMain
         Me.printbtnPrint.ColorContrastOnClick = 45
         Me.printbtnPrint.ColorContrastOnHover = 45
         Me.printbtnPrint.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges69.BottomLeft = True
-        BorderEdges69.BottomRight = True
-        BorderEdges69.TopLeft = True
-        BorderEdges69.TopRight = True
-        Me.printbtnPrint.CustomizableEdges = BorderEdges69
+        BorderEdges26.BottomLeft = True
+        BorderEdges26.BottomRight = True
+        BorderEdges26.TopLeft = True
+        BorderEdges26.TopRight = True
+        Me.printbtnPrint.CustomizableEdges = BorderEdges26
         Me.Guna2Transition1.SetDecoration(Me.printbtnPrint, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.printbtnPrint.DialogResult = System.Windows.Forms.DialogResult.None
         Me.printbtnPrint.DisabledBorderColor = System.Drawing.Color.Empty
         Me.printbtnPrint.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
         Me.printbtnPrint.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
         Me.printbtnPrint.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Idle
-        Me.printbtnPrint.Font = New System.Drawing.Font("Comic Sans MS", 32.25!, System.Drawing.FontStyle.Bold)
+        Me.printbtnPrint.Font = New System.Drawing.Font("Segoe UI Semibold", 35.0!)
         Me.printbtnPrint.ForeColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
         Me.printbtnPrint.IconLeftCursor = System.Windows.Forms.Cursors.Hand
         Me.printbtnPrint.IconMarginLeft = 30
@@ -7131,26 +7133,26 @@ Partial Class formMain
         Me.printbtnPrint.IdleIconLeftImage = CType(resources.GetObject("printbtnPrint.IdleIconLeftImage"), System.Drawing.Image)
         Me.printbtnPrint.IdleIconRightImage = Nothing
         Me.printbtnPrint.IndicateFocus = False
-        Me.printbtnPrint.Location = New System.Drawing.Point(175, 741)
+        Me.printbtnPrint.Location = New System.Drawing.Point(176, 748)
         Me.printbtnPrint.Name = "printbtnPrint"
-        StateProperties213.BorderColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
-        StateProperties213.BorderRadius = 70
-        StateProperties213.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties213.BorderThickness = 3
-        StateProperties213.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties213.ForeColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
-        StateProperties213.IconLeftImage = Global.PrintVendo.My.Resources.Resources.Print
-        StateProperties213.IconRightImage = Nothing
-        Me.printbtnPrint.onHoverState = StateProperties213
-        StateProperties214.BorderColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
-        StateProperties214.BorderRadius = 70
-        StateProperties214.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties214.BorderThickness = 3
-        StateProperties214.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties214.ForeColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
-        StateProperties214.IconLeftImage = Global.PrintVendo.My.Resources.Resources.Print
-        StateProperties214.IconRightImage = Nothing
-        Me.printbtnPrint.OnPressedState = StateProperties214
+        StateProperties63.BorderColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
+        StateProperties63.BorderRadius = 70
+        StateProperties63.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties63.BorderThickness = 3
+        StateProperties63.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties63.ForeColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
+        StateProperties63.IconLeftImage = Global.PrintVendo.My.Resources.Resources.Print
+        StateProperties63.IconRightImage = Nothing
+        Me.printbtnPrint.onHoverState = StateProperties63
+        StateProperties64.BorderColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
+        StateProperties64.BorderRadius = 70
+        StateProperties64.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties64.BorderThickness = 3
+        StateProperties64.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties64.ForeColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
+        StateProperties64.IconLeftImage = Global.PrintVendo.My.Resources.Resources.Print
+        StateProperties64.IconRightImage = Nothing
+        Me.printbtnPrint.OnPressedState = StateProperties64
         Me.printbtnPrint.Size = New System.Drawing.Size(324, 93)
         Me.printbtnPrint.TabIndex = 24
         Me.printbtnPrint.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -7208,10 +7210,10 @@ Partial Class formMain
         '
         Me.Label102.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label102, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label102.Font = New System.Drawing.Font("Comic Sans MS", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label102.Font = New System.Drawing.Font("Segoe UI Black", 25.0!)
         Me.Label102.Location = New System.Drawing.Point(30, 482)
         Me.Label102.Name = "Label102"
-        Me.Label102.Size = New System.Drawing.Size(193, 45)
+        Me.Label102.Size = New System.Drawing.Size(199, 46)
         Me.Label102.TabIndex = 40
         Me.Label102.Text = "Paper size:"
         '
@@ -7255,10 +7257,10 @@ Partial Class formMain
         '
         Me.Label104.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label104, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label104.Font = New System.Drawing.Font("Comic Sans MS", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label104.Font = New System.Drawing.Font("Segoe UI Semibold", 16.0!)
         Me.Label104.Location = New System.Drawing.Point(48, 62)
         Me.Label104.Name = "Label104"
-        Me.Label104.Size = New System.Drawing.Size(37, 26)
+        Me.Label104.Size = New System.Drawing.Size(41, 30)
         Me.Label104.TabIndex = 42
         Me.Label104.Text = "A4"
         '
@@ -7266,10 +7268,10 @@ Partial Class formMain
         '
         Me.Label103.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label103, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label103.Font = New System.Drawing.Font("Comic Sans MS", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label103.Font = New System.Drawing.Font("Segoe UI Semibold", 16.0!)
         Me.Label103.Location = New System.Drawing.Point(48, 17)
         Me.Label103.Name = "Label103"
-        Me.Label103.Size = New System.Drawing.Size(52, 26)
+        Me.Label103.Size = New System.Drawing.Size(63, 30)
         Me.Label103.TabIndex = 41
         Me.Label103.Text = "Long"
         '
@@ -7277,10 +7279,10 @@ Partial Class formMain
         '
         Me.Label98.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label98, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label98.Font = New System.Drawing.Font("Comic Sans MS", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label98.Font = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.Label98.Location = New System.Drawing.Point(253, 222)
         Me.Label98.Name = "Label98"
-        Me.Label98.Size = New System.Drawing.Size(48, 45)
+        Me.Label98.Size = New System.Drawing.Size(36, 46)
         Me.Label98.TabIndex = 38
         Me.Label98.Text = ".."
         '
@@ -7288,10 +7290,10 @@ Partial Class formMain
         '
         Me.Label70.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label70, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label70.Font = New System.Drawing.Font("Comic Sans MS", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label70.Font = New System.Drawing.Font("Segoe UI Black", 25.0!)
         Me.Label70.Location = New System.Drawing.Point(9, 224)
         Me.Label70.Name = "Label70"
-        Me.Label70.Size = New System.Drawing.Size(246, 45)
+        Me.Label70.Size = New System.Drawing.Size(248, 46)
         Me.Label70.TabIndex = 37
         Me.Label70.Text = "Size of Paper:"
         '
@@ -7305,23 +7307,23 @@ Partial Class formMain
         Me.printbtnSmartPrice.BackColor1 = System.Drawing.Color.White
         Me.printbtnSmartPrice.BackgroundImage = CType(resources.GetObject("printbtnSmartPrice.BackgroundImage"), System.Drawing.Image)
         Me.printbtnSmartPrice.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        Me.printbtnSmartPrice.ButtonText = "Advance Pricing"
+        Me.printbtnSmartPrice.ButtonText = "Smart Pricing"
         Me.printbtnSmartPrice.ButtonTextMarginLeft = 40
         Me.printbtnSmartPrice.ColorContrastOnClick = 45
         Me.printbtnSmartPrice.ColorContrastOnHover = 45
         Me.printbtnSmartPrice.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges70.BottomLeft = True
-        BorderEdges70.BottomRight = True
-        BorderEdges70.TopLeft = True
-        BorderEdges70.TopRight = True
-        Me.printbtnSmartPrice.CustomizableEdges = BorderEdges70
+        BorderEdges27.BottomLeft = True
+        BorderEdges27.BottomRight = True
+        BorderEdges27.TopLeft = True
+        BorderEdges27.TopRight = True
+        Me.printbtnSmartPrice.CustomizableEdges = BorderEdges27
         Me.Guna2Transition1.SetDecoration(Me.printbtnSmartPrice, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.printbtnSmartPrice.DialogResult = System.Windows.Forms.DialogResult.None
         Me.printbtnSmartPrice.DisabledBorderColor = System.Drawing.Color.Empty
         Me.printbtnSmartPrice.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
         Me.printbtnSmartPrice.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
         Me.printbtnSmartPrice.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Idle
-        Me.printbtnSmartPrice.Font = New System.Drawing.Font("Comic Sans MS", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.printbtnSmartPrice.Font = New System.Drawing.Font("Segoe UI Semibold", 30.0!)
         Me.printbtnSmartPrice.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.printbtnSmartPrice.IconLeftCursor = System.Windows.Forms.Cursors.Hand
         Me.printbtnSmartPrice.IconMarginLeft = 20
@@ -7331,30 +7333,30 @@ Partial Class formMain
         Me.printbtnSmartPrice.IdleBorderRadius = 80
         Me.printbtnSmartPrice.IdleBorderThickness = 3
         Me.printbtnSmartPrice.IdleFillColor = System.Drawing.Color.White
-        Me.printbtnSmartPrice.IdleIconLeftImage = CType(resources.GetObject("printbtnSmartPrice.IdleIconLeftImage"), System.Drawing.Image)
+        Me.printbtnSmartPrice.IdleIconLeftImage = Global.PrintVendo.My.Resources.Resources.colored
         Me.printbtnSmartPrice.IdleIconRightImage = Nothing
         Me.printbtnSmartPrice.IndicateFocus = False
-        Me.printbtnSmartPrice.Location = New System.Drawing.Point(143, 789)
+        Me.printbtnSmartPrice.Location = New System.Drawing.Point(136, 780)
         Me.printbtnSmartPrice.Name = "printbtnSmartPrice"
-        StateProperties215.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties215.BorderRadius = 80
-        StateProperties215.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties215.BorderThickness = 3
-        StateProperties215.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties215.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties215.IconLeftImage = Nothing
-        StateProperties215.IconRightImage = Nothing
-        Me.printbtnSmartPrice.onHoverState = StateProperties215
-        StateProperties216.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties216.BorderRadius = 80
-        StateProperties216.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties216.BorderThickness = 3
-        StateProperties216.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties216.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties216.IconLeftImage = Nothing
-        StateProperties216.IconRightImage = Nothing
-        Me.printbtnSmartPrice.OnPressedState = StateProperties216
-        Me.printbtnSmartPrice.Size = New System.Drawing.Size(395, 95)
+        StateProperties65.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties65.BorderRadius = 80
+        StateProperties65.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties65.BorderThickness = 3
+        StateProperties65.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties65.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties65.IconLeftImage = Nothing
+        StateProperties65.IconRightImage = Nothing
+        Me.printbtnSmartPrice.onHoverState = StateProperties65
+        StateProperties66.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties66.BorderRadius = 80
+        StateProperties66.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties66.BorderThickness = 3
+        StateProperties66.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties66.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties66.IconLeftImage = Nothing
+        StateProperties66.IconRightImage = Nothing
+        Me.printbtnSmartPrice.OnPressedState = StateProperties66
+        Me.printbtnSmartPrice.Size = New System.Drawing.Size(424, 95)
         Me.printbtnSmartPrice.TabIndex = 36
         Me.printbtnSmartPrice.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         Me.printbtnSmartPrice.TextMarginLeft = 40
@@ -7375,18 +7377,18 @@ Partial Class formMain
         Me.printbtnColored.ColorContrastOnClick = 45
         Me.printbtnColored.ColorContrastOnHover = 45
         Me.printbtnColored.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges71.BottomLeft = True
-        BorderEdges71.BottomRight = True
-        BorderEdges71.TopLeft = True
-        BorderEdges71.TopRight = True
-        Me.printbtnColored.CustomizableEdges = BorderEdges71
+        BorderEdges28.BottomLeft = True
+        BorderEdges28.BottomRight = True
+        BorderEdges28.TopLeft = True
+        BorderEdges28.TopRight = True
+        Me.printbtnColored.CustomizableEdges = BorderEdges28
         Me.Guna2Transition1.SetDecoration(Me.printbtnColored, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.printbtnColored.DialogResult = System.Windows.Forms.DialogResult.None
         Me.printbtnColored.DisabledBorderColor = System.Drawing.Color.Empty
         Me.printbtnColored.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
         Me.printbtnColored.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
         Me.printbtnColored.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Idle
-        Me.printbtnColored.Font = New System.Drawing.Font("Comic Sans MS", 32.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.printbtnColored.Font = New System.Drawing.Font("Segoe UI Semibold", 35.0!)
         Me.printbtnColored.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.printbtnColored.IconLeftCursor = System.Windows.Forms.Cursors.Hand
         Me.printbtnColored.IconMarginLeft = 20
@@ -7396,30 +7398,30 @@ Partial Class formMain
         Me.printbtnColored.IdleBorderRadius = 80
         Me.printbtnColored.IdleBorderThickness = 3
         Me.printbtnColored.IdleFillColor = System.Drawing.Color.White
-        Me.printbtnColored.IdleIconLeftImage = CType(resources.GetObject("printbtnColored.IdleIconLeftImage"), System.Drawing.Image)
+        Me.printbtnColored.IdleIconLeftImage = Global.PrintVendo.My.Resources.Resources.colorpage
         Me.printbtnColored.IdleIconRightImage = Nothing
         Me.printbtnColored.IndicateFocus = False
-        Me.printbtnColored.Location = New System.Drawing.Point(143, 687)
+        Me.printbtnColored.Location = New System.Drawing.Point(134, 679)
         Me.printbtnColored.Name = "printbtnColored"
-        StateProperties217.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties217.BorderRadius = 80
-        StateProperties217.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties217.BorderThickness = 3
-        StateProperties217.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties217.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties217.IconLeftImage = Nothing
-        StateProperties217.IconRightImage = Nothing
-        Me.printbtnColored.onHoverState = StateProperties217
-        StateProperties218.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties218.BorderRadius = 80
-        StateProperties218.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties218.BorderThickness = 3
-        StateProperties218.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties218.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties218.IconLeftImage = Nothing
-        StateProperties218.IconRightImage = Nothing
-        Me.printbtnColored.OnPressedState = StateProperties218
-        Me.printbtnColored.Size = New System.Drawing.Size(400, 95)
+        StateProperties67.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties67.BorderRadius = 80
+        StateProperties67.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties67.BorderThickness = 3
+        StateProperties67.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties67.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties67.IconLeftImage = Nothing
+        StateProperties67.IconRightImage = Nothing
+        Me.printbtnColored.onHoverState = StateProperties67
+        StateProperties68.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties68.BorderRadius = 80
+        StateProperties68.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties68.BorderThickness = 3
+        StateProperties68.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties68.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties68.IconLeftImage = Nothing
+        StateProperties68.IconRightImage = Nothing
+        Me.printbtnColored.OnPressedState = StateProperties68
+        Me.printbtnColored.Size = New System.Drawing.Size(429, 95)
         Me.printbtnColored.TabIndex = 35
         Me.printbtnColored.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         Me.printbtnColored.TextMarginLeft = 40
@@ -7428,7 +7430,7 @@ Partial Class formMain
         'printlblError
         '
         Me.Guna2Transition1.SetDecoration(Me.printlblError, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.printlblError.Font = New System.Drawing.Font("Comic Sans MS", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.printlblError.Font = New System.Drawing.Font("Segoe UI", 16.0!)
         Me.printlblError.ForeColor = System.Drawing.Color.Red
         Me.printlblError.Location = New System.Drawing.Point(24, 326)
         Me.printlblError.Name = "printlblError"
@@ -7456,7 +7458,7 @@ Partial Class formMain
         Me.printtxtCopies.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal
         Me.printtxtCopies.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.Guna2Transition1.SetDecoration(Me.printtxtCopies, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.printtxtCopies.DefaultFont = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.printtxtCopies.DefaultFont = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.printtxtCopies.DefaultText = "1"
         Me.printtxtCopies.FillColor = System.Drawing.Color.White
         Me.printtxtCopies.ForeColor = System.Drawing.Color.Black
@@ -7474,26 +7476,26 @@ Partial Class formMain
         Me.printtxtCopies.Modified = False
         Me.printtxtCopies.Multiline = False
         Me.printtxtCopies.Name = "printtxtCopies"
-        StateProperties219.BorderColor = System.Drawing.Color.Black
-        StateProperties219.FillColor = System.Drawing.Color.Empty
-        StateProperties219.ForeColor = System.Drawing.Color.Empty
-        StateProperties219.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.printtxtCopies.OnActiveState = StateProperties219
-        StateProperties220.BorderColor = System.Drawing.Color.Empty
-        StateProperties220.FillColor = System.Drawing.Color.White
-        StateProperties220.ForeColor = System.Drawing.Color.Empty
-        StateProperties220.PlaceholderForeColor = System.Drawing.Color.Silver
-        Me.printtxtCopies.OnDisabledState = StateProperties220
-        StateProperties221.BorderColor = System.Drawing.Color.Silver
-        StateProperties221.FillColor = System.Drawing.Color.Empty
-        StateProperties221.ForeColor = System.Drawing.Color.Empty
-        StateProperties221.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.printtxtCopies.OnHoverState = StateProperties221
-        StateProperties222.BorderColor = System.Drawing.Color.Silver
-        StateProperties222.FillColor = System.Drawing.Color.White
-        StateProperties222.ForeColor = System.Drawing.Color.Black
-        StateProperties222.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.printtxtCopies.OnIdleState = StateProperties222
+        StateProperties69.BorderColor = System.Drawing.Color.Black
+        StateProperties69.FillColor = System.Drawing.Color.Empty
+        StateProperties69.ForeColor = System.Drawing.Color.Empty
+        StateProperties69.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.printtxtCopies.OnActiveState = StateProperties69
+        StateProperties70.BorderColor = System.Drawing.Color.Empty
+        StateProperties70.FillColor = System.Drawing.Color.White
+        StateProperties70.ForeColor = System.Drawing.Color.Empty
+        StateProperties70.PlaceholderForeColor = System.Drawing.Color.Silver
+        Me.printtxtCopies.OnDisabledState = StateProperties70
+        StateProperties71.BorderColor = System.Drawing.Color.Silver
+        StateProperties71.FillColor = System.Drawing.Color.Empty
+        StateProperties71.ForeColor = System.Drawing.Color.Empty
+        StateProperties71.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.printtxtCopies.OnHoverState = StateProperties71
+        StateProperties72.BorderColor = System.Drawing.Color.Silver
+        StateProperties72.FillColor = System.Drawing.Color.White
+        StateProperties72.ForeColor = System.Drawing.Color.Black
+        StateProperties72.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.printtxtCopies.OnIdleState = StateProperties72
         Me.printtxtCopies.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.printtxtCopies.PlaceholderForeColor = System.Drawing.Color.Silver
         Me.printtxtCopies.PlaceholderText = "000"
@@ -7503,7 +7505,7 @@ Partial Class formMain
         Me.printtxtCopies.SelectionLength = 0
         Me.printtxtCopies.SelectionStart = 0
         Me.printtxtCopies.ShortcutsEnabled = True
-        Me.printtxtCopies.Size = New System.Drawing.Size(80, 57)
+        Me.printtxtCopies.Size = New System.Drawing.Size(80, 56)
         Me.printtxtCopies.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Material
         Me.printtxtCopies.TabIndex = 32
         Me.printtxtCopies.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
@@ -7517,7 +7519,7 @@ Partial Class formMain
         'printlblFileName
         '
         Me.Guna2Transition1.SetDecoration(Me.printlblFileName, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.printlblFileName.Font = New System.Drawing.Font("Comic Sans MS", 23.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.printlblFileName.Font = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.printlblFileName.Location = New System.Drawing.Point(264, 12)
         Me.printlblFileName.Name = "printlblFileName"
         Me.printlblFileName.Size = New System.Drawing.Size(366, 46)
@@ -7528,10 +7530,10 @@ Partial Class formMain
         '
         Me.Label48.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label48, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label48.Font = New System.Drawing.Font("Comic Sans MS", 23.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label48.Font = New System.Drawing.Font("Segoe UI Black", 25.0!)
         Me.Label48.Location = New System.Drawing.Point(85, 12)
         Me.Label48.Name = "Label48"
-        Me.Label48.Size = New System.Drawing.Size(172, 44)
+        Me.Label48.Size = New System.Drawing.Size(188, 46)
         Me.Label48.TabIndex = 25
         Me.Label48.Text = "File name:"
         '
@@ -7550,18 +7552,18 @@ Partial Class formMain
         Me.printbtnGreyScale.ColorContrastOnClick = 45
         Me.printbtnGreyScale.ColorContrastOnHover = 45
         Me.printbtnGreyScale.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges72.BottomLeft = True
-        BorderEdges72.BottomRight = True
-        BorderEdges72.TopLeft = True
-        BorderEdges72.TopRight = True
-        Me.printbtnGreyScale.CustomizableEdges = BorderEdges72
+        BorderEdges29.BottomLeft = True
+        BorderEdges29.BottomRight = True
+        BorderEdges29.TopLeft = True
+        BorderEdges29.TopRight = True
+        Me.printbtnGreyScale.CustomizableEdges = BorderEdges29
         Me.Guna2Transition1.SetDecoration(Me.printbtnGreyScale, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.printbtnGreyScale.DialogResult = System.Windows.Forms.DialogResult.None
         Me.printbtnGreyScale.DisabledBorderColor = System.Drawing.Color.Empty
         Me.printbtnGreyScale.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
         Me.printbtnGreyScale.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
         Me.printbtnGreyScale.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Idle
-        Me.printbtnGreyScale.Font = New System.Drawing.Font("Comic Sans MS", 32.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.printbtnGreyScale.Font = New System.Drawing.Font("Segoe UI Semibold", 35.0!)
         Me.printbtnGreyScale.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.printbtnGreyScale.IconLeftCursor = System.Windows.Forms.Cursors.Hand
         Me.printbtnGreyScale.IconMarginLeft = 20
@@ -7571,30 +7573,30 @@ Partial Class formMain
         Me.printbtnGreyScale.IdleBorderRadius = 80
         Me.printbtnGreyScale.IdleBorderThickness = 3
         Me.printbtnGreyScale.IdleFillColor = System.Drawing.Color.White
-        Me.printbtnGreyScale.IdleIconLeftImage = CType(resources.GetObject("printbtnGreyScale.IdleIconLeftImage"), System.Drawing.Image)
+        Me.printbtnGreyScale.IdleIconLeftImage = Global.PrintVendo.My.Resources.Resources.BandW
         Me.printbtnGreyScale.IdleIconRightImage = Nothing
         Me.printbtnGreyScale.IndicateFocus = False
-        Me.printbtnGreyScale.Location = New System.Drawing.Point(138, 578)
+        Me.printbtnGreyScale.Location = New System.Drawing.Point(131, 578)
         Me.printbtnGreyScale.Name = "printbtnGreyScale"
-        StateProperties223.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties223.BorderRadius = 80
-        StateProperties223.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties223.BorderThickness = 3
-        StateProperties223.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties223.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties223.IconLeftImage = Nothing
-        StateProperties223.IconRightImage = Nothing
-        Me.printbtnGreyScale.onHoverState = StateProperties223
-        StateProperties224.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties224.BorderRadius = 80
-        StateProperties224.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties224.BorderThickness = 3
-        StateProperties224.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties224.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties224.IconLeftImage = Nothing
-        StateProperties224.IconRightImage = Nothing
-        Me.printbtnGreyScale.OnPressedState = StateProperties224
-        Me.printbtnGreyScale.Size = New System.Drawing.Size(400, 95)
+        StateProperties73.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties73.BorderRadius = 80
+        StateProperties73.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties73.BorderThickness = 3
+        StateProperties73.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties73.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties73.IconLeftImage = Nothing
+        StateProperties73.IconRightImage = Nothing
+        Me.printbtnGreyScale.onHoverState = StateProperties73
+        StateProperties74.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties74.BorderRadius = 80
+        StateProperties74.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties74.BorderThickness = 3
+        StateProperties74.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties74.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties74.IconLeftImage = Nothing
+        StateProperties74.IconRightImage = Nothing
+        Me.printbtnGreyScale.OnPressedState = StateProperties74
+        Me.printbtnGreyScale.Size = New System.Drawing.Size(432, 95)
         Me.printbtnGreyScale.TabIndex = 22
         Me.printbtnGreyScale.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         Me.printbtnGreyScale.TextMarginLeft = 40
@@ -7670,10 +7672,10 @@ Partial Class formMain
         '
         Me.Label49.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label49, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label49.Font = New System.Drawing.Font("Comic Sans MS", 23.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label49.Font = New System.Drawing.Font("Segoe UI Black", 25.0!)
         Me.Label49.Location = New System.Drawing.Point(16, 367)
         Me.Label49.Name = "Label49"
-        Me.Label49.Size = New System.Drawing.Size(237, 44)
+        Me.Label49.Size = New System.Drawing.Size(257, 46)
         Me.Label49.TabIndex = 16
         Me.Label49.Text = "No. of Copies:"
         '
@@ -7712,7 +7714,7 @@ Partial Class formMain
         Me.printtxtTo.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal
         Me.printtxtTo.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.Guna2Transition1.SetDecoration(Me.printtxtTo, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.printtxtTo.DefaultFont = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.printtxtTo.DefaultFont = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.printtxtTo.DefaultText = "100"
         Me.printtxtTo.FillColor = System.Drawing.Color.White
         Me.printtxtTo.ForeColor = System.Drawing.Color.Black
@@ -7730,26 +7732,26 @@ Partial Class formMain
         Me.printtxtTo.Modified = False
         Me.printtxtTo.Multiline = False
         Me.printtxtTo.Name = "printtxtTo"
-        StateProperties225.BorderColor = System.Drawing.Color.Black
-        StateProperties225.FillColor = System.Drawing.Color.Empty
-        StateProperties225.ForeColor = System.Drawing.Color.Empty
-        StateProperties225.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.printtxtTo.OnActiveState = StateProperties225
-        StateProperties226.BorderColor = System.Drawing.Color.Empty
-        StateProperties226.FillColor = System.Drawing.Color.White
-        StateProperties226.ForeColor = System.Drawing.Color.Empty
-        StateProperties226.PlaceholderForeColor = System.Drawing.Color.Silver
-        Me.printtxtTo.OnDisabledState = StateProperties226
-        StateProperties227.BorderColor = System.Drawing.Color.Silver
-        StateProperties227.FillColor = System.Drawing.Color.Empty
-        StateProperties227.ForeColor = System.Drawing.Color.Empty
-        StateProperties227.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.printtxtTo.OnHoverState = StateProperties227
-        StateProperties228.BorderColor = System.Drawing.Color.Silver
-        StateProperties228.FillColor = System.Drawing.Color.White
-        StateProperties228.ForeColor = System.Drawing.Color.Black
-        StateProperties228.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.printtxtTo.OnIdleState = StateProperties228
+        StateProperties75.BorderColor = System.Drawing.Color.Black
+        StateProperties75.FillColor = System.Drawing.Color.Empty
+        StateProperties75.ForeColor = System.Drawing.Color.Empty
+        StateProperties75.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.printtxtTo.OnActiveState = StateProperties75
+        StateProperties76.BorderColor = System.Drawing.Color.Empty
+        StateProperties76.FillColor = System.Drawing.Color.White
+        StateProperties76.ForeColor = System.Drawing.Color.Empty
+        StateProperties76.PlaceholderForeColor = System.Drawing.Color.Silver
+        Me.printtxtTo.OnDisabledState = StateProperties76
+        StateProperties77.BorderColor = System.Drawing.Color.Silver
+        StateProperties77.FillColor = System.Drawing.Color.Empty
+        StateProperties77.ForeColor = System.Drawing.Color.Empty
+        StateProperties77.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.printtxtTo.OnHoverState = StateProperties77
+        StateProperties78.BorderColor = System.Drawing.Color.Silver
+        StateProperties78.FillColor = System.Drawing.Color.White
+        StateProperties78.ForeColor = System.Drawing.Color.Black
+        StateProperties78.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.printtxtTo.OnIdleState = StateProperties78
         Me.printtxtTo.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.printtxtTo.PlaceholderForeColor = System.Drawing.Color.Silver
         Me.printtxtTo.PlaceholderText = "000"
@@ -7759,7 +7761,7 @@ Partial Class formMain
         Me.printtxtTo.SelectionLength = 0
         Me.printtxtTo.SelectionStart = 0
         Me.printtxtTo.ShortcutsEnabled = True
-        Me.printtxtTo.Size = New System.Drawing.Size(80, 57)
+        Me.printtxtTo.Size = New System.Drawing.Size(80, 56)
         Me.printtxtTo.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Material
         Me.printtxtTo.TabIndex = 31
         Me.printtxtTo.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
@@ -7788,7 +7790,7 @@ Partial Class formMain
         Me.printtxtFrom.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal
         Me.printtxtFrom.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.Guna2Transition1.SetDecoration(Me.printtxtFrom, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.printtxtFrom.DefaultFont = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.printtxtFrom.DefaultFont = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.printtxtFrom.DefaultText = "1"
         Me.printtxtFrom.FillColor = System.Drawing.Color.White
         Me.printtxtFrom.ForeColor = System.Drawing.Color.Black
@@ -7806,26 +7808,26 @@ Partial Class formMain
         Me.printtxtFrom.Modified = False
         Me.printtxtFrom.Multiline = False
         Me.printtxtFrom.Name = "printtxtFrom"
-        StateProperties229.BorderColor = System.Drawing.Color.Black
-        StateProperties229.FillColor = System.Drawing.Color.Empty
-        StateProperties229.ForeColor = System.Drawing.Color.Empty
-        StateProperties229.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.printtxtFrom.OnActiveState = StateProperties229
-        StateProperties230.BorderColor = System.Drawing.Color.Empty
-        StateProperties230.FillColor = System.Drawing.Color.White
-        StateProperties230.ForeColor = System.Drawing.Color.Empty
-        StateProperties230.PlaceholderForeColor = System.Drawing.Color.Silver
-        Me.printtxtFrom.OnDisabledState = StateProperties230
-        StateProperties231.BorderColor = System.Drawing.Color.Silver
-        StateProperties231.FillColor = System.Drawing.Color.Empty
-        StateProperties231.ForeColor = System.Drawing.Color.Empty
-        StateProperties231.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.printtxtFrom.OnHoverState = StateProperties231
-        StateProperties232.BorderColor = System.Drawing.Color.Silver
-        StateProperties232.FillColor = System.Drawing.Color.White
-        StateProperties232.ForeColor = System.Drawing.Color.Black
-        StateProperties232.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.printtxtFrom.OnIdleState = StateProperties232
+        StateProperties79.BorderColor = System.Drawing.Color.Black
+        StateProperties79.FillColor = System.Drawing.Color.Empty
+        StateProperties79.ForeColor = System.Drawing.Color.Empty
+        StateProperties79.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.printtxtFrom.OnActiveState = StateProperties79
+        StateProperties80.BorderColor = System.Drawing.Color.Empty
+        StateProperties80.FillColor = System.Drawing.Color.White
+        StateProperties80.ForeColor = System.Drawing.Color.Empty
+        StateProperties80.PlaceholderForeColor = System.Drawing.Color.Silver
+        Me.printtxtFrom.OnDisabledState = StateProperties80
+        StateProperties81.BorderColor = System.Drawing.Color.Silver
+        StateProperties81.FillColor = System.Drawing.Color.Empty
+        StateProperties81.ForeColor = System.Drawing.Color.Empty
+        StateProperties81.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.printtxtFrom.OnHoverState = StateProperties81
+        StateProperties82.BorderColor = System.Drawing.Color.Silver
+        StateProperties82.FillColor = System.Drawing.Color.White
+        StateProperties82.ForeColor = System.Drawing.Color.Black
+        StateProperties82.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.printtxtFrom.OnIdleState = StateProperties82
         Me.printtxtFrom.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.printtxtFrom.PlaceholderForeColor = System.Drawing.Color.Silver
         Me.printtxtFrom.PlaceholderText = "000"
@@ -7835,7 +7837,7 @@ Partial Class formMain
         Me.printtxtFrom.SelectionLength = 0
         Me.printtxtFrom.SelectionStart = 0
         Me.printtxtFrom.ShortcutsEnabled = True
-        Me.printtxtFrom.Size = New System.Drawing.Size(80, 57)
+        Me.printtxtFrom.Size = New System.Drawing.Size(80, 56)
         Me.printtxtFrom.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Material
         Me.printtxtFrom.TabIndex = 30
         Me.printtxtFrom.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
@@ -7914,10 +7916,10 @@ Partial Class formMain
         '
         Me.Label50.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label50, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label50.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label50.Font = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.Label50.Location = New System.Drawing.Point(-4, 11)
         Me.Label50.Name = "Label50"
-        Me.Label50.Size = New System.Drawing.Size(109, 46)
+        Me.Label50.Size = New System.Drawing.Size(108, 46)
         Me.Label50.TabIndex = 7
         Me.Label50.Text = "From:"
         Me.Label50.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -7926,10 +7928,10 @@ Partial Class formMain
         '
         Me.Label51.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label51, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label51.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label51.Font = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.Label51.Location = New System.Drawing.Point(40, 67)
         Me.Label51.Name = "Label51"
-        Me.Label51.Size = New System.Drawing.Size(69, 46)
+        Me.Label51.Size = New System.Drawing.Size(64, 46)
         Me.Label51.TabIndex = 8
         Me.Label51.Text = "To:"
         Me.Label51.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -8002,10 +8004,10 @@ Partial Class formMain
         '
         Me.printlblSpecific.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.printlblSpecific, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.printlblSpecific.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.printlblSpecific.Font = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.printlblSpecific.Location = New System.Drawing.Point(324, 154)
         Me.printlblSpecific.Name = "printlblSpecific"
-        Me.printlblSpecific.Size = New System.Drawing.Size(245, 46)
+        Me.printlblSpecific.Size = New System.Drawing.Size(239, 46)
         Me.printlblSpecific.TabIndex = 6
         Me.printlblSpecific.Text = "Specific pages"
         Me.printlblSpecific.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -8026,10 +8028,10 @@ Partial Class formMain
         '
         Me.printlblAllpages.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.printlblAllpages, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.printlblAllpages.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.printlblAllpages.Font = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.printlblAllpages.Location = New System.Drawing.Point(325, 108)
         Me.printlblAllpages.Name = "printlblAllpages"
-        Me.printlblAllpages.Size = New System.Drawing.Size(159, 46)
+        Me.printlblAllpages.Size = New System.Drawing.Size(161, 46)
         Me.printlblAllpages.TabIndex = 4
         Me.printlblAllpages.Text = "All pages"
         Me.printlblAllpages.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -8050,10 +8052,10 @@ Partial Class formMain
         '
         Me.Label52.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label52, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label52.Font = New System.Drawing.Font("Comic Sans MS", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label52.Font = New System.Drawing.Font("Segoe UI Black", 25.0!)
         Me.Label52.Location = New System.Drawing.Point(9, 108)
         Me.Label52.Name = "Label52"
-        Me.Label52.Size = New System.Drawing.Size(253, 45)
+        Me.Label52.Size = New System.Drawing.Size(265, 46)
         Me.Label52.TabIndex = 2
         Me.Label52.Text = "Pages to print:"
         '
@@ -8061,10 +8063,10 @@ Partial Class formMain
         '
         Me.printlblPages.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.printlblPages, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.printlblPages.Font = New System.Drawing.Font("Verdana", 23.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.printlblPages.Location = New System.Drawing.Point(264, 66)
+        Me.printlblPages.Font = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
+        Me.printlblPages.Location = New System.Drawing.Point(271, 64)
         Me.printlblPages.Name = "printlblPages"
-        Me.printlblPages.Size = New System.Drawing.Size(77, 38)
+        Me.printlblPages.Size = New System.Drawing.Size(72, 46)
         Me.printlblPages.TabIndex = 1
         Me.printlblPages.Text = "100"
         '
@@ -8072,17 +8074,17 @@ Partial Class formMain
         '
         Me.Label53.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label53, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label53.Font = New System.Drawing.Font("Comic Sans MS", 23.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label53.Font = New System.Drawing.Font("Segoe UI Black", 25.0!)
         Me.Label53.Location = New System.Drawing.Point(56, 63)
         Me.Label53.Name = "Label53"
-        Me.Label53.Size = New System.Drawing.Size(205, 44)
+        Me.Label53.Size = New System.Drawing.Size(225, 46)
         Me.Label53.TabIndex = 0
         Me.Label53.Text = "Total pages:"
         '
         'printlblCopiesError
         '
         Me.Guna2Transition1.SetDecoration(Me.printlblCopiesError, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.printlblCopiesError.Font = New System.Drawing.Font("Comic Sans MS", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.printlblCopiesError.Font = New System.Drawing.Font("Segoe UI", 16.0!)
         Me.printlblCopiesError.ForeColor = System.Drawing.Color.Red
         Me.printlblCopiesError.Location = New System.Drawing.Point(266, 426)
         Me.printlblCopiesError.Name = "printlblCopiesError"
@@ -8177,18 +8179,18 @@ Partial Class formMain
         Me.adminbtnClose.ColorContrastOnClick = 45
         Me.adminbtnClose.ColorContrastOnHover = 45
         Me.adminbtnClose.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges73.BottomLeft = True
-        BorderEdges73.BottomRight = True
-        BorderEdges73.TopLeft = True
-        BorderEdges73.TopRight = True
-        Me.adminbtnClose.CustomizableEdges = BorderEdges73
+        BorderEdges30.BottomLeft = True
+        BorderEdges30.BottomRight = True
+        BorderEdges30.TopLeft = True
+        BorderEdges30.TopRight = True
+        Me.adminbtnClose.CustomizableEdges = BorderEdges30
         Me.Guna2Transition1.SetDecoration(Me.adminbtnClose, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.adminbtnClose.DialogResult = System.Windows.Forms.DialogResult.None
         Me.adminbtnClose.DisabledBorderColor = System.Drawing.Color.Empty
         Me.adminbtnClose.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
         Me.adminbtnClose.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
         Me.adminbtnClose.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Idle
-        Me.adminbtnClose.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.adminbtnClose.Font = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.adminbtnClose.ForeColor = System.Drawing.Color.Red
         Me.adminbtnClose.IconLeftCursor = System.Windows.Forms.Cursors.Hand
         Me.adminbtnClose.IconMarginLeft = 30
@@ -8203,24 +8205,24 @@ Partial Class formMain
         Me.adminbtnClose.IndicateFocus = False
         Me.adminbtnClose.Location = New System.Drawing.Point(198, 172)
         Me.adminbtnClose.Name = "adminbtnClose"
-        StateProperties233.BorderColor = System.Drawing.Color.Red
-        StateProperties233.BorderRadius = 40
-        StateProperties233.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties233.BorderThickness = 3
-        StateProperties233.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties233.ForeColor = System.Drawing.Color.Red
-        StateProperties233.IconLeftImage = Nothing
-        StateProperties233.IconRightImage = Nothing
-        Me.adminbtnClose.onHoverState = StateProperties233
-        StateProperties234.BorderColor = System.Drawing.Color.Red
-        StateProperties234.BorderRadius = 40
-        StateProperties234.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties234.BorderThickness = 3
-        StateProperties234.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties234.ForeColor = System.Drawing.Color.Red
-        StateProperties234.IconLeftImage = Nothing
-        StateProperties234.IconRightImage = Nothing
-        Me.adminbtnClose.OnPressedState = StateProperties234
+        StateProperties83.BorderColor = System.Drawing.Color.Red
+        StateProperties83.BorderRadius = 40
+        StateProperties83.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties83.BorderThickness = 3
+        StateProperties83.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties83.ForeColor = System.Drawing.Color.Red
+        StateProperties83.IconLeftImage = Nothing
+        StateProperties83.IconRightImage = Nothing
+        Me.adminbtnClose.onHoverState = StateProperties83
+        StateProperties84.BorderColor = System.Drawing.Color.Red
+        StateProperties84.BorderRadius = 40
+        StateProperties84.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties84.BorderThickness = 3
+        StateProperties84.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties84.ForeColor = System.Drawing.Color.Red
+        StateProperties84.IconLeftImage = Nothing
+        StateProperties84.IconRightImage = Nothing
+        Me.adminbtnClose.OnPressedState = StateProperties84
         Me.adminbtnClose.Size = New System.Drawing.Size(215, 62)
         Me.adminbtnClose.TabIndex = 41
         Me.adminbtnClose.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -8230,7 +8232,7 @@ Partial Class formMain
         'adminlblWithdrawingCoin
         '
         Me.Guna2Transition1.SetDecoration(Me.adminlblWithdrawingCoin, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.adminlblWithdrawingCoin.Font = New System.Drawing.Font("Comic Sans MS", 30.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.adminlblWithdrawingCoin.Font = New System.Drawing.Font("Segoe UI Black", 30.0!)
         Me.adminlblWithdrawingCoin.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.adminlblWithdrawingCoin.Location = New System.Drawing.Point(11, 9)
         Me.adminlblWithdrawingCoin.Name = "adminlblWithdrawingCoin"
@@ -8254,18 +8256,18 @@ Partial Class formMain
         Me.adminbtnWithdrawNo.ColorContrastOnClick = 45
         Me.adminbtnWithdrawNo.ColorContrastOnHover = 45
         Me.adminbtnWithdrawNo.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges74.BottomLeft = True
-        BorderEdges74.BottomRight = True
-        BorderEdges74.TopLeft = True
-        BorderEdges74.TopRight = True
-        Me.adminbtnWithdrawNo.CustomizableEdges = BorderEdges74
+        BorderEdges31.BottomLeft = True
+        BorderEdges31.BottomRight = True
+        BorderEdges31.TopLeft = True
+        BorderEdges31.TopRight = True
+        Me.adminbtnWithdrawNo.CustomizableEdges = BorderEdges31
         Me.Guna2Transition1.SetDecoration(Me.adminbtnWithdrawNo, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.adminbtnWithdrawNo.DialogResult = System.Windows.Forms.DialogResult.None
         Me.adminbtnWithdrawNo.DisabledBorderColor = System.Drawing.Color.Empty
         Me.adminbtnWithdrawNo.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
         Me.adminbtnWithdrawNo.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
         Me.adminbtnWithdrawNo.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Idle
-        Me.adminbtnWithdrawNo.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.adminbtnWithdrawNo.Font = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.adminbtnWithdrawNo.ForeColor = System.Drawing.Color.Red
         Me.adminbtnWithdrawNo.IconLeftCursor = System.Windows.Forms.Cursors.Hand
         Me.adminbtnWithdrawNo.IconMarginLeft = 30
@@ -8280,24 +8282,24 @@ Partial Class formMain
         Me.adminbtnWithdrawNo.IndicateFocus = False
         Me.adminbtnWithdrawNo.Location = New System.Drawing.Point(75, 158)
         Me.adminbtnWithdrawNo.Name = "adminbtnWithdrawNo"
-        StateProperties235.BorderColor = System.Drawing.Color.Red
-        StateProperties235.BorderRadius = 40
-        StateProperties235.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties235.BorderThickness = 3
-        StateProperties235.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties235.ForeColor = System.Drawing.Color.Red
-        StateProperties235.IconLeftImage = Nothing
-        StateProperties235.IconRightImage = Nothing
-        Me.adminbtnWithdrawNo.onHoverState = StateProperties235
-        StateProperties236.BorderColor = System.Drawing.Color.Red
-        StateProperties236.BorderRadius = 40
-        StateProperties236.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties236.BorderThickness = 3
-        StateProperties236.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties236.ForeColor = System.Drawing.Color.Red
-        StateProperties236.IconLeftImage = Nothing
-        StateProperties236.IconRightImage = Nothing
-        Me.adminbtnWithdrawNo.OnPressedState = StateProperties236
+        StateProperties85.BorderColor = System.Drawing.Color.Red
+        StateProperties85.BorderRadius = 40
+        StateProperties85.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties85.BorderThickness = 3
+        StateProperties85.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties85.ForeColor = System.Drawing.Color.Red
+        StateProperties85.IconLeftImage = Nothing
+        StateProperties85.IconRightImage = Nothing
+        Me.adminbtnWithdrawNo.onHoverState = StateProperties85
+        StateProperties86.BorderColor = System.Drawing.Color.Red
+        StateProperties86.BorderRadius = 40
+        StateProperties86.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties86.BorderThickness = 3
+        StateProperties86.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties86.ForeColor = System.Drawing.Color.Red
+        StateProperties86.IconLeftImage = Nothing
+        StateProperties86.IconRightImage = Nothing
+        Me.adminbtnWithdrawNo.OnPressedState = StateProperties86
         Me.adminbtnWithdrawNo.Size = New System.Drawing.Size(215, 62)
         Me.adminbtnWithdrawNo.TabIndex = 48
         Me.adminbtnWithdrawNo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -8319,18 +8321,18 @@ Partial Class formMain
         Me.adminbtnWithdrawYes.ColorContrastOnClick = 45
         Me.adminbtnWithdrawYes.ColorContrastOnHover = 45
         Me.adminbtnWithdrawYes.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges75.BottomLeft = True
-        BorderEdges75.BottomRight = True
-        BorderEdges75.TopLeft = True
-        BorderEdges75.TopRight = True
-        Me.adminbtnWithdrawYes.CustomizableEdges = BorderEdges75
+        BorderEdges32.BottomLeft = True
+        BorderEdges32.BottomRight = True
+        BorderEdges32.TopLeft = True
+        BorderEdges32.TopRight = True
+        Me.adminbtnWithdrawYes.CustomizableEdges = BorderEdges32
         Me.Guna2Transition1.SetDecoration(Me.adminbtnWithdrawYes, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.adminbtnWithdrawYes.DialogResult = System.Windows.Forms.DialogResult.None
         Me.adminbtnWithdrawYes.DisabledBorderColor = System.Drawing.Color.Empty
         Me.adminbtnWithdrawYes.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
         Me.adminbtnWithdrawYes.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
         Me.adminbtnWithdrawYes.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Idle
-        Me.adminbtnWithdrawYes.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.adminbtnWithdrawYes.Font = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.adminbtnWithdrawYes.ForeColor = System.Drawing.Color.Lime
         Me.adminbtnWithdrawYes.IconLeftCursor = System.Windows.Forms.Cursors.Hand
         Me.adminbtnWithdrawYes.IconMarginLeft = 30
@@ -8345,24 +8347,24 @@ Partial Class formMain
         Me.adminbtnWithdrawYes.IndicateFocus = False
         Me.adminbtnWithdrawYes.Location = New System.Drawing.Point(349, 158)
         Me.adminbtnWithdrawYes.Name = "adminbtnWithdrawYes"
-        StateProperties237.BorderColor = System.Drawing.Color.Lime
-        StateProperties237.BorderRadius = 40
-        StateProperties237.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties237.BorderThickness = 3
-        StateProperties237.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties237.ForeColor = System.Drawing.Color.Lime
-        StateProperties237.IconLeftImage = Nothing
-        StateProperties237.IconRightImage = Nothing
-        Me.adminbtnWithdrawYes.onHoverState = StateProperties237
-        StateProperties238.BorderColor = System.Drawing.Color.Lime
-        StateProperties238.BorderRadius = 40
-        StateProperties238.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties238.BorderThickness = 3
-        StateProperties238.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties238.ForeColor = System.Drawing.Color.Lime
-        StateProperties238.IconLeftImage = Nothing
-        StateProperties238.IconRightImage = Nothing
-        Me.adminbtnWithdrawYes.OnPressedState = StateProperties238
+        StateProperties87.BorderColor = System.Drawing.Color.Lime
+        StateProperties87.BorderRadius = 40
+        StateProperties87.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties87.BorderThickness = 3
+        StateProperties87.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties87.ForeColor = System.Drawing.Color.Lime
+        StateProperties87.IconLeftImage = Nothing
+        StateProperties87.IconRightImage = Nothing
+        Me.adminbtnWithdrawYes.onHoverState = StateProperties87
+        StateProperties88.BorderColor = System.Drawing.Color.Lime
+        StateProperties88.BorderRadius = 40
+        StateProperties88.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties88.BorderThickness = 3
+        StateProperties88.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties88.ForeColor = System.Drawing.Color.Lime
+        StateProperties88.IconLeftImage = Nothing
+        StateProperties88.IconRightImage = Nothing
+        Me.adminbtnWithdrawYes.OnPressedState = StateProperties88
         Me.adminbtnWithdrawYes.Size = New System.Drawing.Size(215, 62)
         Me.adminbtnWithdrawYes.TabIndex = 47
         Me.adminbtnWithdrawYes.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -8372,7 +8374,7 @@ Partial Class formMain
         'adminlabelWithdrawText
         '
         Me.Guna2Transition1.SetDecoration(Me.adminlabelWithdrawText, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.adminlabelWithdrawText.Font = New System.Drawing.Font("Comic Sans MS", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.adminlabelWithdrawText.Font = New System.Drawing.Font("Segoe UI Black", 30.0!)
         Me.adminlabelWithdrawText.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.adminlabelWithdrawText.Location = New System.Drawing.Point(51, 48)
         Me.adminlabelWithdrawText.Name = "adminlabelWithdrawText"
@@ -8440,11 +8442,11 @@ Partial Class formMain
         '
         Me.adminlblSaving.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.adminlblSaving, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.adminlblSaving.Font = New System.Drawing.Font("Comic Sans MS", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.adminlblSaving.Font = New System.Drawing.Font("Segoe UI Black", 30.0!)
         Me.adminlblSaving.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.adminlblSaving.Location = New System.Drawing.Point(200, 30)
         Me.adminlblSaving.Name = "adminlblSaving"
-        Me.adminlblSaving.Size = New System.Drawing.Size(197, 55)
+        Me.adminlblSaving.Size = New System.Drawing.Size(194, 54)
         Me.adminlblSaving.TabIndex = 27
         Me.adminlblSaving.Text = "Saving..."
         '
@@ -8463,18 +8465,18 @@ Partial Class formMain
         Me.adminbtnConfirmNo.ColorContrastOnClick = 45
         Me.adminbtnConfirmNo.ColorContrastOnHover = 45
         Me.adminbtnConfirmNo.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges76.BottomLeft = True
-        BorderEdges76.BottomRight = True
-        BorderEdges76.TopLeft = True
-        BorderEdges76.TopRight = True
-        Me.adminbtnConfirmNo.CustomizableEdges = BorderEdges76
+        BorderEdges33.BottomLeft = True
+        BorderEdges33.BottomRight = True
+        BorderEdges33.TopLeft = True
+        BorderEdges33.TopRight = True
+        Me.adminbtnConfirmNo.CustomizableEdges = BorderEdges33
         Me.Guna2Transition1.SetDecoration(Me.adminbtnConfirmNo, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.adminbtnConfirmNo.DialogResult = System.Windows.Forms.DialogResult.None
         Me.adminbtnConfirmNo.DisabledBorderColor = System.Drawing.Color.Empty
         Me.adminbtnConfirmNo.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
         Me.adminbtnConfirmNo.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
         Me.adminbtnConfirmNo.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Idle
-        Me.adminbtnConfirmNo.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.adminbtnConfirmNo.Font = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.adminbtnConfirmNo.ForeColor = System.Drawing.Color.Red
         Me.adminbtnConfirmNo.IconLeftCursor = System.Windows.Forms.Cursors.Hand
         Me.adminbtnConfirmNo.IconMarginLeft = 30
@@ -8489,24 +8491,24 @@ Partial Class formMain
         Me.adminbtnConfirmNo.IndicateFocus = False
         Me.adminbtnConfirmNo.Location = New System.Drawing.Point(75, 128)
         Me.adminbtnConfirmNo.Name = "adminbtnConfirmNo"
-        StateProperties239.BorderColor = System.Drawing.Color.Red
-        StateProperties239.BorderRadius = 40
-        StateProperties239.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties239.BorderThickness = 3
-        StateProperties239.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties239.ForeColor = System.Drawing.Color.Red
-        StateProperties239.IconLeftImage = Nothing
-        StateProperties239.IconRightImage = Nothing
-        Me.adminbtnConfirmNo.onHoverState = StateProperties239
-        StateProperties240.BorderColor = System.Drawing.Color.Red
-        StateProperties240.BorderRadius = 40
-        StateProperties240.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties240.BorderThickness = 3
-        StateProperties240.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties240.ForeColor = System.Drawing.Color.Red
-        StateProperties240.IconLeftImage = Nothing
-        StateProperties240.IconRightImage = Nothing
-        Me.adminbtnConfirmNo.OnPressedState = StateProperties240
+        StateProperties89.BorderColor = System.Drawing.Color.Red
+        StateProperties89.BorderRadius = 40
+        StateProperties89.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties89.BorderThickness = 3
+        StateProperties89.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties89.ForeColor = System.Drawing.Color.Red
+        StateProperties89.IconLeftImage = Nothing
+        StateProperties89.IconRightImage = Nothing
+        Me.adminbtnConfirmNo.onHoverState = StateProperties89
+        StateProperties90.BorderColor = System.Drawing.Color.Red
+        StateProperties90.BorderRadius = 40
+        StateProperties90.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties90.BorderThickness = 3
+        StateProperties90.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties90.ForeColor = System.Drawing.Color.Red
+        StateProperties90.IconLeftImage = Nothing
+        StateProperties90.IconRightImage = Nothing
+        Me.adminbtnConfirmNo.OnPressedState = StateProperties90
         Me.adminbtnConfirmNo.Size = New System.Drawing.Size(215, 62)
         Me.adminbtnConfirmNo.TabIndex = 40
         Me.adminbtnConfirmNo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -8528,18 +8530,18 @@ Partial Class formMain
         Me.adminbtnConfirmYes.ColorContrastOnClick = 45
         Me.adminbtnConfirmYes.ColorContrastOnHover = 45
         Me.adminbtnConfirmYes.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges77.BottomLeft = True
-        BorderEdges77.BottomRight = True
-        BorderEdges77.TopLeft = True
-        BorderEdges77.TopRight = True
-        Me.adminbtnConfirmYes.CustomizableEdges = BorderEdges77
+        BorderEdges34.BottomLeft = True
+        BorderEdges34.BottomRight = True
+        BorderEdges34.TopLeft = True
+        BorderEdges34.TopRight = True
+        Me.adminbtnConfirmYes.CustomizableEdges = BorderEdges34
         Me.Guna2Transition1.SetDecoration(Me.adminbtnConfirmYes, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.adminbtnConfirmYes.DialogResult = System.Windows.Forms.DialogResult.None
         Me.adminbtnConfirmYes.DisabledBorderColor = System.Drawing.Color.Empty
         Me.adminbtnConfirmYes.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
         Me.adminbtnConfirmYes.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
         Me.adminbtnConfirmYes.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Idle
-        Me.adminbtnConfirmYes.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.adminbtnConfirmYes.Font = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.adminbtnConfirmYes.ForeColor = System.Drawing.Color.Lime
         Me.adminbtnConfirmYes.IconLeftCursor = System.Windows.Forms.Cursors.Hand
         Me.adminbtnConfirmYes.IconMarginLeft = 30
@@ -8554,24 +8556,24 @@ Partial Class formMain
         Me.adminbtnConfirmYes.IndicateFocus = False
         Me.adminbtnConfirmYes.Location = New System.Drawing.Point(349, 128)
         Me.adminbtnConfirmYes.Name = "adminbtnConfirmYes"
-        StateProperties241.BorderColor = System.Drawing.Color.Lime
-        StateProperties241.BorderRadius = 40
-        StateProperties241.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties241.BorderThickness = 3
-        StateProperties241.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties241.ForeColor = System.Drawing.Color.Lime
-        StateProperties241.IconLeftImage = Nothing
-        StateProperties241.IconRightImage = Nothing
-        Me.adminbtnConfirmYes.onHoverState = StateProperties241
-        StateProperties242.BorderColor = System.Drawing.Color.Lime
-        StateProperties242.BorderRadius = 40
-        StateProperties242.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties242.BorderThickness = 3
-        StateProperties242.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties242.ForeColor = System.Drawing.Color.Lime
-        StateProperties242.IconLeftImage = Nothing
-        StateProperties242.IconRightImage = Nothing
-        Me.adminbtnConfirmYes.OnPressedState = StateProperties242
+        StateProperties91.BorderColor = System.Drawing.Color.Lime
+        StateProperties91.BorderRadius = 40
+        StateProperties91.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties91.BorderThickness = 3
+        StateProperties91.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties91.ForeColor = System.Drawing.Color.Lime
+        StateProperties91.IconLeftImage = Nothing
+        StateProperties91.IconRightImage = Nothing
+        Me.adminbtnConfirmYes.onHoverState = StateProperties91
+        StateProperties92.BorderColor = System.Drawing.Color.Lime
+        StateProperties92.BorderRadius = 40
+        StateProperties92.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties92.BorderThickness = 3
+        StateProperties92.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties92.ForeColor = System.Drawing.Color.Lime
+        StateProperties92.IconLeftImage = Nothing
+        StateProperties92.IconRightImage = Nothing
+        Me.adminbtnConfirmYes.OnPressedState = StateProperties92
         Me.adminbtnConfirmYes.Size = New System.Drawing.Size(215, 62)
         Me.adminbtnConfirmYes.TabIndex = 39
         Me.adminbtnConfirmYes.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -8582,11 +8584,11 @@ Partial Class formMain
         '
         Me.Label74.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label74, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label74.Font = New System.Drawing.Font("Comic Sans MS", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label74.Font = New System.Drawing.Font("Segoe UI Black", 30.0!)
         Me.Label74.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Label74.Location = New System.Drawing.Point(205, 38)
         Me.Label74.Name = "Label74"
-        Me.Label74.Size = New System.Drawing.Size(242, 55)
+        Me.Label74.Size = New System.Drawing.Size(229, 54)
         Me.Label74.TabIndex = 25
         Me.Label74.Text = "Save data?"
         '
@@ -8607,7 +8609,7 @@ Partial Class formMain
         Me.TabControl.Controls.Add(Me.TabSetting)
         Me.TabControl.Controls.Add(Me.TabCoins)
         Me.Guna2Transition1.SetDecoration(Me.TabControl, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.TabControl.Font = New System.Drawing.Font("Comic Sans MS", 30.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TabControl.Font = New System.Drawing.Font("Segoe UI Semibold", 30.0!)
         Me.TabControl.Location = New System.Drawing.Point(23, 83)
         Me.TabControl.Name = "TabControl"
         Me.TabControl.SelectedIndex = 0
@@ -8625,10 +8627,10 @@ Partial Class formMain
         Me.TabSetting.Controls.Add(Me.Panel5)
         Me.TabSetting.Controls.Add(Me.Panel4)
         Me.Guna2Transition1.SetDecoration(Me.TabSetting, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.TabSetting.Location = New System.Drawing.Point(4, 65)
+        Me.TabSetting.Location = New System.Drawing.Point(4, 63)
         Me.TabSetting.Name = "TabSetting"
         Me.TabSetting.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabSetting.Size = New System.Drawing.Size(1537, 810)
+        Me.TabSetting.Size = New System.Drawing.Size(1537, 812)
         Me.TabSetting.TabIndex = 0
         Me.TabSetting.Text = " General Setting "
         '
@@ -8655,10 +8657,10 @@ Partial Class formMain
         '
         Me.Label44.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label44, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label44.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label44.Font = New System.Drawing.Font("Segoe UI Black", 25.0!)
         Me.Label44.Location = New System.Drawing.Point(630, 14)
         Me.Label44.Name = "Label44"
-        Me.Label44.Size = New System.Drawing.Size(269, 45)
+        Me.Label44.Size = New System.Drawing.Size(276, 46)
         Me.Label44.TabIndex = 50
         Me.Label44.Text = "General Setting"
         '
@@ -8688,7 +8690,7 @@ Partial Class formMain
         Me.admincombodrive.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.admincombodrive.FocusedColor = System.Drawing.Color.Empty
         Me.admincombodrive.FocusedState.Parent = Me.admincombodrive
-        Me.admincombodrive.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.admincombodrive.Font = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.admincombodrive.ForeColor = System.Drawing.Color.Black
         Me.admincombodrive.FormattingEnabled = True
         Me.admincombodrive.HoverState.Parent = Me.admincombodrive
@@ -8745,7 +8747,7 @@ Partial Class formMain
         Me.admintxtWifi.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal
         Me.admintxtWifi.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.Guna2Transition1.SetDecoration(Me.admintxtWifi, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.admintxtWifi.DefaultFont = New System.Drawing.Font("Comic Sans MS", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.admintxtWifi.DefaultFont = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.admintxtWifi.DefaultText = "1"
         Me.admintxtWifi.FillColor = System.Drawing.Color.White
         Me.admintxtWifi.ForeColor = System.Drawing.Color.Black
@@ -8763,26 +8765,26 @@ Partial Class formMain
         Me.admintxtWifi.Modified = False
         Me.admintxtWifi.Multiline = False
         Me.admintxtWifi.Name = "admintxtWifi"
-        StateProperties243.BorderColor = System.Drawing.Color.Black
-        StateProperties243.FillColor = System.Drawing.Color.Empty
-        StateProperties243.ForeColor = System.Drawing.Color.Empty
-        StateProperties243.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admintxtWifi.OnActiveState = StateProperties243
-        StateProperties244.BorderColor = System.Drawing.Color.Empty
-        StateProperties244.FillColor = System.Drawing.Color.White
-        StateProperties244.ForeColor = System.Drawing.Color.Empty
-        StateProperties244.PlaceholderForeColor = System.Drawing.Color.Silver
-        Me.admintxtWifi.OnDisabledState = StateProperties244
-        StateProperties245.BorderColor = System.Drawing.Color.Silver
-        StateProperties245.FillColor = System.Drawing.Color.Empty
-        StateProperties245.ForeColor = System.Drawing.Color.Empty
-        StateProperties245.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admintxtWifi.OnHoverState = StateProperties245
-        StateProperties246.BorderColor = System.Drawing.Color.Silver
-        StateProperties246.FillColor = System.Drawing.Color.White
-        StateProperties246.ForeColor = System.Drawing.Color.Black
-        StateProperties246.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admintxtWifi.OnIdleState = StateProperties246
+        StateProperties93.BorderColor = System.Drawing.Color.Black
+        StateProperties93.FillColor = System.Drawing.Color.Empty
+        StateProperties93.ForeColor = System.Drawing.Color.Empty
+        StateProperties93.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.admintxtWifi.OnActiveState = StateProperties93
+        StateProperties94.BorderColor = System.Drawing.Color.Empty
+        StateProperties94.FillColor = System.Drawing.Color.White
+        StateProperties94.ForeColor = System.Drawing.Color.Empty
+        StateProperties94.PlaceholderForeColor = System.Drawing.Color.Silver
+        Me.admintxtWifi.OnDisabledState = StateProperties94
+        StateProperties95.BorderColor = System.Drawing.Color.Silver
+        StateProperties95.FillColor = System.Drawing.Color.Empty
+        StateProperties95.ForeColor = System.Drawing.Color.Empty
+        StateProperties95.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.admintxtWifi.OnHoverState = StateProperties95
+        StateProperties96.BorderColor = System.Drawing.Color.Silver
+        StateProperties96.FillColor = System.Drawing.Color.White
+        StateProperties96.ForeColor = System.Drawing.Color.Black
+        StateProperties96.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.admintxtWifi.OnIdleState = StateProperties96
         Me.admintxtWifi.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.admintxtWifi.PlaceholderForeColor = System.Drawing.Color.Silver
         Me.admintxtWifi.PlaceholderText = "000"
@@ -8821,7 +8823,7 @@ Partial Class formMain
         Me.admintxtCache.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal
         Me.admintxtCache.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.Guna2Transition1.SetDecoration(Me.admintxtCache, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.admintxtCache.DefaultFont = New System.Drawing.Font("Comic Sans MS", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.admintxtCache.DefaultFont = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.admintxtCache.DefaultText = "1"
         Me.admintxtCache.FillColor = System.Drawing.Color.White
         Me.admintxtCache.ForeColor = System.Drawing.Color.Black
@@ -8839,26 +8841,26 @@ Partial Class formMain
         Me.admintxtCache.Modified = False
         Me.admintxtCache.Multiline = False
         Me.admintxtCache.Name = "admintxtCache"
-        StateProperties247.BorderColor = System.Drawing.Color.Black
-        StateProperties247.FillColor = System.Drawing.Color.Empty
-        StateProperties247.ForeColor = System.Drawing.Color.Empty
-        StateProperties247.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admintxtCache.OnActiveState = StateProperties247
-        StateProperties248.BorderColor = System.Drawing.Color.Empty
-        StateProperties248.FillColor = System.Drawing.Color.White
-        StateProperties248.ForeColor = System.Drawing.Color.Empty
-        StateProperties248.PlaceholderForeColor = System.Drawing.Color.Silver
-        Me.admintxtCache.OnDisabledState = StateProperties248
-        StateProperties249.BorderColor = System.Drawing.Color.Silver
-        StateProperties249.FillColor = System.Drawing.Color.Empty
-        StateProperties249.ForeColor = System.Drawing.Color.Empty
-        StateProperties249.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admintxtCache.OnHoverState = StateProperties249
-        StateProperties250.BorderColor = System.Drawing.Color.Silver
-        StateProperties250.FillColor = System.Drawing.Color.White
-        StateProperties250.ForeColor = System.Drawing.Color.Black
-        StateProperties250.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admintxtCache.OnIdleState = StateProperties250
+        StateProperties97.BorderColor = System.Drawing.Color.Black
+        StateProperties97.FillColor = System.Drawing.Color.Empty
+        StateProperties97.ForeColor = System.Drawing.Color.Empty
+        StateProperties97.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.admintxtCache.OnActiveState = StateProperties97
+        StateProperties98.BorderColor = System.Drawing.Color.Empty
+        StateProperties98.FillColor = System.Drawing.Color.White
+        StateProperties98.ForeColor = System.Drawing.Color.Empty
+        StateProperties98.PlaceholderForeColor = System.Drawing.Color.Silver
+        Me.admintxtCache.OnDisabledState = StateProperties98
+        StateProperties99.BorderColor = System.Drawing.Color.Silver
+        StateProperties99.FillColor = System.Drawing.Color.Empty
+        StateProperties99.ForeColor = System.Drawing.Color.Empty
+        StateProperties99.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.admintxtCache.OnHoverState = StateProperties99
+        StateProperties100.BorderColor = System.Drawing.Color.Silver
+        StateProperties100.FillColor = System.Drawing.Color.White
+        StateProperties100.ForeColor = System.Drawing.Color.Black
+        StateProperties100.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.admintxtCache.OnIdleState = StateProperties100
         Me.admintxtCache.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.admintxtCache.PlaceholderForeColor = System.Drawing.Color.Silver
         Me.admintxtCache.PlaceholderText = "000"
@@ -8883,10 +8885,10 @@ Partial Class formMain
         '
         Me.Label54.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label54, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label54.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label54.Font = New System.Drawing.Font("Segoe UI Black", 25.0!)
         Me.Label54.Location = New System.Drawing.Point(356, 6)
         Me.Label54.Name = "Label54"
-        Me.Label54.Size = New System.Drawing.Size(107, 45)
+        Me.Label54.Size = New System.Drawing.Size(112, 46)
         Me.Label54.TabIndex = 34
         Me.Label54.Text = "Paths"
         '
@@ -8894,10 +8896,10 @@ Partial Class formMain
         '
         Me.Label55.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label55, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label55.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label55.Font = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.Label55.Location = New System.Drawing.Point(13, 193)
         Me.Label55.Name = "Label55"
-        Me.Label55.Size = New System.Drawing.Size(325, 46)
+        Me.Label55.Size = New System.Drawing.Size(314, 46)
         Me.Label55.TabIndex = 33
         Me.Label55.Text = "Wifi Received Path:"
         '
@@ -8905,10 +8907,10 @@ Partial Class formMain
         '
         Me.Label56.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label56, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label56.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label56.Font = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.Label56.Location = New System.Drawing.Point(130, 81)
         Me.Label56.Name = "Label56"
-        Me.Label56.Size = New System.Drawing.Size(204, 46)
+        Me.Label56.Size = New System.Drawing.Size(197, 46)
         Me.Label56.TabIndex = 32
         Me.Label56.Text = "Flash Drive:"
         '
@@ -8916,10 +8918,10 @@ Partial Class formMain
         '
         Me.Label57.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label57, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label57.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label57.Font = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.Label57.Location = New System.Drawing.Point(66, 137)
         Me.Label57.Name = "Label57"
-        Me.Label57.Size = New System.Drawing.Size(266, 46)
+        Me.Label57.Size = New System.Drawing.Size(261, 46)
         Me.Label57.TabIndex = 31
         Me.Label57.Text = "Cache File Path:"
         '
@@ -8938,18 +8940,18 @@ Partial Class formMain
         Me.adminbtnSave.ColorContrastOnClick = 45
         Me.adminbtnSave.ColorContrastOnHover = 45
         Me.adminbtnSave.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges78.BottomLeft = True
-        BorderEdges78.BottomRight = True
-        BorderEdges78.TopLeft = True
-        BorderEdges78.TopRight = True
-        Me.adminbtnSave.CustomizableEdges = BorderEdges78
+        BorderEdges35.BottomLeft = True
+        BorderEdges35.BottomRight = True
+        BorderEdges35.TopLeft = True
+        BorderEdges35.TopRight = True
+        Me.adminbtnSave.CustomizableEdges = BorderEdges35
         Me.Guna2Transition1.SetDecoration(Me.adminbtnSave, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.adminbtnSave.DialogResult = System.Windows.Forms.DialogResult.None
         Me.adminbtnSave.DisabledBorderColor = System.Drawing.Color.Empty
         Me.adminbtnSave.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
         Me.adminbtnSave.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
         Me.adminbtnSave.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Idle
-        Me.adminbtnSave.Font = New System.Drawing.Font("Comic Sans MS", 35.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.adminbtnSave.Font = New System.Drawing.Font("Segoe UI Semibold", 35.0!)
         Me.adminbtnSave.ForeColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
         Me.adminbtnSave.IconLeftCursor = System.Windows.Forms.Cursors.Hand
         Me.adminbtnSave.IconMarginLeft = 30
@@ -8962,26 +8964,26 @@ Partial Class formMain
         Me.adminbtnSave.IdleIconLeftImage = Global.PrintVendo.My.Resources.Resources.Save
         Me.adminbtnSave.IdleIconRightImage = Nothing
         Me.adminbtnSave.IndicateFocus = False
-        Me.adminbtnSave.Location = New System.Drawing.Point(607, 718)
+        Me.adminbtnSave.Location = New System.Drawing.Point(607, 719)
         Me.adminbtnSave.Name = "adminbtnSave"
-        StateProperties251.BorderColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
-        StateProperties251.BorderRadius = 70
-        StateProperties251.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties251.BorderThickness = 3
-        StateProperties251.FillColor = System.Drawing.Color.White
-        StateProperties251.ForeColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
-        StateProperties251.IconLeftImage = Global.PrintVendo.My.Resources.Resources.Save
-        StateProperties251.IconRightImage = Nothing
-        Me.adminbtnSave.onHoverState = StateProperties251
-        StateProperties252.BorderColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
-        StateProperties252.BorderRadius = 70
-        StateProperties252.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties252.BorderThickness = 3
-        StateProperties252.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties252.ForeColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
-        StateProperties252.IconLeftImage = Global.PrintVendo.My.Resources.Resources.Save
-        StateProperties252.IconRightImage = Nothing
-        Me.adminbtnSave.OnPressedState = StateProperties252
+        StateProperties101.BorderColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
+        StateProperties101.BorderRadius = 70
+        StateProperties101.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties101.BorderThickness = 3
+        StateProperties101.FillColor = System.Drawing.Color.White
+        StateProperties101.ForeColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
+        StateProperties101.IconLeftImage = Global.PrintVendo.My.Resources.Resources.Save
+        StateProperties101.IconRightImage = Nothing
+        Me.adminbtnSave.onHoverState = StateProperties101
+        StateProperties102.BorderColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
+        StateProperties102.BorderRadius = 70
+        StateProperties102.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties102.BorderThickness = 3
+        StateProperties102.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties102.ForeColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
+        StateProperties102.IconLeftImage = Global.PrintVendo.My.Resources.Resources.Save
+        StateProperties102.IconRightImage = Nothing
+        Me.adminbtnSave.OnPressedState = StateProperties102
         Me.adminbtnSave.Size = New System.Drawing.Size(326, 86)
         Me.adminbtnSave.TabIndex = 39
         Me.adminbtnSave.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -9098,7 +9100,7 @@ Partial Class formMain
         Me.admintxtScan.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal
         Me.admintxtScan.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.Guna2Transition1.SetDecoration(Me.admintxtScan, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.admintxtScan.DefaultFont = New System.Drawing.Font("Comic Sans MS", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.admintxtScan.DefaultFont = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.admintxtScan.DefaultText = "1"
         Me.admintxtScan.FillColor = System.Drawing.Color.White
         Me.admintxtScan.ForeColor = System.Drawing.Color.Black
@@ -9116,26 +9118,26 @@ Partial Class formMain
         Me.admintxtScan.Modified = False
         Me.admintxtScan.Multiline = False
         Me.admintxtScan.Name = "admintxtScan"
-        StateProperties253.BorderColor = System.Drawing.Color.Black
-        StateProperties253.FillColor = System.Drawing.Color.Empty
-        StateProperties253.ForeColor = System.Drawing.Color.Empty
-        StateProperties253.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admintxtScan.OnActiveState = StateProperties253
-        StateProperties254.BorderColor = System.Drawing.Color.Empty
-        StateProperties254.FillColor = System.Drawing.Color.White
-        StateProperties254.ForeColor = System.Drawing.Color.Empty
-        StateProperties254.PlaceholderForeColor = System.Drawing.Color.Silver
-        Me.admintxtScan.OnDisabledState = StateProperties254
-        StateProperties255.BorderColor = System.Drawing.Color.Silver
-        StateProperties255.FillColor = System.Drawing.Color.Empty
-        StateProperties255.ForeColor = System.Drawing.Color.Empty
-        StateProperties255.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admintxtScan.OnHoverState = StateProperties255
-        StateProperties256.BorderColor = System.Drawing.Color.Silver
-        StateProperties256.FillColor = System.Drawing.Color.White
-        StateProperties256.ForeColor = System.Drawing.Color.Black
-        StateProperties256.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admintxtScan.OnIdleState = StateProperties256
+        StateProperties103.BorderColor = System.Drawing.Color.Black
+        StateProperties103.FillColor = System.Drawing.Color.Empty
+        StateProperties103.ForeColor = System.Drawing.Color.Empty
+        StateProperties103.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.admintxtScan.OnActiveState = StateProperties103
+        StateProperties104.BorderColor = System.Drawing.Color.Empty
+        StateProperties104.FillColor = System.Drawing.Color.White
+        StateProperties104.ForeColor = System.Drawing.Color.Empty
+        StateProperties104.PlaceholderForeColor = System.Drawing.Color.Silver
+        Me.admintxtScan.OnDisabledState = StateProperties104
+        StateProperties105.BorderColor = System.Drawing.Color.Silver
+        StateProperties105.FillColor = System.Drawing.Color.Empty
+        StateProperties105.ForeColor = System.Drawing.Color.Empty
+        StateProperties105.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.admintxtScan.OnHoverState = StateProperties105
+        StateProperties106.BorderColor = System.Drawing.Color.Silver
+        StateProperties106.FillColor = System.Drawing.Color.White
+        StateProperties106.ForeColor = System.Drawing.Color.Black
+        StateProperties106.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.admintxtScan.OnIdleState = StateProperties106
         Me.admintxtScan.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.admintxtScan.PlaceholderForeColor = System.Drawing.Color.Silver
         Me.admintxtScan.PlaceholderText = "000"
@@ -9160,10 +9162,10 @@ Partial Class formMain
         '
         Me.Label1.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label1, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label1.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.Label1.Location = New System.Drawing.Point(180, 232)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(104, 46)
+        Me.Label1.Size = New System.Drawing.Size(101, 46)
         Me.Label1.TabIndex = 44
         Me.Label1.Text = "Scan:"
         '
@@ -9185,7 +9187,7 @@ Partial Class formMain
         Me.admintxtColored.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal
         Me.admintxtColored.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.Guna2Transition1.SetDecoration(Me.admintxtColored, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.admintxtColored.DefaultFont = New System.Drawing.Font("Comic Sans MS", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.admintxtColored.DefaultFont = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.admintxtColored.DefaultText = "1"
         Me.admintxtColored.FillColor = System.Drawing.Color.White
         Me.admintxtColored.ForeColor = System.Drawing.Color.Black
@@ -9203,26 +9205,26 @@ Partial Class formMain
         Me.admintxtColored.Modified = False
         Me.admintxtColored.Multiline = False
         Me.admintxtColored.Name = "admintxtColored"
-        StateProperties257.BorderColor = System.Drawing.Color.Black
-        StateProperties257.FillColor = System.Drawing.Color.Empty
-        StateProperties257.ForeColor = System.Drawing.Color.Empty
-        StateProperties257.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admintxtColored.OnActiveState = StateProperties257
-        StateProperties258.BorderColor = System.Drawing.Color.Empty
-        StateProperties258.FillColor = System.Drawing.Color.White
-        StateProperties258.ForeColor = System.Drawing.Color.Empty
-        StateProperties258.PlaceholderForeColor = System.Drawing.Color.Silver
-        Me.admintxtColored.OnDisabledState = StateProperties258
-        StateProperties259.BorderColor = System.Drawing.Color.Silver
-        StateProperties259.FillColor = System.Drawing.Color.Empty
-        StateProperties259.ForeColor = System.Drawing.Color.Empty
-        StateProperties259.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admintxtColored.OnHoverState = StateProperties259
-        StateProperties260.BorderColor = System.Drawing.Color.Silver
-        StateProperties260.FillColor = System.Drawing.Color.White
-        StateProperties260.ForeColor = System.Drawing.Color.Black
-        StateProperties260.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admintxtColored.OnIdleState = StateProperties260
+        StateProperties107.BorderColor = System.Drawing.Color.Black
+        StateProperties107.FillColor = System.Drawing.Color.Empty
+        StateProperties107.ForeColor = System.Drawing.Color.Empty
+        StateProperties107.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.admintxtColored.OnActiveState = StateProperties107
+        StateProperties108.BorderColor = System.Drawing.Color.Empty
+        StateProperties108.FillColor = System.Drawing.Color.White
+        StateProperties108.ForeColor = System.Drawing.Color.Empty
+        StateProperties108.PlaceholderForeColor = System.Drawing.Color.Silver
+        Me.admintxtColored.OnDisabledState = StateProperties108
+        StateProperties109.BorderColor = System.Drawing.Color.Silver
+        StateProperties109.FillColor = System.Drawing.Color.Empty
+        StateProperties109.ForeColor = System.Drawing.Color.Empty
+        StateProperties109.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.admintxtColored.OnHoverState = StateProperties109
+        StateProperties110.BorderColor = System.Drawing.Color.Silver
+        StateProperties110.FillColor = System.Drawing.Color.White
+        StateProperties110.ForeColor = System.Drawing.Color.Black
+        StateProperties110.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.admintxtColored.OnIdleState = StateProperties110
         Me.admintxtColored.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.admintxtColored.PlaceholderForeColor = System.Drawing.Color.Silver
         Me.admintxtColored.PlaceholderText = "000"
@@ -9327,7 +9329,7 @@ Partial Class formMain
         Me.admintxtBW.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal
         Me.admintxtBW.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.Guna2Transition1.SetDecoration(Me.admintxtBW, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.admintxtBW.DefaultFont = New System.Drawing.Font("Comic Sans MS", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.admintxtBW.DefaultFont = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.admintxtBW.DefaultText = "1"
         Me.admintxtBW.FillColor = System.Drawing.Color.White
         Me.admintxtBW.ForeColor = System.Drawing.Color.Black
@@ -9345,26 +9347,26 @@ Partial Class formMain
         Me.admintxtBW.Modified = False
         Me.admintxtBW.Multiline = False
         Me.admintxtBW.Name = "admintxtBW"
-        StateProperties261.BorderColor = System.Drawing.Color.Black
-        StateProperties261.FillColor = System.Drawing.Color.Empty
-        StateProperties261.ForeColor = System.Drawing.Color.Empty
-        StateProperties261.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admintxtBW.OnActiveState = StateProperties261
-        StateProperties262.BorderColor = System.Drawing.Color.Empty
-        StateProperties262.FillColor = System.Drawing.Color.White
-        StateProperties262.ForeColor = System.Drawing.Color.Empty
-        StateProperties262.PlaceholderForeColor = System.Drawing.Color.Silver
-        Me.admintxtBW.OnDisabledState = StateProperties262
-        StateProperties263.BorderColor = System.Drawing.Color.Silver
-        StateProperties263.FillColor = System.Drawing.Color.Empty
-        StateProperties263.ForeColor = System.Drawing.Color.Empty
-        StateProperties263.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admintxtBW.OnHoverState = StateProperties263
-        StateProperties264.BorderColor = System.Drawing.Color.Silver
-        StateProperties264.FillColor = System.Drawing.Color.White
-        StateProperties264.ForeColor = System.Drawing.Color.Black
-        StateProperties264.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admintxtBW.OnIdleState = StateProperties264
+        StateProperties111.BorderColor = System.Drawing.Color.Black
+        StateProperties111.FillColor = System.Drawing.Color.Empty
+        StateProperties111.ForeColor = System.Drawing.Color.Empty
+        StateProperties111.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.admintxtBW.OnActiveState = StateProperties111
+        StateProperties112.BorderColor = System.Drawing.Color.Empty
+        StateProperties112.FillColor = System.Drawing.Color.White
+        StateProperties112.ForeColor = System.Drawing.Color.Empty
+        StateProperties112.PlaceholderForeColor = System.Drawing.Color.Silver
+        Me.admintxtBW.OnDisabledState = StateProperties112
+        StateProperties113.BorderColor = System.Drawing.Color.Silver
+        StateProperties113.FillColor = System.Drawing.Color.Empty
+        StateProperties113.ForeColor = System.Drawing.Color.Empty
+        StateProperties113.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.admintxtBW.OnHoverState = StateProperties113
+        StateProperties114.BorderColor = System.Drawing.Color.Silver
+        StateProperties114.FillColor = System.Drawing.Color.White
+        StateProperties114.ForeColor = System.Drawing.Color.Black
+        StateProperties114.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.admintxtBW.OnIdleState = StateProperties114
         Me.admintxtBW.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.admintxtBW.PlaceholderForeColor = System.Drawing.Color.Silver
         Me.admintxtBW.PlaceholderText = "000"
@@ -9469,7 +9471,7 @@ Partial Class formMain
         Me.admintxtBlank.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal
         Me.admintxtBlank.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.Guna2Transition1.SetDecoration(Me.admintxtBlank, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.admintxtBlank.DefaultFont = New System.Drawing.Font("Comic Sans MS", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.admintxtBlank.DefaultFont = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.admintxtBlank.DefaultText = "1"
         Me.admintxtBlank.FillColor = System.Drawing.Color.White
         Me.admintxtBlank.ForeColor = System.Drawing.Color.Black
@@ -9487,26 +9489,26 @@ Partial Class formMain
         Me.admintxtBlank.Modified = False
         Me.admintxtBlank.Multiline = False
         Me.admintxtBlank.Name = "admintxtBlank"
-        StateProperties265.BorderColor = System.Drawing.Color.Black
-        StateProperties265.FillColor = System.Drawing.Color.Empty
-        StateProperties265.ForeColor = System.Drawing.Color.Empty
-        StateProperties265.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admintxtBlank.OnActiveState = StateProperties265
-        StateProperties266.BorderColor = System.Drawing.Color.Empty
-        StateProperties266.FillColor = System.Drawing.Color.White
-        StateProperties266.ForeColor = System.Drawing.Color.Empty
-        StateProperties266.PlaceholderForeColor = System.Drawing.Color.Silver
-        Me.admintxtBlank.OnDisabledState = StateProperties266
-        StateProperties267.BorderColor = System.Drawing.Color.Silver
-        StateProperties267.FillColor = System.Drawing.Color.Empty
-        StateProperties267.ForeColor = System.Drawing.Color.Empty
-        StateProperties267.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admintxtBlank.OnHoverState = StateProperties267
-        StateProperties268.BorderColor = System.Drawing.Color.Silver
-        StateProperties268.FillColor = System.Drawing.Color.White
-        StateProperties268.ForeColor = System.Drawing.Color.Black
-        StateProperties268.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admintxtBlank.OnIdleState = StateProperties268
+        StateProperties115.BorderColor = System.Drawing.Color.Black
+        StateProperties115.FillColor = System.Drawing.Color.Empty
+        StateProperties115.ForeColor = System.Drawing.Color.Empty
+        StateProperties115.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.admintxtBlank.OnActiveState = StateProperties115
+        StateProperties116.BorderColor = System.Drawing.Color.Empty
+        StateProperties116.FillColor = System.Drawing.Color.White
+        StateProperties116.ForeColor = System.Drawing.Color.Empty
+        StateProperties116.PlaceholderForeColor = System.Drawing.Color.Silver
+        Me.admintxtBlank.OnDisabledState = StateProperties116
+        StateProperties117.BorderColor = System.Drawing.Color.Silver
+        StateProperties117.FillColor = System.Drawing.Color.Empty
+        StateProperties117.ForeColor = System.Drawing.Color.Empty
+        StateProperties117.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.admintxtBlank.OnHoverState = StateProperties117
+        StateProperties118.BorderColor = System.Drawing.Color.Silver
+        StateProperties118.FillColor = System.Drawing.Color.White
+        StateProperties118.ForeColor = System.Drawing.Color.Black
+        StateProperties118.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.admintxtBlank.OnIdleState = StateProperties118
         Me.admintxtBlank.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.admintxtBlank.PlaceholderForeColor = System.Drawing.Color.Silver
         Me.admintxtBlank.PlaceholderText = "000"
@@ -9597,10 +9599,10 @@ Partial Class formMain
         '
         Me.Label58.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label58, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label58.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label58.Font = New System.Drawing.Font("Segoe UI Black", 25.0!)
         Me.Label58.Location = New System.Drawing.Point(220, 6)
         Me.Label58.Name = "Label58"
-        Me.Label58.Size = New System.Drawing.Size(124, 45)
+        Me.Label58.Size = New System.Drawing.Size(137, 46)
         Me.Label58.TabIndex = 34
         Me.Label58.Text = "Pricing"
         '
@@ -9608,10 +9610,10 @@ Partial Class formMain
         '
         Me.Label59.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label59, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label59.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label59.Font = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.Label59.Location = New System.Drawing.Point(132, 176)
         Me.Label59.Name = "Label59"
-        Me.Label59.Size = New System.Drawing.Size(146, 46)
+        Me.Label59.Size = New System.Drawing.Size(149, 46)
         Me.Label59.TabIndex = 33
         Me.Label59.Text = "Colored:"
         '
@@ -9619,10 +9621,10 @@ Partial Class formMain
         '
         Me.Label60.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label60, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label60.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label60.Font = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.Label60.Location = New System.Drawing.Point(83, 64)
         Me.Label60.Name = "Label60"
-        Me.Label60.Size = New System.Drawing.Size(192, 46)
+        Me.Label60.Size = New System.Drawing.Size(198, 46)
         Me.Label60.TabIndex = 32
         Me.Label60.Text = "Blank Page:"
         '
@@ -9630,10 +9632,10 @@ Partial Class formMain
         '
         Me.Label61.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label61, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label61.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label61.Font = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.Label61.Location = New System.Drawing.Point(3, 120)
         Me.Label61.Name = "Label61"
-        Me.Label61.Size = New System.Drawing.Size(282, 46)
+        Me.Label61.Size = New System.Drawing.Size(278, 46)
         Me.Label61.TabIndex = 31
         Me.Label61.Text = "Black and White:"
         '
@@ -9664,18 +9666,18 @@ Partial Class formMain
         Me.adminbtnShowHide.ColorContrastOnClick = 45
         Me.adminbtnShowHide.ColorContrastOnHover = 45
         Me.adminbtnShowHide.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges79.BottomLeft = True
-        BorderEdges79.BottomRight = True
-        BorderEdges79.TopLeft = True
-        BorderEdges79.TopRight = True
-        Me.adminbtnShowHide.CustomizableEdges = BorderEdges79
+        BorderEdges36.BottomLeft = True
+        BorderEdges36.BottomRight = True
+        BorderEdges36.TopLeft = True
+        BorderEdges36.TopRight = True
+        Me.adminbtnShowHide.CustomizableEdges = BorderEdges36
         Me.Guna2Transition1.SetDecoration(Me.adminbtnShowHide, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.adminbtnShowHide.DialogResult = System.Windows.Forms.DialogResult.None
         Me.adminbtnShowHide.DisabledBorderColor = System.Drawing.Color.Empty
         Me.adminbtnShowHide.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
         Me.adminbtnShowHide.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
         Me.adminbtnShowHide.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Idle
-        Me.adminbtnShowHide.Font = New System.Drawing.Font("Comic Sans MS", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.adminbtnShowHide.Font = New System.Drawing.Font("Segoe UI Semibold", 18.0!)
         Me.adminbtnShowHide.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.adminbtnShowHide.IconLeftCursor = System.Windows.Forms.Cursors.Hand
         Me.adminbtnShowHide.IconMarginLeft = 30
@@ -9690,24 +9692,24 @@ Partial Class formMain
         Me.adminbtnShowHide.IndicateFocus = False
         Me.adminbtnShowHide.Location = New System.Drawing.Point(53, 165)
         Me.adminbtnShowHide.Name = "adminbtnShowHide"
-        StateProperties269.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties269.BorderRadius = 40
-        StateProperties269.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties269.BorderThickness = 3
-        StateProperties269.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties269.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties269.IconLeftImage = Nothing
-        StateProperties269.IconRightImage = Nothing
-        Me.adminbtnShowHide.onHoverState = StateProperties269
-        StateProperties270.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties270.BorderRadius = 40
-        StateProperties270.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties270.BorderThickness = 3
-        StateProperties270.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties270.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties270.IconLeftImage = Nothing
-        StateProperties270.IconRightImage = Nothing
-        Me.adminbtnShowHide.OnPressedState = StateProperties270
+        StateProperties119.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties119.BorderRadius = 40
+        StateProperties119.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties119.BorderThickness = 3
+        StateProperties119.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties119.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties119.IconLeftImage = Nothing
+        StateProperties119.IconRightImage = Nothing
+        Me.adminbtnShowHide.onHoverState = StateProperties119
+        StateProperties120.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties120.BorderRadius = 40
+        StateProperties120.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties120.BorderThickness = 3
+        StateProperties120.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties120.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties120.IconLeftImage = Nothing
+        StateProperties120.IconRightImage = Nothing
+        Me.adminbtnShowHide.OnPressedState = StateProperties120
         Me.adminbtnShowHide.Size = New System.Drawing.Size(183, 48)
         Me.adminbtnShowHide.TabIndex = 39
         Me.adminbtnShowHide.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -9732,7 +9734,7 @@ Partial Class formMain
         Me.admintxtSystemPin.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal
         Me.admintxtSystemPin.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.Guna2Transition1.SetDecoration(Me.admintxtSystemPin, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.admintxtSystemPin.DefaultFont = New System.Drawing.Font("Comic Sans MS", 30.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.admintxtSystemPin.DefaultFont = New System.Drawing.Font("Segoe UI Semibold", 30.0!)
         Me.admintxtSystemPin.DefaultText = "12345678"
         Me.admintxtSystemPin.FillColor = System.Drawing.Color.White
         Me.admintxtSystemPin.ForeColor = System.Drawing.Color.Black
@@ -9750,26 +9752,26 @@ Partial Class formMain
         Me.admintxtSystemPin.Modified = False
         Me.admintxtSystemPin.Multiline = False
         Me.admintxtSystemPin.Name = "admintxtSystemPin"
-        StateProperties271.BorderColor = System.Drawing.Color.Black
-        StateProperties271.FillColor = System.Drawing.Color.Empty
-        StateProperties271.ForeColor = System.Drawing.Color.Empty
-        StateProperties271.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admintxtSystemPin.OnActiveState = StateProperties271
-        StateProperties272.BorderColor = System.Drawing.Color.Empty
-        StateProperties272.FillColor = System.Drawing.Color.White
-        StateProperties272.ForeColor = System.Drawing.Color.Empty
-        StateProperties272.PlaceholderForeColor = System.Drawing.Color.Silver
-        Me.admintxtSystemPin.OnDisabledState = StateProperties272
-        StateProperties273.BorderColor = System.Drawing.Color.Silver
-        StateProperties273.FillColor = System.Drawing.Color.Empty
-        StateProperties273.ForeColor = System.Drawing.Color.Empty
-        StateProperties273.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admintxtSystemPin.OnHoverState = StateProperties273
-        StateProperties274.BorderColor = System.Drawing.Color.Silver
-        StateProperties274.FillColor = System.Drawing.Color.White
-        StateProperties274.ForeColor = System.Drawing.Color.Black
-        StateProperties274.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admintxtSystemPin.OnIdleState = StateProperties274
+        StateProperties121.BorderColor = System.Drawing.Color.Black
+        StateProperties121.FillColor = System.Drawing.Color.Empty
+        StateProperties121.ForeColor = System.Drawing.Color.Empty
+        StateProperties121.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.admintxtSystemPin.OnActiveState = StateProperties121
+        StateProperties122.BorderColor = System.Drawing.Color.Empty
+        StateProperties122.FillColor = System.Drawing.Color.White
+        StateProperties122.ForeColor = System.Drawing.Color.Empty
+        StateProperties122.PlaceholderForeColor = System.Drawing.Color.Silver
+        Me.admintxtSystemPin.OnDisabledState = StateProperties122
+        StateProperties123.BorderColor = System.Drawing.Color.Silver
+        StateProperties123.FillColor = System.Drawing.Color.Empty
+        StateProperties123.ForeColor = System.Drawing.Color.Empty
+        StateProperties123.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.admintxtSystemPin.OnHoverState = StateProperties123
+        StateProperties124.BorderColor = System.Drawing.Color.Silver
+        StateProperties124.FillColor = System.Drawing.Color.White
+        StateProperties124.ForeColor = System.Drawing.Color.Black
+        StateProperties124.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.admintxtSystemPin.OnIdleState = StateProperties124
         Me.admintxtSystemPin.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.admintxtSystemPin.PlaceholderForeColor = System.Drawing.Color.Silver
         Me.admintxtSystemPin.PlaceholderText = "000"
@@ -9779,7 +9781,7 @@ Partial Class formMain
         Me.admintxtSystemPin.SelectionLength = 0
         Me.admintxtSystemPin.SelectionStart = 0
         Me.admintxtSystemPin.ShortcutsEnabled = True
-        Me.admintxtSystemPin.Size = New System.Drawing.Size(247, 67)
+        Me.admintxtSystemPin.Size = New System.Drawing.Size(247, 65)
         Me.admintxtSystemPin.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Material
         Me.admintxtSystemPin.TabIndex = 37
         Me.admintxtSystemPin.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -9794,10 +9796,10 @@ Partial Class formMain
         '
         Me.Label62.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label62, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label62.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label62.Font = New System.Drawing.Font("Segoe UI Black", 25.0!)
         Me.Label62.Location = New System.Drawing.Point(45, 6)
         Me.Label62.Name = "Label62"
-        Me.Label62.Size = New System.Drawing.Size(195, 45)
+        Me.Label62.Size = New System.Drawing.Size(202, 46)
         Me.Label62.TabIndex = 34
         Me.Label62.Text = "System Pin"
         '
@@ -9830,7 +9832,7 @@ Partial Class formMain
         Me.printforA4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.printforA4.FocusedColor = System.Drawing.Color.Empty
         Me.printforA4.FocusedState.Parent = Me.printforA4
-        Me.printforA4.Font = New System.Drawing.Font("Comic Sans MS", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.printforA4.Font = New System.Drawing.Font("Segoe UI Semibold", 18.0!)
         Me.printforA4.ForeColor = System.Drawing.Color.Black
         Me.printforA4.FormattingEnabled = True
         Me.printforA4.HoverState.Parent = Me.printforA4
@@ -9846,10 +9848,10 @@ Partial Class formMain
         '
         Me.Label99.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label99, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label99.Font = New System.Drawing.Font("Comic Sans MS", 24.0!)
+        Me.Label99.Font = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.Label99.Location = New System.Drawing.Point(57, 177)
         Me.Label99.Name = "Label99"
-        Me.Label99.Size = New System.Drawing.Size(214, 45)
+        Me.Label99.Size = New System.Drawing.Size(208, 46)
         Me.Label99.TabIndex = 59
         Me.Label99.Text = "Print for A4:"
         '
@@ -9884,7 +9886,7 @@ Partial Class formMain
         Me.admintxtServer.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal
         Me.admintxtServer.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.Guna2Transition1.SetDecoration(Me.admintxtServer, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.admintxtServer.DefaultFont = New System.Drawing.Font("Comic Sans MS", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.admintxtServer.DefaultFont = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.admintxtServer.DefaultText = "1"
         Me.admintxtServer.FillColor = System.Drawing.Color.White
         Me.admintxtServer.ForeColor = System.Drawing.Color.Black
@@ -9902,26 +9904,26 @@ Partial Class formMain
         Me.admintxtServer.Modified = False
         Me.admintxtServer.Multiline = False
         Me.admintxtServer.Name = "admintxtServer"
-        StateProperties275.BorderColor = System.Drawing.Color.Black
-        StateProperties275.FillColor = System.Drawing.Color.Empty
-        StateProperties275.ForeColor = System.Drawing.Color.Empty
-        StateProperties275.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admintxtServer.OnActiveState = StateProperties275
-        StateProperties276.BorderColor = System.Drawing.Color.Empty
-        StateProperties276.FillColor = System.Drawing.Color.White
-        StateProperties276.ForeColor = System.Drawing.Color.Empty
-        StateProperties276.PlaceholderForeColor = System.Drawing.Color.Silver
-        Me.admintxtServer.OnDisabledState = StateProperties276
-        StateProperties277.BorderColor = System.Drawing.Color.Silver
-        StateProperties277.FillColor = System.Drawing.Color.Empty
-        StateProperties277.ForeColor = System.Drawing.Color.Empty
-        StateProperties277.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admintxtServer.OnHoverState = StateProperties277
-        StateProperties278.BorderColor = System.Drawing.Color.Silver
-        StateProperties278.FillColor = System.Drawing.Color.White
-        StateProperties278.ForeColor = System.Drawing.Color.Black
-        StateProperties278.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admintxtServer.OnIdleState = StateProperties278
+        StateProperties125.BorderColor = System.Drawing.Color.Black
+        StateProperties125.FillColor = System.Drawing.Color.Empty
+        StateProperties125.ForeColor = System.Drawing.Color.Empty
+        StateProperties125.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.admintxtServer.OnActiveState = StateProperties125
+        StateProperties126.BorderColor = System.Drawing.Color.Empty
+        StateProperties126.FillColor = System.Drawing.Color.White
+        StateProperties126.ForeColor = System.Drawing.Color.Empty
+        StateProperties126.PlaceholderForeColor = System.Drawing.Color.Silver
+        Me.admintxtServer.OnDisabledState = StateProperties126
+        StateProperties127.BorderColor = System.Drawing.Color.Silver
+        StateProperties127.FillColor = System.Drawing.Color.Empty
+        StateProperties127.ForeColor = System.Drawing.Color.Empty
+        StateProperties127.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.admintxtServer.OnHoverState = StateProperties127
+        StateProperties128.BorderColor = System.Drawing.Color.Silver
+        StateProperties128.FillColor = System.Drawing.Color.White
+        StateProperties128.ForeColor = System.Drawing.Color.Black
+        StateProperties128.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.admintxtServer.OnIdleState = StateProperties128
         Me.admintxtServer.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.admintxtServer.PlaceholderForeColor = System.Drawing.Color.Silver
         Me.admintxtServer.PlaceholderText = "000"
@@ -9946,10 +9948,10 @@ Partial Class formMain
         '
         Me.Label63.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label63, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label63.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label63.Font = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.Label63.Location = New System.Drawing.Point(775, 63)
         Me.Label63.Name = "Label63"
-        Me.Label63.Size = New System.Drawing.Size(264, 45)
+        Me.Label63.Size = New System.Drawing.Size(237, 46)
         Me.Label63.TabIndex = 58
         Me.Label63.Text = "Printer Status:"
         '
@@ -9957,10 +9959,10 @@ Partial Class formMain
         '
         Me.Label64.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label64, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label64.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label64.Font = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.Label64.Location = New System.Drawing.Point(62, 243)
         Me.Label64.Name = "Label64"
-        Me.Label64.Size = New System.Drawing.Size(209, 46)
+        Me.Label64.Size = New System.Drawing.Size(201, 46)
         Me.Label64.TabIndex = 56
         Me.Label64.Text = "Server Link:"
         '
@@ -9972,7 +9974,7 @@ Partial Class formMain
         Me.printforLong.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.printforLong.FocusedColor = System.Drawing.Color.Empty
         Me.printforLong.FocusedState.Parent = Me.printforLong
-        Me.printforLong.Font = New System.Drawing.Font("Comic Sans MS", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.printforLong.Font = New System.Drawing.Font("Segoe UI Semibold", 18.0!)
         Me.printforLong.ForeColor = System.Drawing.Color.Black
         Me.printforLong.FormattingEnabled = True
         Me.printforLong.HoverState.Parent = Me.printforLong
@@ -9992,7 +9994,7 @@ Partial Class formMain
         Me.admincomboPorts.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.admincomboPorts.FocusedColor = System.Drawing.Color.Empty
         Me.admincomboPorts.FocusedState.Parent = Me.admincomboPorts
-        Me.admincomboPorts.Font = New System.Drawing.Font("Comic Sans MS", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.admincomboPorts.Font = New System.Drawing.Font("Segoe UI Semibold", 20.0!)
         Me.admincomboPorts.ForeColor = System.Drawing.Color.Black
         Me.admincomboPorts.FormattingEnabled = True
         Me.admincomboPorts.HoverState.Parent = Me.admincomboPorts
@@ -10007,7 +10009,7 @@ Partial Class formMain
         'adminlblPrinterStatus
         '
         Me.Guna2Transition1.SetDecoration(Me.adminlblPrinterStatus, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.adminlblPrinterStatus.Font = New System.Drawing.Font("Comic Sans MS", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.adminlblPrinterStatus.Font = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.adminlblPrinterStatus.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.adminlblPrinterStatus.Location = New System.Drawing.Point(693, 120)
         Me.adminlblPrinterStatus.Name = "adminlblPrinterStatus"
@@ -10020,10 +10022,10 @@ Partial Class formMain
         '
         Me.Label65.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label65, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label65.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label65.Font = New System.Drawing.Font("Segoe UI Black", 25.0!)
         Me.Label65.Location = New System.Drawing.Point(403, 6)
         Me.Label65.Name = "Label65"
-        Me.Label65.Size = New System.Drawing.Size(295, 45)
+        Me.Label65.Size = New System.Drawing.Size(305, 46)
         Me.Label65.TabIndex = 34
         Me.Label65.Text = "Ports and Printer"
         '
@@ -10031,10 +10033,10 @@ Partial Class formMain
         '
         Me.Label66.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label66, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label66.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label66.Font = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.Label66.Location = New System.Drawing.Point(27, 62)
         Me.Label66.Name = "Label66"
-        Me.Label66.Size = New System.Drawing.Size(244, 46)
+        Me.Label66.Size = New System.Drawing.Size(241, 46)
         Me.Label66.TabIndex = 32
         Me.Label66.Text = "Coin Slot Port:"
         '
@@ -10042,10 +10044,10 @@ Partial Class formMain
         '
         Me.Label67.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label67, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label67.Font = New System.Drawing.Font("Comic Sans MS", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label67.Font = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.Label67.Location = New System.Drawing.Point(-2, 121)
         Me.Label67.Name = "Label67"
-        Me.Label67.Size = New System.Drawing.Size(273, 45)
+        Me.Label67.Size = New System.Drawing.Size(273, 46)
         Me.Label67.TabIndex = 31
         Me.Label67.Text = "Printer for Long:"
         '
@@ -10061,10 +10063,10 @@ Partial Class formMain
         Me.TabCoins.Controls.Add(Me.Panel7)
         Me.TabCoins.Controls.Add(Me.Label72)
         Me.Guna2Transition1.SetDecoration(Me.TabCoins, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.TabCoins.Location = New System.Drawing.Point(4, 65)
+        Me.TabCoins.Location = New System.Drawing.Point(4, 63)
         Me.TabCoins.Name = "TabCoins"
         Me.TabCoins.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabCoins.Size = New System.Drawing.Size(1537, 810)
+        Me.TabCoins.Size = New System.Drawing.Size(1537, 812)
         Me.TabCoins.TabIndex = 1
         Me.TabCoins.Text = "Hopper and Button"
         '
@@ -10076,7 +10078,7 @@ Partial Class formMain
         Me.Panel11.Controls.Add(Me.adminChangeSwitch)
         Me.Panel11.Controls.Add(Me.Label96)
         Me.Guna2Transition1.SetDecoration(Me.Panel11, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Panel11.Location = New System.Drawing.Point(615, 602)
+        Me.Panel11.Location = New System.Drawing.Point(615, 603)
         Me.Panel11.Name = "Panel11"
         Me.Panel11.Size = New System.Drawing.Size(306, 158)
         Me.Panel11.TabIndex = 63
@@ -10107,10 +10109,10 @@ Partial Class formMain
         '
         Me.Label96.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label96, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label96.Font = New System.Drawing.Font("Comic Sans MS", 35.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label96.Font = New System.Drawing.Font("Segoe UI Black", 35.0!)
         Me.Label96.Location = New System.Drawing.Point(54, 12)
         Me.Label96.Name = "Label96"
-        Me.Label96.Size = New System.Drawing.Size(186, 65)
+        Me.Label96.Size = New System.Drawing.Size(197, 62)
         Me.Label96.TabIndex = 35
         Me.Label96.Text = "Change"
         '
@@ -10118,10 +10120,10 @@ Partial Class formMain
         '
         Me.Label94.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label94, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label94.Font = New System.Drawing.Font("Comic Sans MS", 24.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label94.Font = New System.Drawing.Font("Segoe UI Black", 25.0!)
         Me.Label94.Location = New System.Drawing.Point(572, 350)
         Me.Label94.Name = "Label94"
-        Me.Label94.Size = New System.Drawing.Size(372, 45)
+        Me.Label94.Size = New System.Drawing.Size(392, 46)
         Me.Label94.TabIndex = 63
         Me.Label94.Text = "Enable/Disable Button"
         '
@@ -10133,7 +10135,7 @@ Partial Class formMain
         Me.Panel10.Controls.Add(Me.adminScanSwitch)
         Me.Panel10.Controls.Add(Me.Label93)
         Me.Guna2Transition1.SetDecoration(Me.Panel10, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Panel10.Location = New System.Drawing.Point(993, 407)
+        Me.Panel10.Location = New System.Drawing.Point(993, 408)
         Me.Panel10.Name = "Panel10"
         Me.Panel10.Size = New System.Drawing.Size(306, 158)
         Me.Panel10.TabIndex = 62
@@ -10163,10 +10165,10 @@ Partial Class formMain
         '
         Me.Label93.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label93, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label93.Font = New System.Drawing.Font("Comic Sans MS", 35.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label93.Font = New System.Drawing.Font("Segoe UI Black", 35.0!)
         Me.Label93.Location = New System.Drawing.Point(86, 12)
         Me.Label93.Name = "Label93"
-        Me.Label93.Size = New System.Drawing.Size(136, 65)
+        Me.Label93.Size = New System.Drawing.Size(132, 62)
         Me.Label93.TabIndex = 35
         Me.Label93.Text = "Scan"
         '
@@ -10178,7 +10180,7 @@ Partial Class formMain
         Me.Panel8.Controls.Add(Me.adminCopySwitch)
         Me.Panel8.Controls.Add(Me.Label71)
         Me.Guna2Transition1.SetDecoration(Me.Panel8, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Panel8.Location = New System.Drawing.Point(615, 407)
+        Me.Panel8.Location = New System.Drawing.Point(615, 408)
         Me.Panel8.Name = "Panel8"
         Me.Panel8.Size = New System.Drawing.Size(306, 158)
         Me.Panel8.TabIndex = 62
@@ -10208,10 +10210,10 @@ Partial Class formMain
         '
         Me.Label71.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label71, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label71.Font = New System.Drawing.Font("Comic Sans MS", 35.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label71.Font = New System.Drawing.Font("Segoe UI Black", 35.0!)
         Me.Label71.Location = New System.Drawing.Point(80, 12)
         Me.Label71.Name = "Label71"
-        Me.Label71.Size = New System.Drawing.Size(133, 65)
+        Me.Label71.Size = New System.Drawing.Size(144, 62)
         Me.Label71.TabIndex = 35
         Me.Label71.Text = "Copy"
         '
@@ -10223,7 +10225,7 @@ Partial Class formMain
         Me.Panel9.Controls.Add(Me.adminPrintSwitch)
         Me.Panel9.Controls.Add(Me.Label91)
         Me.Guna2Transition1.SetDecoration(Me.Panel9, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Panel9.Location = New System.Drawing.Point(237, 407)
+        Me.Panel9.Location = New System.Drawing.Point(237, 408)
         Me.Panel9.Name = "Panel9"
         Me.Panel9.Size = New System.Drawing.Size(306, 158)
         Me.Panel9.TabIndex = 59
@@ -10253,10 +10255,10 @@ Partial Class formMain
         '
         Me.Label91.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label91, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label91.Font = New System.Drawing.Font("Comic Sans MS", 35.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label91.Font = New System.Drawing.Font("Segoe UI Black", 35.0!)
         Me.Label91.Location = New System.Drawing.Point(82, 12)
         Me.Label91.Name = "Label91"
-        Me.Label91.Size = New System.Drawing.Size(136, 65)
+        Me.Label91.Size = New System.Drawing.Size(141, 62)
         Me.Label91.TabIndex = 35
         Me.Label91.Text = "Print"
         '
@@ -10268,7 +10270,7 @@ Partial Class formMain
         Me.Panel6.Controls.Add(Me.adminbtn1)
         Me.Panel6.Controls.Add(Me.Label68)
         Me.Guna2Transition1.SetDecoration(Me.Panel6, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Panel6.Location = New System.Drawing.Point(843, 161)
+        Me.Panel6.Location = New System.Drawing.Point(843, 162)
         Me.Panel6.Name = "Panel6"
         Me.Panel6.Size = New System.Drawing.Size(414, 196)
         Me.Panel6.TabIndex = 58
@@ -10288,11 +10290,11 @@ Partial Class formMain
         Me.adminbtn1.ColorContrastOnClick = 45
         Me.adminbtn1.ColorContrastOnHover = 45
         Me.adminbtn1.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges80.BottomLeft = True
-        BorderEdges80.BottomRight = True
-        BorderEdges80.TopLeft = True
-        BorderEdges80.TopRight = True
-        Me.adminbtn1.CustomizableEdges = BorderEdges80
+        BorderEdges37.BottomLeft = True
+        BorderEdges37.BottomRight = True
+        BorderEdges37.TopLeft = True
+        BorderEdges37.TopRight = True
+        Me.adminbtn1.CustomizableEdges = BorderEdges37
         Me.Guna2Transition1.SetDecoration(Me.adminbtn1, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.adminbtn1.DialogResult = System.Windows.Forms.DialogResult.None
         Me.adminbtn1.DisabledBorderColor = System.Drawing.Color.Empty
@@ -10314,24 +10316,24 @@ Partial Class formMain
         Me.adminbtn1.IndicateFocus = False
         Me.adminbtn1.Location = New System.Drawing.Point(29, 87)
         Me.adminbtn1.Name = "adminbtn1"
-        StateProperties279.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties279.BorderRadius = 70
-        StateProperties279.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties279.BorderThickness = 3
-        StateProperties279.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties279.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties279.IconLeftImage = Global.PrintVendo.My.Resources.Resources.Coin_Out
-        StateProperties279.IconRightImage = Nothing
-        Me.adminbtn1.onHoverState = StateProperties279
-        StateProperties280.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties280.BorderRadius = 70
-        StateProperties280.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties280.BorderThickness = 3
-        StateProperties280.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties280.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties280.IconLeftImage = Global.PrintVendo.My.Resources.Resources.Coin_Out
-        StateProperties280.IconRightImage = Nothing
-        Me.adminbtn1.OnPressedState = StateProperties280
+        StateProperties129.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties129.BorderRadius = 70
+        StateProperties129.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties129.BorderThickness = 3
+        StateProperties129.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties129.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties129.IconLeftImage = Global.PrintVendo.My.Resources.Resources.Coin_Out
+        StateProperties129.IconRightImage = Nothing
+        Me.adminbtn1.onHoverState = StateProperties129
+        StateProperties130.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties130.BorderRadius = 70
+        StateProperties130.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties130.BorderThickness = 3
+        StateProperties130.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties130.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties130.IconLeftImage = Global.PrintVendo.My.Resources.Resources.Coin_Out
+        StateProperties130.IconRightImage = Nothing
+        Me.adminbtn1.OnPressedState = StateProperties130
         Me.adminbtn1.Size = New System.Drawing.Size(355, 86)
         Me.adminbtn1.TabIndex = 43
         Me.adminbtn1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -10357,7 +10359,7 @@ Partial Class formMain
         Me.Panel7.Controls.Add(Me.adminbtn5)
         Me.Panel7.Controls.Add(Me.Label69)
         Me.Guna2Transition1.SetDecoration(Me.Panel7, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Panel7.Location = New System.Drawing.Point(279, 161)
+        Me.Panel7.Location = New System.Drawing.Point(279, 162)
         Me.Panel7.Name = "Panel7"
         Me.Panel7.Size = New System.Drawing.Size(414, 196)
         Me.Panel7.TabIndex = 57
@@ -10377,11 +10379,11 @@ Partial Class formMain
         Me.adminbtn5.ColorContrastOnClick = 45
         Me.adminbtn5.ColorContrastOnHover = 45
         Me.adminbtn5.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges81.BottomLeft = True
-        BorderEdges81.BottomRight = True
-        BorderEdges81.TopLeft = True
-        BorderEdges81.TopRight = True
-        Me.adminbtn5.CustomizableEdges = BorderEdges81
+        BorderEdges38.BottomLeft = True
+        BorderEdges38.BottomRight = True
+        BorderEdges38.TopLeft = True
+        BorderEdges38.TopRight = True
+        Me.adminbtn5.CustomizableEdges = BorderEdges38
         Me.Guna2Transition1.SetDecoration(Me.adminbtn5, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.adminbtn5.DialogResult = System.Windows.Forms.DialogResult.None
         Me.adminbtn5.DisabledBorderColor = System.Drawing.Color.Empty
@@ -10403,24 +10405,24 @@ Partial Class formMain
         Me.adminbtn5.IndicateFocus = False
         Me.adminbtn5.Location = New System.Drawing.Point(29, 82)
         Me.adminbtn5.Name = "adminbtn5"
-        StateProperties281.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties281.BorderRadius = 70
-        StateProperties281.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties281.BorderThickness = 3
-        StateProperties281.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties281.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties281.IconLeftImage = Global.PrintVendo.My.Resources.Resources.Coin_Out
-        StateProperties281.IconRightImage = Nothing
-        Me.adminbtn5.onHoverState = StateProperties281
-        StateProperties282.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties282.BorderRadius = 70
-        StateProperties282.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties282.BorderThickness = 3
-        StateProperties282.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties282.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties282.IconLeftImage = Global.PrintVendo.My.Resources.Resources.Coin_Out
-        StateProperties282.IconRightImage = Nothing
-        Me.adminbtn5.OnPressedState = StateProperties282
+        StateProperties131.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties131.BorderRadius = 70
+        StateProperties131.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties131.BorderThickness = 3
+        StateProperties131.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties131.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties131.IconLeftImage = Global.PrintVendo.My.Resources.Resources.Coin_Out
+        StateProperties131.IconRightImage = Nothing
+        Me.adminbtn5.onHoverState = StateProperties131
+        StateProperties132.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties132.BorderRadius = 70
+        StateProperties132.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties132.BorderThickness = 3
+        StateProperties132.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties132.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties132.IconLeftImage = Global.PrintVendo.My.Resources.Resources.Coin_Out
+        StateProperties132.IconRightImage = Nothing
+        Me.adminbtn5.OnPressedState = StateProperties132
         Me.adminbtn5.Size = New System.Drawing.Size(355, 86)
         Me.adminbtn5.TabIndex = 43
         Me.adminbtn5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -10431,10 +10433,10 @@ Partial Class formMain
         '
         Me.Label69.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label69, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label69.Font = New System.Drawing.Font("Comic Sans MS", 35.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label69.Font = New System.Drawing.Font("Segoe UI Black", 35.0!)
         Me.Label69.Location = New System.Drawing.Point(59, 17)
         Me.Label69.Name = "Label69"
-        Me.Label69.Size = New System.Drawing.Size(288, 65)
+        Me.Label69.Size = New System.Drawing.Size(294, 62)
         Me.Label69.TabIndex = 35
         Me.Label69.Text = "5 Peso Coin"
         '
@@ -10453,11 +10455,11 @@ Partial Class formMain
         '
         Me.Label73.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label73, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label73.Font = New System.Drawing.Font("Comic Sans MS", 35.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label73.Font = New System.Drawing.Font("Segoe UI Black", 35.0!)
         Me.Label73.ForeColor = System.Drawing.Color.Black
         Me.Label73.Location = New System.Drawing.Point(619, 9)
         Me.Label73.Name = "Label73"
-        Me.Label73.Size = New System.Drawing.Size(351, 65)
+        Me.Label73.Size = New System.Drawing.Size(359, 62)
         Me.Label73.TabIndex = 26
         Me.Label73.Text = "Admin Setting"
         '
@@ -10574,7 +10576,7 @@ Partial Class formMain
         '
         Me.Guna2Transition1.SetDecoration(Me.Label35, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.Label35.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Label35.Font = New System.Drawing.Font("Comic Sans MS", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label35.Font = New System.Drawing.Font("Segoe UI Semibold", 15.0!)
         Me.Label35.Location = New System.Drawing.Point(0, 253)
         Me.Label35.Name = "Label35"
         Me.Label35.Size = New System.Drawing.Size(518, 63)
@@ -10617,7 +10619,7 @@ Partial Class formMain
         Me.loadtxtTo.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal
         Me.loadtxtTo.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.Guna2Transition1.SetDecoration(Me.loadtxtTo, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.loadtxtTo.DefaultFont = New System.Drawing.Font("Comic Sans MS", 21.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.loadtxtTo.DefaultFont = New System.Drawing.Font("Segoe UI Semibold", 20.0!)
         Me.loadtxtTo.DefaultText = "100"
         Me.loadtxtTo.FillColor = System.Drawing.Color.White
         Me.loadtxtTo.ForeColor = System.Drawing.Color.Black
@@ -10635,26 +10637,26 @@ Partial Class formMain
         Me.loadtxtTo.Modified = False
         Me.loadtxtTo.Multiline = False
         Me.loadtxtTo.Name = "loadtxtTo"
-        StateProperties283.BorderColor = System.Drawing.Color.Black
-        StateProperties283.FillColor = System.Drawing.Color.Empty
-        StateProperties283.ForeColor = System.Drawing.Color.Empty
-        StateProperties283.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.loadtxtTo.OnActiveState = StateProperties283
-        StateProperties284.BorderColor = System.Drawing.Color.Empty
-        StateProperties284.FillColor = System.Drawing.Color.White
-        StateProperties284.ForeColor = System.Drawing.Color.Empty
-        StateProperties284.PlaceholderForeColor = System.Drawing.Color.Silver
-        Me.loadtxtTo.OnDisabledState = StateProperties284
-        StateProperties285.BorderColor = System.Drawing.Color.Silver
-        StateProperties285.FillColor = System.Drawing.Color.Empty
-        StateProperties285.ForeColor = System.Drawing.Color.Empty
-        StateProperties285.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.loadtxtTo.OnHoverState = StateProperties285
-        StateProperties286.BorderColor = System.Drawing.Color.Silver
-        StateProperties286.FillColor = System.Drawing.Color.White
-        StateProperties286.ForeColor = System.Drawing.Color.Black
-        StateProperties286.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.loadtxtTo.OnIdleState = StateProperties286
+        StateProperties133.BorderColor = System.Drawing.Color.Black
+        StateProperties133.FillColor = System.Drawing.Color.Empty
+        StateProperties133.ForeColor = System.Drawing.Color.Empty
+        StateProperties133.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.loadtxtTo.OnActiveState = StateProperties133
+        StateProperties134.BorderColor = System.Drawing.Color.Empty
+        StateProperties134.FillColor = System.Drawing.Color.White
+        StateProperties134.ForeColor = System.Drawing.Color.Empty
+        StateProperties134.PlaceholderForeColor = System.Drawing.Color.Silver
+        Me.loadtxtTo.OnDisabledState = StateProperties134
+        StateProperties135.BorderColor = System.Drawing.Color.Silver
+        StateProperties135.FillColor = System.Drawing.Color.Empty
+        StateProperties135.ForeColor = System.Drawing.Color.Empty
+        StateProperties135.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.loadtxtTo.OnHoverState = StateProperties135
+        StateProperties136.BorderColor = System.Drawing.Color.Silver
+        StateProperties136.FillColor = System.Drawing.Color.White
+        StateProperties136.ForeColor = System.Drawing.Color.Black
+        StateProperties136.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.loadtxtTo.OnIdleState = StateProperties136
         Me.loadtxtTo.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.loadtxtTo.PlaceholderForeColor = System.Drawing.Color.Silver
         Me.loadtxtTo.PlaceholderText = "000"
@@ -10664,7 +10666,7 @@ Partial Class formMain
         Me.loadtxtTo.SelectionLength = 0
         Me.loadtxtTo.SelectionStart = 0
         Me.loadtxtTo.ShortcutsEnabled = True
-        Me.loadtxtTo.Size = New System.Drawing.Size(80, 51)
+        Me.loadtxtTo.Size = New System.Drawing.Size(80, 47)
         Me.loadtxtTo.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Material
         Me.loadtxtTo.TabIndex = 55
         Me.loadtxtTo.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
@@ -10693,7 +10695,7 @@ Partial Class formMain
         Me.loadtxtFrom.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal
         Me.loadtxtFrom.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.Guna2Transition1.SetDecoration(Me.loadtxtFrom, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.loadtxtFrom.DefaultFont = New System.Drawing.Font("Comic Sans MS", 21.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.loadtxtFrom.DefaultFont = New System.Drawing.Font("Segoe UI Semibold", 20.0!)
         Me.loadtxtFrom.DefaultText = "1"
         Me.loadtxtFrom.FillColor = System.Drawing.Color.White
         Me.loadtxtFrom.ForeColor = System.Drawing.Color.Black
@@ -10711,26 +10713,26 @@ Partial Class formMain
         Me.loadtxtFrom.Modified = False
         Me.loadtxtFrom.Multiline = False
         Me.loadtxtFrom.Name = "loadtxtFrom"
-        StateProperties287.BorderColor = System.Drawing.Color.Black
-        StateProperties287.FillColor = System.Drawing.Color.Empty
-        StateProperties287.ForeColor = System.Drawing.Color.Empty
-        StateProperties287.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.loadtxtFrom.OnActiveState = StateProperties287
-        StateProperties288.BorderColor = System.Drawing.Color.Empty
-        StateProperties288.FillColor = System.Drawing.Color.White
-        StateProperties288.ForeColor = System.Drawing.Color.Empty
-        StateProperties288.PlaceholderForeColor = System.Drawing.Color.Silver
-        Me.loadtxtFrom.OnDisabledState = StateProperties288
-        StateProperties289.BorderColor = System.Drawing.Color.Silver
-        StateProperties289.FillColor = System.Drawing.Color.Empty
-        StateProperties289.ForeColor = System.Drawing.Color.Empty
-        StateProperties289.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.loadtxtFrom.OnHoverState = StateProperties289
-        StateProperties290.BorderColor = System.Drawing.Color.Silver
-        StateProperties290.FillColor = System.Drawing.Color.White
-        StateProperties290.ForeColor = System.Drawing.Color.Black
-        StateProperties290.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.loadtxtFrom.OnIdleState = StateProperties290
+        StateProperties137.BorderColor = System.Drawing.Color.Black
+        StateProperties137.FillColor = System.Drawing.Color.Empty
+        StateProperties137.ForeColor = System.Drawing.Color.Empty
+        StateProperties137.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.loadtxtFrom.OnActiveState = StateProperties137
+        StateProperties138.BorderColor = System.Drawing.Color.Empty
+        StateProperties138.FillColor = System.Drawing.Color.White
+        StateProperties138.ForeColor = System.Drawing.Color.Empty
+        StateProperties138.PlaceholderForeColor = System.Drawing.Color.Silver
+        Me.loadtxtFrom.OnDisabledState = StateProperties138
+        StateProperties139.BorderColor = System.Drawing.Color.Silver
+        StateProperties139.FillColor = System.Drawing.Color.Empty
+        StateProperties139.ForeColor = System.Drawing.Color.Empty
+        StateProperties139.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.loadtxtFrom.OnHoverState = StateProperties139
+        StateProperties140.BorderColor = System.Drawing.Color.Silver
+        StateProperties140.FillColor = System.Drawing.Color.White
+        StateProperties140.ForeColor = System.Drawing.Color.Black
+        StateProperties140.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.loadtxtFrom.OnIdleState = StateProperties140
         Me.loadtxtFrom.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.loadtxtFrom.PlaceholderForeColor = System.Drawing.Color.Silver
         Me.loadtxtFrom.PlaceholderText = "000"
@@ -10740,7 +10742,7 @@ Partial Class formMain
         Me.loadtxtFrom.SelectionLength = 0
         Me.loadtxtFrom.SelectionStart = 0
         Me.loadtxtFrom.ShortcutsEnabled = True
-        Me.loadtxtFrom.Size = New System.Drawing.Size(80, 51)
+        Me.loadtxtFrom.Size = New System.Drawing.Size(80, 47)
         Me.loadtxtFrom.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Material
         Me.loadtxtFrom.TabIndex = 54
         Me.loadtxtFrom.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
@@ -10819,10 +10821,10 @@ Partial Class formMain
         '
         Me.Label32.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label32, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label32.Font = New System.Drawing.Font("Comic Sans MS", 21.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label32.Font = New System.Drawing.Font("Segoe UI Semibold", 20.0!)
         Me.Label32.Location = New System.Drawing.Point(14, 6)
         Me.Label32.Name = "Label32"
-        Me.Label32.Size = New System.Drawing.Size(93, 39)
+        Me.Label32.Size = New System.Drawing.Size(88, 37)
         Me.Label32.TabIndex = 48
         Me.Label32.Text = "From:"
         Me.Label32.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -10831,10 +10833,10 @@ Partial Class formMain
         '
         Me.Label33.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label33, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label33.Font = New System.Drawing.Font("Comic Sans MS", 21.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label33.Font = New System.Drawing.Font("Segoe UI Semibold", 20.0!)
         Me.Label33.Location = New System.Drawing.Point(50, 62)
         Me.Label33.Name = "Label33"
-        Me.Label33.Size = New System.Drawing.Size(59, 39)
+        Me.Label33.Size = New System.Drawing.Size(52, 37)
         Me.Label33.TabIndex = 49
         Me.Label33.Text = "To:"
         Me.Label33.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -10957,7 +10959,7 @@ Partial Class formMain
         Me.Guna2Transition1.SetDecoration(Me.loadbtnSeven, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.loadbtnSeven.DialogResult = System.Windows.Forms.DialogResult.None
         Me.loadbtnSeven.FocusedColor = System.Drawing.Color.Empty
-        Me.loadbtnSeven.Font = New System.Drawing.Font("Comic Sans MS", 35.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.loadbtnSeven.Font = New System.Drawing.Font("Segoe UI Black", 35.0!)
         Me.loadbtnSeven.ForeColor = System.Drawing.Color.White
         Me.loadbtnSeven.Image = Nothing
         Me.loadbtnSeven.ImageSize = New System.Drawing.Size(52, 52)
@@ -10982,7 +10984,7 @@ Partial Class formMain
         Me.Guna2Transition1.SetDecoration(Me.loadbtnEight, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.loadbtnEight.DialogResult = System.Windows.Forms.DialogResult.None
         Me.loadbtnEight.FocusedColor = System.Drawing.Color.Empty
-        Me.loadbtnEight.Font = New System.Drawing.Font("Comic Sans MS", 35.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.loadbtnEight.Font = New System.Drawing.Font("Segoe UI Black", 35.0!)
         Me.loadbtnEight.ForeColor = System.Drawing.Color.White
         Me.loadbtnEight.Image = Nothing
         Me.loadbtnEight.ImageSize = New System.Drawing.Size(52, 52)
@@ -11007,7 +11009,7 @@ Partial Class formMain
         Me.Guna2Transition1.SetDecoration(Me.loadbtnNine, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.loadbtnNine.DialogResult = System.Windows.Forms.DialogResult.None
         Me.loadbtnNine.FocusedColor = System.Drawing.Color.Empty
-        Me.loadbtnNine.Font = New System.Drawing.Font("Comic Sans MS", 35.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.loadbtnNine.Font = New System.Drawing.Font("Segoe UI Black", 35.0!)
         Me.loadbtnNine.ForeColor = System.Drawing.Color.White
         Me.loadbtnNine.Image = Nothing
         Me.loadbtnNine.ImageSize = New System.Drawing.Size(52, 52)
@@ -11032,7 +11034,7 @@ Partial Class formMain
         Me.Guna2Transition1.SetDecoration(Me.loadbtnFour, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.loadbtnFour.DialogResult = System.Windows.Forms.DialogResult.None
         Me.loadbtnFour.FocusedColor = System.Drawing.Color.Empty
-        Me.loadbtnFour.Font = New System.Drawing.Font("Comic Sans MS", 35.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.loadbtnFour.Font = New System.Drawing.Font("Segoe UI Black", 35.0!)
         Me.loadbtnFour.ForeColor = System.Drawing.Color.White
         Me.loadbtnFour.Image = Nothing
         Me.loadbtnFour.ImageSize = New System.Drawing.Size(52, 52)
@@ -11057,7 +11059,7 @@ Partial Class formMain
         Me.Guna2Transition1.SetDecoration(Me.loadbtnFive, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.loadbtnFive.DialogResult = System.Windows.Forms.DialogResult.None
         Me.loadbtnFive.FocusedColor = System.Drawing.Color.Empty
-        Me.loadbtnFive.Font = New System.Drawing.Font("Comic Sans MS", 35.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.loadbtnFive.Font = New System.Drawing.Font("Segoe UI Black", 35.0!)
         Me.loadbtnFive.ForeColor = System.Drawing.Color.White
         Me.loadbtnFive.Image = Nothing
         Me.loadbtnFive.ImageSize = New System.Drawing.Size(52, 52)
@@ -11082,7 +11084,7 @@ Partial Class formMain
         Me.Guna2Transition1.SetDecoration(Me.loadbtnSix, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.loadbtnSix.DialogResult = System.Windows.Forms.DialogResult.None
         Me.loadbtnSix.FocusedColor = System.Drawing.Color.Empty
-        Me.loadbtnSix.Font = New System.Drawing.Font("Comic Sans MS", 35.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.loadbtnSix.Font = New System.Drawing.Font("Segoe UI Black", 35.0!)
         Me.loadbtnSix.ForeColor = System.Drawing.Color.White
         Me.loadbtnSix.Image = Nothing
         Me.loadbtnSix.ImageSize = New System.Drawing.Size(52, 52)
@@ -11107,7 +11109,7 @@ Partial Class formMain
         Me.Guna2Transition1.SetDecoration(Me.loadbtnOne, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.loadbtnOne.DialogResult = System.Windows.Forms.DialogResult.None
         Me.loadbtnOne.FocusedColor = System.Drawing.Color.Empty
-        Me.loadbtnOne.Font = New System.Drawing.Font("Comic Sans MS", 35.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.loadbtnOne.Font = New System.Drawing.Font("Segoe UI Black", 35.0!)
         Me.loadbtnOne.ForeColor = System.Drawing.Color.White
         Me.loadbtnOne.Image = Nothing
         Me.loadbtnOne.ImageSize = New System.Drawing.Size(52, 52)
@@ -11156,7 +11158,7 @@ Partial Class formMain
         Me.Guna2Transition1.SetDecoration(Me.loadbtnTwo, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.loadbtnTwo.DialogResult = System.Windows.Forms.DialogResult.None
         Me.loadbtnTwo.FocusedColor = System.Drawing.Color.Empty
-        Me.loadbtnTwo.Font = New System.Drawing.Font("Comic Sans MS", 35.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.loadbtnTwo.Font = New System.Drawing.Font("Segoe UI Black", 35.0!)
         Me.loadbtnTwo.ForeColor = System.Drawing.Color.White
         Me.loadbtnTwo.Image = Nothing
         Me.loadbtnTwo.ImageSize = New System.Drawing.Size(52, 52)
@@ -11181,7 +11183,7 @@ Partial Class formMain
         Me.Guna2Transition1.SetDecoration(Me.loadbtnThree, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.loadbtnThree.DialogResult = System.Windows.Forms.DialogResult.None
         Me.loadbtnThree.FocusedColor = System.Drawing.Color.Empty
-        Me.loadbtnThree.Font = New System.Drawing.Font("Comic Sans MS", 35.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.loadbtnThree.Font = New System.Drawing.Font("Segoe UI Black", 35.0!)
         Me.loadbtnThree.ForeColor = System.Drawing.Color.White
         Me.loadbtnThree.Image = Nothing
         Me.loadbtnThree.ImageSize = New System.Drawing.Size(52, 52)
@@ -11206,7 +11208,7 @@ Partial Class formMain
         Me.Guna2Transition1.SetDecoration(Me.loadbtnZero, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.loadbtnZero.DialogResult = System.Windows.Forms.DialogResult.None
         Me.loadbtnZero.FocusedColor = System.Drawing.Color.Empty
-        Me.loadbtnZero.Font = New System.Drawing.Font("Comic Sans MS", 35.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.loadbtnZero.Font = New System.Drawing.Font("Segoe UI Black", 35.0!)
         Me.loadbtnZero.ForeColor = System.Drawing.Color.White
         Me.loadbtnZero.Image = Nothing
         Me.loadbtnZero.ImageSize = New System.Drawing.Size(52, 52)
@@ -11226,10 +11228,10 @@ Partial Class formMain
         '
         Me.loadlblSpecific.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.loadlblSpecific, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.loadlblSpecific.Font = New System.Drawing.Font("Comic Sans MS", 21.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.loadlblSpecific.Font = New System.Drawing.Font("Segoe UI Semibold", 20.0!)
         Me.loadlblSpecific.Location = New System.Drawing.Point(294, 57)
         Me.loadlblSpecific.Name = "loadlblSpecific"
-        Me.loadlblSpecific.Size = New System.Drawing.Size(224, 39)
+        Me.loadlblSpecific.Size = New System.Drawing.Size(204, 37)
         Me.loadlblSpecific.TabIndex = 44
         Me.loadlblSpecific.Text = "Specific slide(s)"
         Me.loadlblSpecific.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -11248,18 +11250,18 @@ Partial Class formMain
         Me.loadbtnCancelSpecific.ColorContrastOnClick = 45
         Me.loadbtnCancelSpecific.ColorContrastOnHover = 45
         Me.loadbtnCancelSpecific.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges82.BottomLeft = True
-        BorderEdges82.BottomRight = True
-        BorderEdges82.TopLeft = True
-        BorderEdges82.TopRight = True
-        Me.loadbtnCancelSpecific.CustomizableEdges = BorderEdges82
+        BorderEdges39.BottomLeft = True
+        BorderEdges39.BottomRight = True
+        BorderEdges39.TopLeft = True
+        BorderEdges39.TopRight = True
+        Me.loadbtnCancelSpecific.CustomizableEdges = BorderEdges39
         Me.Guna2Transition1.SetDecoration(Me.loadbtnCancelSpecific, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.loadbtnCancelSpecific.DialogResult = System.Windows.Forms.DialogResult.None
         Me.loadbtnCancelSpecific.DisabledBorderColor = System.Drawing.Color.Empty
         Me.loadbtnCancelSpecific.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
         Me.loadbtnCancelSpecific.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
         Me.loadbtnCancelSpecific.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Idle
-        Me.loadbtnCancelSpecific.Font = New System.Drawing.Font("Comic Sans MS", 21.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.loadbtnCancelSpecific.Font = New System.Drawing.Font("Segoe UI Semibold", 20.0!)
         Me.loadbtnCancelSpecific.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.loadbtnCancelSpecific.IconLeftCursor = System.Windows.Forms.Cursors.Hand
         Me.loadbtnCancelSpecific.IconMarginLeft = 30
@@ -11274,24 +11276,24 @@ Partial Class formMain
         Me.loadbtnCancelSpecific.IndicateFocus = False
         Me.loadbtnCancelSpecific.Location = New System.Drawing.Point(106, 626)
         Me.loadbtnCancelSpecific.Name = "loadbtnCancelSpecific"
-        StateProperties291.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties291.BorderRadius = 40
-        StateProperties291.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties291.BorderThickness = 3
-        StateProperties291.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties291.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties291.IconLeftImage = Nothing
-        StateProperties291.IconRightImage = Nothing
-        Me.loadbtnCancelSpecific.onHoverState = StateProperties291
-        StateProperties292.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties292.BorderRadius = 40
-        StateProperties292.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties292.BorderThickness = 3
-        StateProperties292.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties292.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties292.IconLeftImage = Nothing
-        StateProperties292.IconRightImage = Nothing
-        Me.loadbtnCancelSpecific.OnPressedState = StateProperties292
+        StateProperties141.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties141.BorderRadius = 40
+        StateProperties141.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties141.BorderThickness = 3
+        StateProperties141.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties141.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties141.IconLeftImage = Nothing
+        StateProperties141.IconRightImage = Nothing
+        Me.loadbtnCancelSpecific.onHoverState = StateProperties141
+        StateProperties142.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties142.BorderRadius = 40
+        StateProperties142.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties142.BorderThickness = 3
+        StateProperties142.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties142.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties142.IconLeftImage = Nothing
+        StateProperties142.IconRightImage = Nothing
+        Me.loadbtnCancelSpecific.OnPressedState = StateProperties142
         Me.loadbtnCancelSpecific.Size = New System.Drawing.Size(168, 59)
         Me.loadbtnCancelSpecific.TabIndex = 64
         Me.loadbtnCancelSpecific.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -11313,7 +11315,7 @@ Partial Class formMain
         'loadlblError
         '
         Me.Guna2Transition1.SetDecoration(Me.loadlblError, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.loadlblError.Font = New System.Drawing.Font("Comic Sans MS", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.loadlblError.Font = New System.Drawing.Font("Segoe UI", 14.0!)
         Me.loadlblError.ForeColor = System.Drawing.Color.Red
         Me.loadlblError.Location = New System.Drawing.Point(62, 212)
         Me.loadlblError.Name = "loadlblError"
@@ -11327,10 +11329,10 @@ Partial Class formMain
         '
         Me.loadlblAllpages.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.loadlblAllpages, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.loadlblAllpages.Font = New System.Drawing.Font("Comic Sans MS", 21.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.loadlblAllpages.Font = New System.Drawing.Font("Segoe UI Semibold", 20.0!)
         Me.loadlblAllpages.Location = New System.Drawing.Point(294, 21)
         Me.loadlblAllpages.Name = "loadlblAllpages"
-        Me.loadlblAllpages.Size = New System.Drawing.Size(136, 39)
+        Me.loadlblAllpages.Size = New System.Drawing.Size(124, 37)
         Me.loadlblAllpages.TabIndex = 42
         Me.loadlblAllpages.Text = "All slides"
         Me.loadlblAllpages.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -11351,10 +11353,10 @@ Partial Class formMain
         '
         Me.Label34.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.Label34, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label34.Font = New System.Drawing.Font("Comic Sans MS", 21.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label34.Font = New System.Drawing.Font("Segoe UI Black", 20.0!)
         Me.Label34.Location = New System.Drawing.Point(32, 21)
         Me.Label34.Name = "Label34"
-        Me.Label34.Size = New System.Drawing.Size(226, 39)
+        Me.Label34.Size = New System.Drawing.Size(211, 37)
         Me.Label34.TabIndex = 40
         Me.Label34.Text = "Slides to print:"
         '
@@ -11372,18 +11374,18 @@ Partial Class formMain
         Me.loadbtnOkay.ColorContrastOnClick = 45
         Me.loadbtnOkay.ColorContrastOnHover = 45
         Me.loadbtnOkay.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges83.BottomLeft = True
-        BorderEdges83.BottomRight = True
-        BorderEdges83.TopLeft = True
-        BorderEdges83.TopRight = True
-        Me.loadbtnOkay.CustomizableEdges = BorderEdges83
+        BorderEdges40.BottomLeft = True
+        BorderEdges40.BottomRight = True
+        BorderEdges40.TopLeft = True
+        BorderEdges40.TopRight = True
+        Me.loadbtnOkay.CustomizableEdges = BorderEdges40
         Me.Guna2Transition1.SetDecoration(Me.loadbtnOkay, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.loadbtnOkay.DialogResult = System.Windows.Forms.DialogResult.None
         Me.loadbtnOkay.DisabledBorderColor = System.Drawing.Color.Empty
         Me.loadbtnOkay.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
         Me.loadbtnOkay.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
         Me.loadbtnOkay.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Idle
-        Me.loadbtnOkay.Font = New System.Drawing.Font("Comic Sans MS", 21.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.loadbtnOkay.Font = New System.Drawing.Font("Segoe UI Semibold", 20.0!)
         Me.loadbtnOkay.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.loadbtnOkay.IconLeftCursor = System.Windows.Forms.Cursors.Hand
         Me.loadbtnOkay.IconMarginLeft = 30
@@ -11398,24 +11400,24 @@ Partial Class formMain
         Me.loadbtnOkay.IndicateFocus = False
         Me.loadbtnOkay.Location = New System.Drawing.Point(313, 626)
         Me.loadbtnOkay.Name = "loadbtnOkay"
-        StateProperties293.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties293.BorderRadius = 40
-        StateProperties293.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties293.BorderThickness = 3
-        StateProperties293.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties293.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties293.IconLeftImage = Nothing
-        StateProperties293.IconRightImage = Nothing
-        Me.loadbtnOkay.onHoverState = StateProperties293
-        StateProperties294.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties294.BorderRadius = 40
-        StateProperties294.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties294.BorderThickness = 3
-        StateProperties294.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties294.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties294.IconLeftImage = Nothing
-        StateProperties294.IconRightImage = Nothing
-        Me.loadbtnOkay.OnPressedState = StateProperties294
+        StateProperties143.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties143.BorderRadius = 40
+        StateProperties143.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties143.BorderThickness = 3
+        StateProperties143.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties143.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties143.IconLeftImage = Nothing
+        StateProperties143.IconRightImage = Nothing
+        Me.loadbtnOkay.onHoverState = StateProperties143
+        StateProperties144.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties144.BorderRadius = 40
+        StateProperties144.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties144.BorderThickness = 3
+        StateProperties144.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties144.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties144.IconLeftImage = Nothing
+        StateProperties144.IconRightImage = Nothing
+        Me.loadbtnOkay.OnPressedState = StateProperties144
         Me.loadbtnOkay.Size = New System.Drawing.Size(168, 59)
         Me.loadbtnOkay.TabIndex = 50
         Me.loadbtnOkay.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -11427,7 +11429,7 @@ Partial Class formMain
         Me.mainFormDateLF.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.mainFormDateLF.BackColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Guna2Transition1.SetDecoration(Me.mainFormDateLF, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.mainFormDateLF.Font = New System.Drawing.Font("Comic Sans MS", 21.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.mainFormDateLF.Font = New System.Drawing.Font("Segoe UI Semibold", 20.0!)
         Me.mainFormDateLF.ForeColor = System.Drawing.Color.White
         Me.mainFormDateLF.Location = New System.Drawing.Point(763, 71)
         Me.mainFormDateLF.Name = "mainFormDateLF"
@@ -11492,7 +11494,7 @@ Partial Class formMain
         '
         Me.Guna2Transition1.SetDecoration(Me.Label75, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.Label75.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Label75.Font = New System.Drawing.Font("Comic Sans MS", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label75.Font = New System.Drawing.Font("Segoe UI Semibold", 20.0!)
         Me.Label75.ForeColor = System.Drawing.Color.Black
         Me.Label75.Location = New System.Drawing.Point(0, 103)
         Me.Label75.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
@@ -11544,7 +11546,7 @@ Partial Class formMain
         '
         Me.Guna2Transition1.SetDecoration(Me.loadlbldown, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.loadlbldown.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.loadlbldown.Font = New System.Drawing.Font("Comic Sans MS", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.loadlbldown.Font = New System.Drawing.Font("Segoe UI Semibold", 15.0!)
         Me.loadlbldown.ForeColor = System.Drawing.Color.Red
         Me.loadlbldown.Location = New System.Drawing.Point(0, 177)
         Me.loadlbldown.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
@@ -11614,18 +11616,18 @@ Partial Class formMain
         Me.loadbtnCancel.ColorContrastOnClick = 45
         Me.loadbtnCancel.ColorContrastOnHover = 45
         Me.loadbtnCancel.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges84.BottomLeft = True
-        BorderEdges84.BottomRight = True
-        BorderEdges84.TopLeft = True
-        BorderEdges84.TopRight = True
-        Me.loadbtnCancel.CustomizableEdges = BorderEdges84
+        BorderEdges41.BottomLeft = True
+        BorderEdges41.BottomRight = True
+        BorderEdges41.TopLeft = True
+        BorderEdges41.TopRight = True
+        Me.loadbtnCancel.CustomizableEdges = BorderEdges41
         Me.Guna2Transition1.SetDecoration(Me.loadbtnCancel, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.loadbtnCancel.DialogResult = System.Windows.Forms.DialogResult.None
         Me.loadbtnCancel.DisabledBorderColor = System.Drawing.Color.Empty
         Me.loadbtnCancel.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
         Me.loadbtnCancel.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
         Me.loadbtnCancel.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Idle
-        Me.loadbtnCancel.Font = New System.Drawing.Font("Comic Sans MS", 21.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.loadbtnCancel.Font = New System.Drawing.Font("Segoe UI Semibold", 20.0!)
         Me.loadbtnCancel.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.loadbtnCancel.IconLeftCursor = System.Windows.Forms.Cursors.Hand
         Me.loadbtnCancel.IconMarginLeft = 30
@@ -11640,24 +11642,24 @@ Partial Class formMain
         Me.loadbtnCancel.IndicateFocus = False
         Me.loadbtnCancel.Location = New System.Drawing.Point(502, 691)
         Me.loadbtnCancel.Name = "loadbtnCancel"
-        StateProperties295.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties295.BorderRadius = 40
-        StateProperties295.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties295.BorderThickness = 3
-        StateProperties295.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties295.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties295.IconLeftImage = Nothing
-        StateProperties295.IconRightImage = Nothing
-        Me.loadbtnCancel.onHoverState = StateProperties295
-        StateProperties296.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties296.BorderRadius = 40
-        StateProperties296.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties296.BorderThickness = 3
-        StateProperties296.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties296.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties296.IconLeftImage = Nothing
-        StateProperties296.IconRightImage = Nothing
-        Me.loadbtnCancel.OnPressedState = StateProperties296
+        StateProperties145.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties145.BorderRadius = 40
+        StateProperties145.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties145.BorderThickness = 3
+        StateProperties145.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties145.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties145.IconLeftImage = Nothing
+        StateProperties145.IconRightImage = Nothing
+        Me.loadbtnCancel.onHoverState = StateProperties145
+        StateProperties146.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties146.BorderRadius = 40
+        StateProperties146.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties146.BorderThickness = 3
+        StateProperties146.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties146.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties146.IconLeftImage = Nothing
+        StateProperties146.IconRightImage = Nothing
+        Me.loadbtnCancel.OnPressedState = StateProperties146
         Me.loadbtnCancel.Size = New System.Drawing.Size(263, 64)
         Me.loadbtnCancel.TabIndex = 39
         Me.loadbtnCancel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -11681,7 +11683,7 @@ Partial Class formMain
         'Label17
         '
         Me.Guna2Transition1.SetDecoration(Me.Label17, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label17.Font = New System.Drawing.Font("Comic Sans MS", 17.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label17.Font = New System.Drawing.Font("Segoe UI Semibold", 17.0!)
         Me.Label17.Location = New System.Drawing.Point(895, 390)
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(185, 32)
@@ -11692,7 +11694,7 @@ Partial Class formMain
         'Label18
         '
         Me.Guna2Transition1.SetDecoration(Me.Label18, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label18.Font = New System.Drawing.Font("Comic Sans MS", 17.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label18.Font = New System.Drawing.Font("Segoe UI Semibold", 17.0!)
         Me.Label18.Location = New System.Drawing.Point(660, 390)
         Me.Label18.Name = "Label18"
         Me.Label18.Size = New System.Drawing.Size(185, 32)
@@ -11703,7 +11705,7 @@ Partial Class formMain
         'Label20
         '
         Me.Guna2Transition1.SetDecoration(Me.Label20, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label20.Font = New System.Drawing.Font("Comic Sans MS", 17.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label20.Font = New System.Drawing.Font("Segoe UI Semibold", 17.0!)
         Me.Label20.Location = New System.Drawing.Point(425, 390)
         Me.Label20.Name = "Label20"
         Me.Label20.Size = New System.Drawing.Size(185, 32)
@@ -11714,7 +11716,7 @@ Partial Class formMain
         'Label22
         '
         Me.Guna2Transition1.SetDecoration(Me.Label22, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label22.Font = New System.Drawing.Font("Comic Sans MS", 17.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label22.Font = New System.Drawing.Font("Segoe UI Semibold", 17.0!)
         Me.Label22.Location = New System.Drawing.Point(190, 390)
         Me.Label22.Name = "Label22"
         Me.Label22.Size = New System.Drawing.Size(185, 32)
@@ -11725,7 +11727,7 @@ Partial Class formMain
         'Label25
         '
         Me.Guna2Transition1.SetDecoration(Me.Label25, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label25.Font = New System.Drawing.Font("Comic Sans MS", 17.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label25.Font = New System.Drawing.Font("Segoe UI Semibold", 17.0!)
         Me.Label25.Location = New System.Drawing.Point(1038, 103)
         Me.Label25.Name = "Label25"
         Me.Label25.Size = New System.Drawing.Size(193, 32)
@@ -11736,7 +11738,7 @@ Partial Class formMain
         'Label26
         '
         Me.Guna2Transition1.SetDecoration(Me.Label26, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label26.Font = New System.Drawing.Font("Comic Sans MS", 17.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label26.Font = New System.Drawing.Font("Segoe UI Semibold", 17.0!)
         Me.Label26.Location = New System.Drawing.Point(803, 103)
         Me.Label26.Name = "Label26"
         Me.Label26.Size = New System.Drawing.Size(185, 32)
@@ -11747,7 +11749,7 @@ Partial Class formMain
         'Label27
         '
         Me.Guna2Transition1.SetDecoration(Me.Label27, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label27.Font = New System.Drawing.Font("Comic Sans MS", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label27.Font = New System.Drawing.Font("Segoe UI Semibold", 17.0!)
         Me.Label27.Location = New System.Drawing.Point(568, 103)
         Me.Label27.Name = "Label27"
         Me.Label27.Size = New System.Drawing.Size(185, 32)
@@ -11758,7 +11760,7 @@ Partial Class formMain
         'Label28
         '
         Me.Guna2Transition1.SetDecoration(Me.Label28, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label28.Font = New System.Drawing.Font("Comic Sans MS", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label28.Font = New System.Drawing.Font("Segoe UI Semibold", 17.0!)
         Me.Label28.Location = New System.Drawing.Point(333, 103)
         Me.Label28.Name = "Label28"
         Me.Label28.Size = New System.Drawing.Size(185, 32)
@@ -11769,7 +11771,7 @@ Partial Class formMain
         'Label29
         '
         Me.Guna2Transition1.SetDecoration(Me.Label29, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label29.Font = New System.Drawing.Font("Comic Sans MS", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label29.Font = New System.Drawing.Font("Segoe UI Semibold", 17.0!)
         Me.Label29.Location = New System.Drawing.Point(43, 97)
         Me.Label29.Name = "Label29"
         Me.Label29.Size = New System.Drawing.Size(240, 42)
@@ -12111,6 +12113,107 @@ Partial Class formMain
         Me.loadPanel2.Name = "loadPanel2"
         Me.loadPanel2.Size = New System.Drawing.Size(1858, 904)
         Me.loadPanel2.TabIndex = 2
+        '
+        'Panel15
+        '
+        Me.Panel15.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.Panel15.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
+        Me.Panel15.Controls.Add(Me.Panel16)
+        Me.Guna2Transition1.SetDecoration(Me.Panel15, Guna.UI2.AnimatorNS.DecorationType.None)
+        Me.Panel15.Location = New System.Drawing.Point(12, 3)
+        Me.Panel15.Name = "Panel15"
+        Me.Panel15.Size = New System.Drawing.Size(812, 378)
+        Me.Panel15.TabIndex = 47
+        Me.Panel15.Visible = False
+        '
+        'Panel16
+        '
+        Me.Panel16.BackColor = System.Drawing.Color.White
+        Me.Panel16.Controls.Add(Me.BunifuButton3)
+        Me.Panel16.Controls.Add(Me.Label114)
+        Me.Guna2Transition1.SetDecoration(Me.Panel16, Guna.UI2.AnimatorNS.DecorationType.None)
+        Me.Panel16.Location = New System.Drawing.Point(6, 6)
+        Me.Panel16.Name = "Panel16"
+        Me.Panel16.Size = New System.Drawing.Size(800, 366)
+        Me.Panel16.TabIndex = 46
+        '
+        'BunifuButton3
+        '
+        Me.BunifuButton3.AllowToggling = False
+        Me.BunifuButton3.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.BunifuButton3.AnimationSpeed = 200
+        Me.BunifuButton3.AutoGenerateColors = False
+        Me.BunifuButton3.BackColor = System.Drawing.Color.Transparent
+        Me.BunifuButton3.BackColor1 = System.Drawing.Color.White
+        Me.BunifuButton3.BackgroundImage = CType(resources.GetObject("BunifuButton3.BackgroundImage"), System.Drawing.Image)
+        Me.BunifuButton3.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        Me.BunifuButton3.ButtonText = "Confirm"
+        Me.BunifuButton3.ButtonTextMarginLeft = 0
+        Me.BunifuButton3.ColorContrastOnClick = 45
+        Me.BunifuButton3.ColorContrastOnHover = 45
+        Me.BunifuButton3.Cursor = System.Windows.Forms.Cursors.Hand
+        BorderEdges42.BottomLeft = True
+        BorderEdges42.BottomRight = True
+        BorderEdges42.TopLeft = True
+        BorderEdges42.TopRight = True
+        Me.BunifuButton3.CustomizableEdges = BorderEdges42
+        Me.Guna2Transition1.SetDecoration(Me.BunifuButton3, Guna.UI2.AnimatorNS.DecorationType.None)
+        Me.BunifuButton3.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.BunifuButton3.DisabledBorderColor = System.Drawing.Color.Empty
+        Me.BunifuButton3.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
+        Me.BunifuButton3.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
+        Me.BunifuButton3.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Idle
+        Me.BunifuButton3.Font = New System.Drawing.Font("Segoe UI Black", 25.0!)
+        Me.BunifuButton3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.BunifuButton3.IconLeftCursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuButton3.IconMarginLeft = 30
+        Me.BunifuButton3.IconPadding = 5
+        Me.BunifuButton3.IconRightCursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuButton3.IdleBorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.BunifuButton3.IdleBorderRadius = 40
+        Me.BunifuButton3.IdleBorderThickness = 3
+        Me.BunifuButton3.IdleFillColor = System.Drawing.Color.White
+        Me.BunifuButton3.IdleIconLeftImage = Nothing
+        Me.BunifuButton3.IdleIconRightImage = Nothing
+        Me.BunifuButton3.IndicateFocus = False
+        Me.BunifuButton3.Location = New System.Drawing.Point(241, 254)
+        Me.BunifuButton3.Name = "BunifuButton3"
+        StateProperties147.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties147.BorderRadius = 40
+        StateProperties147.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties147.BorderThickness = 3
+        StateProperties147.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties147.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties147.IconLeftImage = Nothing
+        StateProperties147.IconRightImage = Nothing
+        Me.BunifuButton3.onHoverState = StateProperties147
+        StateProperties148.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties148.BorderRadius = 40
+        StateProperties148.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties148.BorderThickness = 3
+        StateProperties148.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties148.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties148.IconLeftImage = Nothing
+        StateProperties148.IconRightImage = Nothing
+        Me.BunifuButton3.OnPressedState = StateProperties148
+        Me.BunifuButton3.Size = New System.Drawing.Size(263, 64)
+        Me.BunifuButton3.TabIndex = 40
+        Me.BunifuButton3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.BunifuButton3.TextMarginLeft = 0
+        Me.BunifuButton3.UseDefaultRadiusAndThickness = True
+        '
+        'Label114
+        '
+        Me.Label114.AutoSize = True
+        Me.Guna2Transition1.SetDecoration(Me.Label114, Guna.UI2.AnimatorNS.DecorationType.None)
+        Me.Label114.Font = New System.Drawing.Font("Segoe UI Black", 25.0!)
+        Me.Label114.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.Label114.Location = New System.Drawing.Point(3, 78)
+        Me.Label114.Name = "Label114"
+        Me.Label114.Size = New System.Drawing.Size(757, 92)
+        Me.Label114.TabIndex = 2
+        Me.Label114.Text = "Notice: Google Docs may have formatting" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "            issues when printed from thi" &
+    "s system."
         '
         'loadFlowLayoutPanel1
         '
@@ -12629,22 +12732,22 @@ Partial Class formMain
         '
         Me.Guna2Transition1.AnimationType = Guna.UI2.AnimatorNS.AnimationType.Transparent
         Me.Guna2Transition1.Cursor = Nothing
-        Animation2.AnimateOnlyDifferences = True
-        Animation2.BlindCoeff = CType(resources.GetObject("Animation2.BlindCoeff"), System.Drawing.PointF)
-        Animation2.LeafCoeff = 0!
-        Animation2.MaxTime = 1.0!
-        Animation2.MinTime = 0!
-        Animation2.MosaicCoeff = CType(resources.GetObject("Animation2.MosaicCoeff"), System.Drawing.PointF)
-        Animation2.MosaicShift = CType(resources.GetObject("Animation2.MosaicShift"), System.Drawing.PointF)
-        Animation2.MosaicSize = 0
-        Animation2.Padding = New System.Windows.Forms.Padding(0)
-        Animation2.RotateCoeff = 0!
-        Animation2.RotateLimit = 0!
-        Animation2.ScaleCoeff = CType(resources.GetObject("Animation2.ScaleCoeff"), System.Drawing.PointF)
-        Animation2.SlideCoeff = CType(resources.GetObject("Animation2.SlideCoeff"), System.Drawing.PointF)
-        Animation2.TimeCoeff = 0!
-        Animation2.TransparencyCoeff = 1.0!
-        Me.Guna2Transition1.DefaultAnimation = Animation2
+        Animation1.AnimateOnlyDifferences = True
+        Animation1.BlindCoeff = CType(resources.GetObject("Animation1.BlindCoeff"), System.Drawing.PointF)
+        Animation1.LeafCoeff = 0!
+        Animation1.MaxTime = 1.0!
+        Animation1.MinTime = 0!
+        Animation1.MosaicCoeff = CType(resources.GetObject("Animation1.MosaicCoeff"), System.Drawing.PointF)
+        Animation1.MosaicShift = CType(resources.GetObject("Animation1.MosaicShift"), System.Drawing.PointF)
+        Animation1.MosaicSize = 0
+        Animation1.Padding = New System.Windows.Forms.Padding(0)
+        Animation1.RotateCoeff = 0!
+        Animation1.RotateLimit = 0!
+        Animation1.ScaleCoeff = CType(resources.GetObject("Animation1.ScaleCoeff"), System.Drawing.PointF)
+        Animation1.SlideCoeff = CType(resources.GetObject("Animation1.SlideCoeff"), System.Drawing.PointF)
+        Animation1.TimeCoeff = 0!
+        Animation1.TransparencyCoeff = 1.0!
+        Me.Guna2Transition1.DefaultAnimation = Animation1
         Me.Guna2Transition1.Interval = 1
         Me.Guna2Transition1.MaxAnimationTime = 1000
         Me.Guna2Transition1.TimeStep = 0.1!
@@ -12669,7 +12772,7 @@ Partial Class formMain
         Me.mainFormTImeL.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.mainFormTImeL.BackColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Guna2Transition1.SetDecoration(Me.mainFormTImeL, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.mainFormTImeL.Font = New System.Drawing.Font("Comic Sans MS", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.mainFormTImeL.Font = New System.Drawing.Font("Segoe UI Semibold", 25.0!)
         Me.mainFormTImeL.ForeColor = System.Drawing.Color.White
         Me.mainFormTImeL.Location = New System.Drawing.Point(794, 24)
         Me.mainFormTImeL.Name = "mainFormTImeL"
@@ -12711,11 +12814,11 @@ Partial Class formMain
         Me.changebtnClose.ColorContrastOnClick = 45
         Me.changebtnClose.ColorContrastOnHover = 45
         Me.changebtnClose.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges85.BottomLeft = True
-        BorderEdges85.BottomRight = True
-        BorderEdges85.TopLeft = True
-        BorderEdges85.TopRight = True
-        Me.changebtnClose.CustomizableEdges = BorderEdges85
+        BorderEdges43.BottomLeft = True
+        BorderEdges43.BottomRight = True
+        BorderEdges43.TopLeft = True
+        BorderEdges43.TopRight = True
+        Me.changebtnClose.CustomizableEdges = BorderEdges43
         Me.Guna2Transition1.SetDecoration(Me.changebtnClose, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.changebtnClose.DialogResult = System.Windows.Forms.DialogResult.None
         Me.changebtnClose.DisabledBorderColor = System.Drawing.Color.Empty
@@ -12737,24 +12840,24 @@ Partial Class formMain
         Me.changebtnClose.IndicateFocus = False
         Me.changebtnClose.Location = New System.Drawing.Point(436, 288)
         Me.changebtnClose.Name = "changebtnClose"
-        StateProperties297.BorderColor = System.Drawing.Color.Red
-        StateProperties297.BorderRadius = 40
-        StateProperties297.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties297.BorderThickness = 3
-        StateProperties297.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties297.ForeColor = System.Drawing.Color.Red
-        StateProperties297.IconLeftImage = Nothing
-        StateProperties297.IconRightImage = Nothing
-        Me.changebtnClose.onHoverState = StateProperties297
-        StateProperties298.BorderColor = System.Drawing.Color.Red
-        StateProperties298.BorderRadius = 40
-        StateProperties298.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties298.BorderThickness = 3
-        StateProperties298.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties298.ForeColor = System.Drawing.Color.Red
-        StateProperties298.IconLeftImage = Nothing
-        StateProperties298.IconRightImage = Nothing
-        Me.changebtnClose.OnPressedState = StateProperties298
+        StateProperties149.BorderColor = System.Drawing.Color.Red
+        StateProperties149.BorderRadius = 40
+        StateProperties149.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties149.BorderThickness = 3
+        StateProperties149.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties149.ForeColor = System.Drawing.Color.Red
+        StateProperties149.IconLeftImage = Nothing
+        StateProperties149.IconRightImage = Nothing
+        Me.changebtnClose.onHoverState = StateProperties149
+        StateProperties150.BorderColor = System.Drawing.Color.Red
+        StateProperties150.BorderRadius = 40
+        StateProperties150.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties150.BorderThickness = 3
+        StateProperties150.FillColor = System.Drawing.Color.WhiteSmoke
+        StateProperties150.ForeColor = System.Drawing.Color.Red
+        StateProperties150.IconLeftImage = Nothing
+        StateProperties150.IconRightImage = Nothing
+        Me.changebtnClose.OnPressedState = StateProperties150
         Me.changebtnClose.Size = New System.Drawing.Size(192, 51)
         Me.changebtnClose.TabIndex = 69
         Me.changebtnClose.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -12861,117 +12964,16 @@ Partial Class formMain
         'timeDispenseScan
         '
         '
-        'Panel15
-        '
-        Me.Panel15.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Panel15.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(69, Byte), Integer))
-        Me.Panel15.Controls.Add(Me.Panel16)
-        Me.Guna2Transition1.SetDecoration(Me.Panel15, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Panel15.Location = New System.Drawing.Point(12, 3)
-        Me.Panel15.Name = "Panel15"
-        Me.Panel15.Size = New System.Drawing.Size(812, 378)
-        Me.Panel15.TabIndex = 47
-        Me.Panel15.Visible = False
-        '
-        'Panel16
-        '
-        Me.Panel16.BackColor = System.Drawing.Color.White
-        Me.Panel16.Controls.Add(Me.BunifuButton3)
-        Me.Panel16.Controls.Add(Me.Label114)
-        Me.Guna2Transition1.SetDecoration(Me.Panel16, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Panel16.Location = New System.Drawing.Point(6, 6)
-        Me.Panel16.Name = "Panel16"
-        Me.Panel16.Size = New System.Drawing.Size(800, 366)
-        Me.Panel16.TabIndex = 46
-        '
-        'BunifuButton3
-        '
-        Me.BunifuButton3.AllowToggling = False
-        Me.BunifuButton3.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.BunifuButton3.AnimationSpeed = 200
-        Me.BunifuButton3.AutoGenerateColors = False
-        Me.BunifuButton3.BackColor = System.Drawing.Color.Transparent
-        Me.BunifuButton3.BackColor1 = System.Drawing.Color.White
-        Me.BunifuButton3.BackgroundImage = CType(resources.GetObject("BunifuButton3.BackgroundImage"), System.Drawing.Image)
-        Me.BunifuButton3.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        Me.BunifuButton3.ButtonText = "Confirm"
-        Me.BunifuButton3.ButtonTextMarginLeft = 0
-        Me.BunifuButton3.ColorContrastOnClick = 45
-        Me.BunifuButton3.ColorContrastOnHover = 45
-        Me.BunifuButton3.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges86.BottomLeft = True
-        BorderEdges86.BottomRight = True
-        BorderEdges86.TopLeft = True
-        BorderEdges86.TopRight = True
-        Me.BunifuButton3.CustomizableEdges = BorderEdges86
-        Me.Guna2Transition1.SetDecoration(Me.BunifuButton3, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.BunifuButton3.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.BunifuButton3.DisabledBorderColor = System.Drawing.Color.Empty
-        Me.BunifuButton3.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
-        Me.BunifuButton3.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
-        Me.BunifuButton3.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Idle
-        Me.BunifuButton3.Font = New System.Drawing.Font("Segoe UI Black", 25.0!)
-        Me.BunifuButton3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.BunifuButton3.IconLeftCursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuButton3.IconMarginLeft = 30
-        Me.BunifuButton3.IconPadding = 5
-        Me.BunifuButton3.IconRightCursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuButton3.IdleBorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.BunifuButton3.IdleBorderRadius = 40
-        Me.BunifuButton3.IdleBorderThickness = 3
-        Me.BunifuButton3.IdleFillColor = System.Drawing.Color.White
-        Me.BunifuButton3.IdleIconLeftImage = Nothing
-        Me.BunifuButton3.IdleIconRightImage = Nothing
-        Me.BunifuButton3.IndicateFocus = False
-        Me.BunifuButton3.Location = New System.Drawing.Point(241, 254)
-        Me.BunifuButton3.Name = "BunifuButton3"
-        StateProperties299.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties299.BorderRadius = 40
-        StateProperties299.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties299.BorderThickness = 3
-        StateProperties299.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties299.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties299.IconLeftImage = Nothing
-        StateProperties299.IconRightImage = Nothing
-        Me.BunifuButton3.onHoverState = StateProperties299
-        StateProperties300.BorderColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties300.BorderRadius = 40
-        StateProperties300.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties300.BorderThickness = 3
-        StateProperties300.FillColor = System.Drawing.Color.WhiteSmoke
-        StateProperties300.ForeColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties300.IconLeftImage = Nothing
-        StateProperties300.IconRightImage = Nothing
-        Me.BunifuButton3.OnPressedState = StateProperties300
-        Me.BunifuButton3.Size = New System.Drawing.Size(263, 64)
-        Me.BunifuButton3.TabIndex = 40
-        Me.BunifuButton3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.BunifuButton3.TextMarginLeft = 0
-        Me.BunifuButton3.UseDefaultRadiusAndThickness = True
-        '
-        'Label114
-        '
-        Me.Label114.AutoSize = True
-        Me.Guna2Transition1.SetDecoration(Me.Label114, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label114.Font = New System.Drawing.Font("Segoe UI Black", 25.0!)
-        Me.Label114.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label114.Location = New System.Drawing.Point(42, 78)
-        Me.Label114.Name = "Label114"
-        Me.Label114.Size = New System.Drawing.Size(727, 138)
-        Me.Label114.TabIndex = 2
-        Me.Label114.Text = "Note: A notification will inform users" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "that the Google Docs file may become" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "mis" &
-    "formatted when opened in our system."
-        '
         'formMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(1920, 1100)
-        Me.Controls.Add(Me.panelNoChange)
         Me.Controls.Add(Me.lblnoChange)
         Me.Controls.Add(Me.mainFormTImeL)
         Me.Controls.Add(Me.TabControl1)
+        Me.Controls.Add(Me.panelNoChange)
         Me.Guna2Transition1.SetDecoration(Me, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
@@ -13153,15 +13155,15 @@ Partial Class formMain
         Me.loadPanel9.ResumeLayout(False)
         Me.loadPanel1.ResumeLayout(False)
         Me.loadPanel2.ResumeLayout(False)
+        Me.Panel15.ResumeLayout(False)
+        Me.Panel16.ResumeLayout(False)
+        Me.Panel16.PerformLayout
         CType(Me.loadbtnPDF, System.ComponentModel.ISupportInitialize).EndInit
         CType(Me.loadbtnDOC, System.ComponentModel.ISupportInitialize).EndInit
         CType(Me.loadbtnPPT, System.ComponentModel.ISupportInitialize).EndInit
         Me.loadPanel3.ResumeLayout(False)
         Me.Panel12.ResumeLayout(False)
         Me.panelNoChange.ResumeLayout(False)
-        Me.Panel15.ResumeLayout(False)
-        Me.Panel16.ResumeLayout(False)
-        Me.Panel16.PerformLayout
         Me.ResumeLayout(False)
 
     End Sub
