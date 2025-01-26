@@ -177,7 +177,9 @@
     <Compile Include="formMain.Designer.vb">
       <DependentUpon>formMain.vb</DependentUpon>
     </Compile>
-    <Compile Include="formMain.vb" />
+    <Compile Include="formMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="GlobalIdleChecker.vb" />
     <Compile Include="loadingForm.Designer.vb">
       <DependentUpon>loadingForm.vb</DependentUpon>
